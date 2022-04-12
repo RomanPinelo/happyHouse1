@@ -1,0 +1,171 @@
+/* Variables de color */
+:root {
+  --decorado: #bc9321;
+  --decorado1: #a08a5a;
+  --decorado2: #ffecb7;
+  --decorado4: #907335;
+  --fondo: #0b0020;
+  --fondo1: #e6e6e6;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Mobile View 
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+/*********************************** Sección de presentación ***********************************/
+/* Imágen */
+.presentacion .presentacion__img {
+  width: 100%;
+}
+
+.presentacion .presentacion__img img {
+  display: block;
+  width: 100%;
+}
+
+.presentacion .presentacion__img p {
+  color: var(--decorado);
+  background-color: #00000077;
+  width: 17.5rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+  position: absolute;
+  right: 0;
+  top: 13rem;
+}
+
+/* Texto */
+.presentacion .presentacion__texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentacion .presentacion__texto h1 {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.presentacion .presentacion__texto h1 span {
+  color: var(--decorado);
+}
+
+.presentacion .presentacion__texto p {
+  width: 90%;
+}
+
+.presentacion .presentacion__texto a {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: var(--decorado);
+  color: #fff;
+  border-radius: 9999px;
+  font-size: 1rem;
+}
+
+.presentacion .presentacion__texto a span {
+  font-size: 1.5rem;
+}
+
+/*********************************** Sección de ¿Quiénes somos? ***********************************/
+.quienesSomos {
+  background-color: var(--fondo1);
+}
+
+.quienesSomos .quienesSomos__titulo h2 {
+  background-color: var(--fondo);
+  text-align: center;
+  color: #fff;
+}
+
+.quienesSomos .quienesSomos__texto {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.quienesSomos .quienesSomos__texto p {
+  margin: 1rem 0;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Desktop View
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+@media screen and (min-width: 1000px) {
+  /*********************************** Sección de presentación ***********************************/
+  .presentacion {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .presentacion .presentacion__img {
+    width: 50%;
+  }
+
+  .presentacion .presentacion__img p {
+    font-size: 3rem;
+    width: 31rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    top: 25rem;
+  }
+
+  .presentacion .presentacion__texto {
+    width: 50%;
+    justify-content: center;
+  }
+
+  .presentacion .presentacion__texto h1 {
+    text-align: left;
+    width: 26rem;
+    font-size: 2.1rem;
+  }
+
+  .presentacion .presentacion__texto h1 span {
+    font-size: 2.5rem;
+  }
+
+  .presentacion .presentacion__texto p {
+    width: 26rem;
+  }
+
+  .presentacion .presentacion__texto .comprar {
+    margin-top: 5rem;
+  }
+
+  /*********************************** Sección de ¿Quiénes somos? ***********************************/
+  .quienesSomos {
+    display: flex;
+    width: 100%;
+    height: 20rem;
+  }
+
+  .quienesSomos .quienesSomos__titulo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+
+  .quienesSomos .quienesSomos__titulo h2 {
+    width: 100%;
+    height: 8rem;
+    line-height: 8rem;
+    font-size: 2.75rem;
+    text-align: right;
+    padding-right: 3rem;
+  }
+
+  .quienesSomos .quienesSomos__texto {
+    width: 60%;
+  }
+
+  .quienesSomos .quienesSomos__texto p {
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+  }
+}
