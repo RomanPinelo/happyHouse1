@@ -1,0 +1,54 @@
+/* Variables de color */
+:root {
+  --decorado: #bc9321;
+  --decorado1: #a08a5a;
+  --decorado2: #ffecb7;
+  --decorado4: #907335;
+  --fondo: #0b0020;
+  --fondo1: #e6e6e6;
+  --fondo2: #b3b3b3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Mobile View 
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+/*********************************** Sección de pasos ***********************************/
+.pasos h1 {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.pasos h1 span {
+  color: var(--decorado);
+}
+
+.pasos .pasos__texto p {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.pasos .pasos__texto p span {
+  background-color: var(--fondo2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem auto;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Desktop View
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+@media screen and (min-width: 1000px) {
+  .pasos .pasos__texto {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
