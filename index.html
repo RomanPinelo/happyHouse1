@@ -31,13 +31,13 @@
         <a href="#">Compra</a>
         <a href="#">Blog</a>
       </div>
-      <a class="header__contacto" href="#">Contacto</a>
+      <a class="header__contacto" href="#ubicaCont">Contacto</a>
       <!-- Botón de menú y menú en celular -->
       <nav id="headerMenu">
         <a href="#">Vende</a>
         <a href="#">Compra</a>
         <a href="#">Blog</a>
-        <a href="#">Contacto</a>
+        <a href="#ubicaCont">Contacto</a>
       </nav>
       <div class="button" id="buttonMenu">
         <span class="button_bar Bar1" id="bar1"></span>
@@ -83,16 +83,76 @@
       </section> <!-- class quienesSomos -->
 
       <section class="proyeDesa">
+        <h2>Proyectos y Desarrollos</h2>
+        <div class="proyeDesa__cards">
 
+        </div>
       </section> <!-- class proyeDesa -->
 
       <section class="alianzas">
-
+        <h2>Socios Estratégicos</h2>
+        <div class="alianzas__logos">
+          <button><i class="fa-solid fa-angle-left"></i></button>
+          <ul>
+            <li>
+              <div>
+                <img src="./img/oliDelCastillo.jpeg" alt="Olivares del Castillo">
+              </div>
+              <div>
+                <img src="./img/deca.jpeg" alt="Departamentos y casas">
+              </div>
+              <div>
+                <img src="./img/legan.jpeg" alt="Legan">
+              </div>
+              <div>
+                <img src="./img/creditaria.jpg" alt="Creditaria">
+              </div>
+              <div>
+                <img src="./img/dreamsHome.jpg" alt="Dreams Home Opportunities">
+              </div>
+              <div>
+                <img src="./img/century21.jpeg" alt="Century 21">
+              </div>
+            </li>
+          </ul>
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="alianzas__texto">
+          <p>
+            ¡Nuestro objetivo es encontrar la mejor opción para tu <span>patrimonio</span>!
+          </p>
+        </div>
       </section> <!-- class alianzas -->
 
-      <section class="ubicacionContacto">
-
-      </section> <!-- class ubicacionContacto -->
+      <section class="ubicaCont" id="ubicaCont">
+        <h2>¿Tienes alguna duda?</h2>
+        <div class="ubicaCont__mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1882.0645196219537!2d-99.19146732314603!3d19.36356453670003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201c082b7d2b1%3A0xb657ac53ac818181!2sBlvd.%20Adolfo%20L%C3%B3pez%20Mateos%20172%2C%20Merced%20G%C3%B3mez%2C%20Benito%20Ju%C3%A1rez%2C%2003930%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1649831158228!5m2!1ses!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form action="" method="post">
+          <h3>Contáctanos</h3>
+          <label for="nombre">Nombre: <input type="text" name="nombre"></label>
+          <label for="telefono">Teléfono: <input type="number" name="telefono"></label>
+          <label for="correo">Correo: <input type="email" name="correo"></label>
+          <label class="mensaje" for="mensaje">Mensaje: <textarea name="mensaje"></textarea></label>
+          <p>
+            <input type="checkbox" name="politicaPrivacidad" id="politicaPrivacidad" required>
+            Acepto <a href="#" target="_blank">Políticas de Privacidad</a>
+            y
+            <a href="#" target="_blank">Términos y Condiciones</a>
+          </p>
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="ubicaCont__datos">
+          <h3>Dirección:</h3>
+          <a class="direction" href="https://www.google.com.mx/maps/place/Blvd.+Adolfo+L%C3%B3pez+Mateos+172,+Merced+G%C3%B3mez,+Benito+Ju%C3%A1rez,+03930+Ciudad+de+M%C3%A9xico,+CDMX/@19.363686,-99.1925563,17z/data=!4m5!3m4!1s0x85d201c082b7d2b1:0xb657ac53ac818181!8m2!3d19.3634026!4d-99.1907753" target="_blank">Blvd. Adolfo López Mateos 172, Merced Gómez, Benito Juárez, 03930 Ciudad de México, CDMX.</a>
+          <div>
+            <a href="tel:5638572294" target="_blank"><span>C:</span> 56 3857 2294</a>
+            <a href="tel:5588521259" target="_blank"><span>T:</span> 55 8852 1259</a>
+            <a class="correo" href="mailto:contacto@happyhousemx.com" target="_blank"><span>M:</span> contacto@happyhousemx.com</a>
+          </div>
+        </div>
+      </section> <!-- class ubicaCont -->
 
       <footer>
 

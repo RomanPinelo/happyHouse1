@@ -8,6 +8,10 @@
   --fondo1: #e6e6e6;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Mobile View 
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
@@ -92,6 +96,200 @@
   margin: 1rem 0;
 }
 
+/*********************************** Sección de Proyectos y desarrollos ***********************************/
+.proyeDesa {
+  background-color: #90733577;/* Quitar al final */
+}
+
+.proyeDesa h2{
+  background-color: #e6e6e655;/* Quitar al final */
+  text-align: center;
+  color: var(--decorado);
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.proyeDesa .proyeDesa__cards {
+  background-color: #ff000055;/* Quitar al final */
+  width: 100%;
+  height: 12.5rem;
+}
+
+/*********************************** Sección de Socios estratégicos ***********************************/
+.alianzas {
+  background-color: var(--fondo1);
+  margin: 1rem 0;
+}
+
+.alianzas h2 {
+  font-weight: 400;
+  text-align: center;
+  color: var(--decorado);
+}
+
+.alianzas .alianzas__logos button {
+  display: none;
+}
+
+.alianzas .alianzas__logos ul li {
+  width: 100%;
+  list-style: none;
+}
+
+.alianzas .alianzas__logos ul li div {
+  width: 95%;
+  height: 12rem;
+  margin: 1rem auto;
+}
+
+.alianzas .alianzas__logos ul li div img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.alianzas .alianzas__texto {
+  background-color: #b3b3b3;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alianzas .alianzas__texto p {
+  text-align: center;
+  width: 95%;
+}
+
+.alianzas .alianzas__texto p span {
+  color: var(--decorado);
+}
+
+/*********************************** Sección de ubicación y contacto ***********************************/
+/* Título */
+.ubicaCont h2 {
+  text-align: center;
+  color: var(--decorado);
+}
+
+/* Mapa */
+.ubicaCont .ubicaCont__mapa {
+  background-color: #a08a5a;  /* Quitar al final */
+  width: 95%;
+  height: 15rem;
+  margin: 1rem auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ubicaCont .ubicaCont__mapa iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Formulario */
+.ubicaCont form {
+  background-color: teal;  /* Quitar al final */
+  width: 95%;
+  height: 37.5rem;
+  margin: 1rem auto;
+  border: 1px solid #b3b3b3;
+}
+
+.ubicaCont form h3 {
+  background-color: skyblue;  /* Quitar al final */
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.ubicaCont form label {
+  background-color: turquoise;  /* Quitar al final */
+  display: block;
+  width: 95%;
+  margin: 0.5rem auto;
+}
+
+.ubicaCont form label input {
+  background-color: sienna;  /* Quitar al final */
+  width: 100%;
+  outline: none;
+  border: 0;
+  padding: 0.5rem;
+}
+
+.ubicaCont form label textarea {
+  background-color: sienna;  /* Quitar al final */
+  display: block;
+  width: 100%;
+  height: 10rem;
+  resize: none;
+  outline: none;
+  border: 0;
+  padding: 0.5rem;
+}
+
+.ubicaCont form p {
+  background-color: firebrick;  /* Quitar al final */
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.ubicaCont form p a {
+  text-decoration: none;
+  color: var(--decorado);
+}
+
+.ubicaCont form button {
+  display: block;
+  margin: 1.5rem auto;
+  padding: 0.5rem 2.25rem;
+  background-color: var(--decorado);
+  color: var(--decorado2);
+  border: 2px solid var(--decorado);
+  outline: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.ubicaCont form button:hover {
+  background-color: var(--decorado2);
+  color: var(--decorado);
+}
+
+/* Contacto */
+.ubicaCont .ubicaCont__datos {
+  background-color: tomato;/* Quitar al final */
+  width: 95%;
+  margin: 0 auto;
+}
+
+.ubicaCont .ubicaCont__datos h3 {
+  padding: 0.5rem 1rem;
+  color: var(--decorado);
+}
+
+.ubicaCont .ubicaCont__datos a {
+  text-decoration: none;
+  display: block;
+  color: var(--fondo);
+  background-color: blueviolet;/* Quitar al final */
+  text-align: justify;
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.ubicaCont .ubicaCont__datos .correo {
+  padding-bottom: 1rem;
+  margin: 1rem auto 0;
+}
+
+.ubicaCont .ubicaCont__datos a span {
+  color: var(--decorado);
+}
+
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Desktop View
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
@@ -161,11 +359,140 @@
 
   .quienesSomos .quienesSomos__texto {
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .quienesSomos .quienesSomos__texto p {
     width: 80%;
-    margin: 1rem auto;
     text-align: center;
+  }
+
+  /*********************************** Sección de Proyectos y desarrollos ***********************************/
+  .proyeDesa .proyeDesa__cards {
+    height: 15rem;
+  }
+
+  /*********************************** Sección de Socios estratégicos ***********************************/
+  .alianzas {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .alianzas .alianzas__logos {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .alianzas .alianzas__logos button {
+    background-color: var(--fondo1);
+    display: block;
+    width: 20%;
+    border: 0;
+    color: var(--decorado);
+    cursor: pointer;
+  }
+
+  .alianzas .alianzas__logos ul {
+    width: 60%;
+  }
+  
+  .alianzas .alianzas__logos ul li {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .alianzas .alianzas__logos ul li div {
+    width: 22.5%;
+    height: 12rem;
+  }
+
+  .alianzas .alianzas__texto {
+    height: 7rem;
+  }
+
+  .alianzas .alianzas__texto p {
+    width: 40%;
+    font-size: 1.5rem;
+  }
+
+  /*********************************** Sección de ubicación y contacto ***********************************/
+  .ubicaCont h2 {
+    text-align: left;
+    margin: 1rem 23rem;
+  }
+
+  .ubicaCont .ubicaCont__mapa {
+    height: 20rem;
+  }
+
+  .ubicaCont form {
+    width: 22.5rem;
+    height: 29rem;
+    position: absolute;
+    top: 112rem;
+    left: 65%;
+    z-index: 5;
+  }
+
+  .ubicaCont form h3 {
+    padding: 0.25rem 0;
+    font-weight: 400;
+  }
+
+  .ubicaCont form label {
+    width: 95%;
+    border: 2px solid var(--decorado);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .ubicaCont form label input {
+    width: 75%;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .ubicaCont form label textarea {
+    height: 7.5rem;
+  }
+
+  /* Contacto */
+  .ubicaCont .ubicaCont__datos {
+    height: 10rem;
+  }
+
+  .ubicaCont .ubicaCont__datos h3 {
+    padding: 0.1rem 2rem;
+  }
+
+  .ubicaCont .ubicaCont__datos div {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 70%;
+    margin: 2.75rem 2rem 0;
+    background-color: yellow;/* Quitar al final */
+  }
+
+  .ubicaCont .ubicaCont__datos .direction {
+    display: block;
+    width: 95%;
+  }
+
+  .ubicaCont .ubicaCont__datos a {
+    display: inline-block;
+    margin: 0.25rem auto;
+    width: 25%;
+  }
+
+  .ubicaCont .ubicaCont__datos .correo {
+    padding: 0;
+    margin: 0;
+    width: 35%;
   }
 }
