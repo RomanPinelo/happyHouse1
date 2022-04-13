@@ -12,3 +12,19 @@ menuButton.addEventListener('click', () => {
   bar3.classList.toggle("active3");
   headerMenu.classList.toggle("active");
 });
+
+// Botón contacto que oculta el menú en vista celular
+var headerContactoButton = document.getElementById("headerContacto");
+
+headerContactoButton.addEventListener('click', () => {
+  bar1.classList.toggle("active1");
+  bar3.classList.toggle("active3");
+  headerMenu.classList.toggle("active");
+});
+
+// Toma el año actual
+// Obtengo la fecha para ponerla en el footer
+var footerYear = document.getElementById("anioActual");
+var fecha = new Date();
+
+footerYear.innerHTML = fecha.getFullYear();

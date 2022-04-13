@@ -176,7 +176,6 @@ html {
 
 /* Mapa */
 .ubicaCont .ubicaCont__mapa {
-  background-color: #a08a5a;  /* Quitar al final */
   width: 95%;
   height: 15rem;
   margin: 1rem auto;
@@ -192,28 +191,29 @@ html {
 
 /* Formulario */
 .ubicaCont form {
-  background-color: teal;  /* Quitar al final */
+  background-color: #fff;
   width: 95%;
-  height: 37.5rem;
+  height: 41rem;
   margin: 1rem auto;
   border: 1px solid #b3b3b3;
 }
 
 .ubicaCont form h3 {
-  background-color: skyblue;  /* Quitar al final */
   text-align: center;
   padding: 1rem 0;
 }
 
 .ubicaCont form label {
-  background-color: turquoise;  /* Quitar al final */
   display: block;
   width: 95%;
   margin: 0.5rem auto;
+  border: 2px solid var(--decorado);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0.25rem;
 }
 
 .ubicaCont form label input {
-  background-color: sienna;  /* Quitar al final */
   width: 100%;
   outline: none;
   border: 0;
@@ -221,7 +221,6 @@ html {
 }
 
 .ubicaCont form label textarea {
-  background-color: sienna;  /* Quitar al final */
   display: block;
   width: 100%;
   height: 10rem;
@@ -232,7 +231,6 @@ html {
 }
 
 .ubicaCont form p {
-  background-color: firebrick;  /* Quitar al final */
   width: 90%;
   margin: 1rem auto;
 }
@@ -261,7 +259,6 @@ html {
 
 /* Contacto */
 .ubicaCont .ubicaCont__datos {
-  background-color: tomato;/* Quitar al final */
   width: 95%;
   margin: 0 auto;
 }
@@ -275,7 +272,6 @@ html {
   text-decoration: none;
   display: block;
   color: var(--fondo);
-  background-color: blueviolet;/* Quitar al final */
   text-align: justify;
   width: 95%;
   margin: 1rem auto;
@@ -288,6 +284,68 @@ html {
 
 .ubicaCont .ubicaCont__datos a span {
   color: var(--decorado);
+}
+
+/********************************************* Footer *********************************************/
+footer {
+  background-color: var(--fondo);
+}
+
+footer .footer__logo {
+  width: 7.5rem;
+  height: 7.5rem;
+  margin: 0 auto;
+}
+
+footer .footer__logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+footer .footer__texto {
+  margin: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+footer .footer__texto a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .footer__texto p {
+  font-size: 0.75rem;
+}
+
+footer .footer__redes {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer__redes a {
+  background-color: #b3b3b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+footer .footer__redes a:hover {
+  background-color: var(--decorado);
+}
+
+footer .footer__redes a i {
+  color: var(--decorado);
+}
+
+footer .footer__redes a:hover i {
+  color: #b3b3b3;
 }
 
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
@@ -422,6 +480,10 @@ html {
   }
 
   /*********************************** Sección de ubicación y contacto ***********************************/
+  .ubicaCont {
+    height: 36rem;
+  }
+  
   .ubicaCont h2 {
     text-align: left;
     margin: 1rem 23rem;
@@ -433,7 +495,7 @@ html {
 
   .ubicaCont form {
     width: 22.5rem;
-    height: 29rem;
+    height: 31rem;
     position: absolute;
     top: 112rem;
     left: 65%;
@@ -447,8 +509,8 @@ html {
 
   .ubicaCont form label {
     width: 95%;
-    border: 2px solid var(--decorado);
-    border-radius: 10px;
+    /* border: 2px solid var(--decorado);
+    border-radius: 10px; */
     overflow: hidden;
   }
 
@@ -471,12 +533,8 @@ html {
   }
 
   .ubicaCont .ubicaCont__datos div {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     width: 70%;
     margin: 2.75rem 2rem 0;
-    background-color: yellow;/* Quitar al final */
   }
 
   .ubicaCont .ubicaCont__datos .direction {
@@ -494,5 +552,46 @@ html {
     padding: 0;
     margin: 0;
     width: 35%;
+  }
+
+  /********************************************* Footer *********************************************/
+  footer {
+    background-color: var(--fondo);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  footer .footer__logo {
+    margin: 0;
+  }
+
+  footer .footer__texto {
+    margin: 0 0 0 10rem;
+  }
+
+  footer .footer__texto a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.75rem;
+  }
+
+  footer .footer__texto p {
+    font-size: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  footer .footer__redes {
+    width: 22.5rem;
+  }
+
+  footer .footer__redes a {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0;
+  }
+
+  footer .footer__redes a i {
+    color: var(--decorado);
   }
 }
