@@ -131,16 +131,18 @@
         </div>
         <form action="" method="post">
           <h3>Contáctanos</h3>
-          <label for="nombre">Nombre: <input type="text" name="nombre"></label>
-          <label for="telefono">Teléfono: <input type="number" name="telefono"></label>
-          <label for="correo">Correo: <input type="email" name="correo"></label>
-          <label class="mensaje" for="mensaje">Mensaje: <textarea name="mensaje"></textarea></label>
-          <p>
+          <input type="text" name="nombre" placeholder="Nombre:">
+          <input type="number" name="telefono" placeholder="Teléfono:">
+          <input type="email" name="correo" placeholder="Correo:">
+          <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+          <div class="politicaTerminos">
             <input type="checkbox" name="politicaPrivacidad" id="politicaPrivacidad" required>
-            Acepto <a href="#" target="_blank">Políticas de Privacidad</a>
-            y
-            <a href="#" target="_blank">Términos y Condiciones</a>
-          </p>
+            <p>
+              Acepto <a href="#" target="_blank">Políticas de Privacidad</a>
+              y
+              <a href="#" target="_blank">Términos y Condiciones</a>
+            </p>
+          </div>
           <button type="submit">Enviar</button>
         </form>
         <div class="ubicaCont__datos">

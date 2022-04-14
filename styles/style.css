@@ -161,7 +161,7 @@ main {
   /* Esto ya se verá en PC */
   header .navCenter {
     display: block;
-    width: 30rem;
+    width: 15rem;
     height: 1.5rem;
     display: flex;
     justify-content: space-between;
@@ -183,7 +183,7 @@ main {
 
   header .header__contacto {
     display: block;
-    height: 1.5rem;
+    font-size: 1.75rem;
     color: var(--decorado);
     text-decoration: none;
   }

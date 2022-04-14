@@ -19,6 +19,7 @@ html {
 /* Imágen */
 .presentacion .presentacion__img {
   width: 100%;
+  position: relative;
 }
 
 .presentacion .presentacion__img img {
@@ -36,7 +37,7 @@ html {
   line-height: 3rem;
   position: absolute;
   right: 0;
-  top: 13rem;
+  bottom: 1rem;
 }
 
 /* Texto */
@@ -180,7 +181,6 @@ html {
   height: 15rem;
   margin: 1rem auto;
   border: 1px solid #000;
-  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -193,7 +193,7 @@ html {
 .ubicaCont form {
   background-color: #fff;
   width: 95%;
-  height: 41rem;
+  height: 37rem;
   margin: 1rem auto;
   border: 1px solid #b3b3b3;
 }
@@ -203,36 +203,45 @@ html {
   padding: 1rem 0;
 }
 
-.ubicaCont form label {
+.ubicaCont form input {
   display: block;
-  width: 95%;
-  margin: 0.5rem auto;
+  width: 90%;
+  margin: 1rem auto;
+  outline: none;
   border: 2px solid var(--decorado);
   border-radius: 10px;
-  overflow: hidden;
-  padding: 0.25rem;
-}
-
-.ubicaCont form label input {
-  width: 100%;
-  outline: none;
-  border: 0;
   padding: 0.5rem;
 }
 
-.ubicaCont form label textarea {
+.ubicaCont form input[type="checkbox"] {
+  display: inline;
+  width: auto;
+}
+
+.ubicaCont form textarea {
   display: block;
-  width: 100%;
+  width: 90%;
   height: 10rem;
+  margin: 1rem auto;
   resize: none;
   outline: none;
-  border: 0;
+  border: 2px solid var(--decorado);
+  border-radius: 10px;
   padding: 0.5rem;
+}
+
+.ubicaCont form .politicaTerminos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .ubicaCont form p {
-  width: 90%;
+  width: 92%;
   margin: 1rem auto;
+  font-size: 0.9rem;
 }
 
 .ubicaCont form p a {
@@ -367,7 +376,6 @@ footer .footer__redes a:hover i {
     width: 31rem;
     height: 4.5rem;
     line-height: 4.5rem;
-    top: 25rem;
   }
 
   .presentacion .presentacion__texto {
@@ -397,11 +405,11 @@ footer .footer__redes a:hover i {
   .quienesSomos {
     display: flex;
     width: 100%;
-    height: 20rem;
+    height: 22.5rem;
   }
 
   .quienesSomos .quienesSomos__titulo {
-    width: 40%;
+    width: 45%;
     display: flex;
     align-items: center;
   }
@@ -416,16 +424,18 @@ footer .footer__redes a:hover i {
   }
 
   .quienesSomos .quienesSomos__texto {
-    width: 60%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
   }
 
   .quienesSomos .quienesSomos__texto p {
-    width: 80%;
+    width: 31rem;
     text-align: center;
+    margin-left: 3rem;
+    font-size: 1.1rem;
   }
 
   /*********************************** Sección de Proyectos y desarrollos ***********************************/
@@ -434,11 +444,6 @@ footer .footer__redes a:hover i {
   }
 
   /*********************************** Sección de Socios estratégicos ***********************************/
-  .alianzas {
-    width: 95%;
-    margin: 0 auto;
-  }
-  
   .alianzas .alianzas__logos {
     width: 95%;
     margin: 0 auto;
@@ -475,13 +480,14 @@ footer .footer__redes a:hover i {
   }
 
   .alianzas .alianzas__texto p {
-    width: 40%;
+    width: 39%;
     font-size: 1.5rem;
   }
 
   /*********************************** Sección de ubicación y contacto ***********************************/
   .ubicaCont {
-    height: 36rem;
+    height: 40rem;
+    position: relative;
   }
   
   .ubicaCont h2 {
@@ -490,15 +496,16 @@ footer .footer__redes a:hover i {
   }
 
   .ubicaCont .ubicaCont__mapa {
-    height: 20rem;
+    width: 100%;
+    height: 24rem;
   }
 
   .ubicaCont form {
     width: 22.5rem;
-    height: 31rem;
+    height: 35rem;
     position: absolute;
-    top: 112rem;
-    left: 65%;
+    top: 3rem;
+    right: 4rem;
     z-index: 5;
   }
 
@@ -507,20 +514,12 @@ footer .footer__redes a:hover i {
     font-weight: 400;
   }
 
-  .ubicaCont form label {
-    width: 95%;
-    /* border: 2px solid var(--decorado);
-    border-radius: 10px; */
-    overflow: hidden;
+  .ubicaCont form input {
+    padding: 0.25rem;
   }
-
-  .ubicaCont form label input {
-    width: 75%;
-    padding: 0.2rem 0.5rem;
-  }
-
-  .ubicaCont form label textarea {
-    height: 7.5rem;
+  
+  .ubicaCont form textarea {
+    padding: 0.25rem;
   }
 
   /* Contacto */
