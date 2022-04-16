@@ -58,8 +58,141 @@
       </section>
 
       <section class="formulario">
-
-      </section>
+        <div class="indicador">
+          <span class="indicador1"></span>
+          <span class="indicador2"></span>
+          <span class="indicador3"></span>
+          <span class="indicador4"></span>
+        </div>
+        <form action="" method="post">
+          <ul>
+            <li class="seccionUno">
+              <p>
+                <span class="numero">1.</span>
+                Ingresa los datos de forma segura y sin sorpresas.
+              </p>
+              <div>
+                <img src="../img/mapDark.svg" alt="Imagen">
+                <div class="inputs">
+                  <p>¿Dónde se <span>ubica</span>?</p>
+                  <input type="text" name="estado" placeholder="Estado:">
+                  <input type="text" name="muniAlcal" placeholder="Municipio / Alcaldía:">
+                  <input type="text" name="colonia" placeholder="Colonia:">
+                  <input type="text" name="calle" placeholder="Calle:">
+                  <input type="text" name="numExt" placeholder="No. exterior:">
+                  <input type="text" name="numInt" placeholder="No. interior:">
+                </div>
+              </div>
+            </li>
+            <li class="seccionDos">
+              <p>
+                Cuéntanos de tu <span>propiedad</span>
+              </p>
+              <div>
+                <img src="../img/qualityTime.svg" alt="Imagen">
+                <div class="inputs">
+                  <select name="tipoPropiedad">
+                    <option class="placeholderText" hidden selected>Tipo de propiedad:</option>
+                    <!-- <option value="">Selecciona una opción</option> -->
+                    <!-- <option disabled selected>Selecciona una opción</option> -->
+                    <option value="Departamento">Departamento</option>
+                    <option value="Casa">Casa</option>
+                    <option value="Terreno">Terreno</option>
+                  </select>
+                  <p><input type="number" name="supHabitable" step="0.01" placeholder="Superficie habitable:"> m<sup>2</sup></p>
+                  <input type="number" name="habitaciones" placeholder="Habitaciones:">
+                  <input type="number" name="banos" placeholder="Baños:">
+                  <input type="number" name="estacionamiento" placeholder="Estacionamientos:">
+                  <select class="placeholderText" name="tipoEstacionamiento">
+                    <option hidden selected>Tipo de estacionamiento:</option>
+                    <option value="Departamento">Independiente</option>
+                    <option value="Casa">Eleva autos</option>
+                    <option value="Terreno">Tandem</option>
+                  </select>
+                  <details>
+                    <summary class="placeholderText">Adicionales:</summary>
+                      <ul>
+                        <li><input type="checkbox" name="balcon"> Balcón / Terraza</li>
+                        <li><input type="checkbox" name="patio"> Patio / Jardín</li>
+                        <li><input type="checkbox" name="bodega"> Bodega</li>
+                        <li><input type="checkbox" name="cuartoServicio"> Cuarto de servicio</li>
+                        <li><input type="checkbox" name="jaulaTendido"> Jaula de tendido</li>
+                      </ul>
+                  </details>
+                </div>
+              </div>
+            </li>
+            <li class="seccionTres">
+              <h2>¿Cómo es el <span>edificio</span>?</h2>
+              <p class="instruccion">
+                En caso de ser un departamento llena todas las casillas, de lo contrario,
+                solo ingresa las que apliquen.
+              </p>
+              <div>
+                <img src="../img/cityGirl.svg" alt="Imagen">
+                <div class="inputs">
+                  <input type="number" name="edadEdif" placeholder="Edad del edificio:">
+                  <input type="number" name="pisosEdif" placeholder="Total de pisos del edificio:">
+                  <input class="pisoPropiedad" type="number" name="pisoPropi" placeholder="Piso en que se encuentra tu propiedad:">
+                  <select class="placeholderText" name="orientacion">
+                    <option hidden selected>Orientación:</option>
+                    <option value="Exterior">Exterior</option>
+                    <option value="Interior">Interior</option>
+                  </select>
+                  <select class="placeholderText" name="elevador">
+                    <option hidden selected>Elevador:</option>
+                    <option value="Si">Si</option>
+                    <option value="No">No</option>
+                  </select>
+                  
+                  <p><input class="numberIndistinto" type="text" name="cuotaMantenimiento" id="cuotaMantenimiento" placeholder="Cuota de mantenimiento:"> MXN</p>
+                  <details>
+                    <summary class="placeholderText">Amenidades:</summary>
+                      <ul>
+                        <li><input type="checkbox" name="seguridad"> Seguridad</li>
+                        <li><input type="checkbox" name="gimnasio"> Gimnasio</li>
+                        <li><input type="checkbox" name="alberca"> Alberca</li>
+                        <li><input type="checkbox" name="roofGarden"> Roof Garden</li>
+                        <li><input type="checkbox" name="otros"> Otros</li>
+                      </ul>
+                  </details>
+                </div>
+              </div>
+            </li>
+            <li class="seccionCuatro">
+              <h2>¿Cómo te <span>contactámos</span>?</h2>
+              <div>
+                <img src="../img/realTimeCollaboration.svg" alt="Imagen">
+                <div class="inputs">
+                  <p><input class="dineroDeseado numberIndistinto" type="text" name="recibirDinero" id="recibirDinero" placeholder="¿Cuánto esperas recibir?"> MXN</p>
+                  <select name="relacion">
+                    <option class="placeholderText" hidden selected>Relación con la propiedad:</option>
+                    <option value="Propietario">Propietario</option>
+                    <option value="Asesor">Asesor</option>
+                  </select>
+                  <input type="text" name="nombreCompleto" placeholder="Nombre Completo:">
+                  <input type="number" name="telefono" placeholder="Teléfono:">
+                  <select name="conocer">
+                    <option class="placeholderText" hidden selected>¿Cómo nos conociste?</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Twitter">Twitter</option>
+                    <option value="LinkedIn">LinkedIn</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Tik Tok">Tik Tok</option>
+                    <option value="YouTube">YouTube</option>
+                    <option value="Otro">Otro</option>
+                  </select>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="buttonsForm">
+            <button>Atrás</button>
+            <button>Continuar</button>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section> <!-- Sección formulario -->
 
       <footer>
         <div class="info">

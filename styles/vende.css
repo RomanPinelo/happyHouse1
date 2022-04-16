@@ -43,6 +43,189 @@ html {
   border-radius: 50%;
 }
 
+/*********************************** Sección de formulario ***********************************/
+.formulario {
+  width: 100%;
+  background-color: var(--fondo1);
+}
+
+.formulario .indicador {
+  display: flex;
+}
+
+.formulario .indicador span {
+  display: block;
+  background-color: var(--fondo);
+  width: 25%;
+  height: 1rem;
+}
+
+.formulario .indicador .indicador1.active {
+  width: 25%;
+}
+
+.formulario .indicador .indicador2.active {
+  width: 25%;
+}
+
+.formulario .indicador .indicador3.active {
+  width: 25%;
+}
+
+.formulario .indicador .indicador4.active {
+  width: 25%;
+}
+
+/* Formulario */
+.formulario form {
+  overflow: hidden;
+  width: 100%;
+  /* height: 64.25rem; */
+}
+
+/* Estilos de lista del formulario */
+.formulario form ul {
+  display: flex;
+  width: 400%;
+  transition: 0.75s;
+  margin-left: 0; /* Quitar al final */
+}
+
+.formulario form ul li {
+  list-style: none;
+  width: 100%;
+}
+
+/* Imágenes formulario */
+.formulario form ul li div img {
+  display: block;
+  width: 95%;
+  margin: 1rem auto;
+}
+
+/* Decorados texto */
+.formulario form ul li p span,
+.formulario form ul li h2 span {
+  color: var(--decorado);
+}
+
+.formulario form ul li p .numero {
+  font-size: 2rem;
+}
+
+/* Decorados inputs */
+.formulario form ul li div .inputs input[type="text"],
+.formulario form ul li div .inputs input[type="number"],
+.formulario form ul li div .inputs input[type="email"],
+.formulario form ul li div .inputs select,
+.formulario form ul li div .inputs details {
+  display: block;
+  width: 95%;
+  height: 38px;
+  margin: 1rem auto;
+  padding-left: 0.25rem;
+  outline: none;
+  border: 2px solid var(--decorado);
+  border-radius: 10px;
+}
+
+.formulario form ul li div .inputs details {
+  height: auto;
+}
+
+.formulario form ul li div .inputs select,
+.formulario form ul li div .inputs details summary {
+  background-color: #fff;
+  color: #00000088;
+}
+
+.formulario form ul li div .inputs details {
+  padding: 0;
+  overflow: hidden;
+}
+
+.formulario form ul li div .inputs details summary {
+  width: 100%;
+  height: 100%;
+  padding: 0.3rem 0 0 0.25rem;
+}
+
+/* Quita las reglas del la lista de cada parte del formulario */
+.formulario form ul li div .inputs  ul {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.formulario form ul li div .inputs  ul li {
+  background-color: #fff;
+}
+
+.formulario form ul li div .inputs  ul li input[type="checkbox"] {
+  margin: 1rem;
+}
+
+.formulario form ul li div .inputs .pisoPropiedad::placeholder {
+  font-size: 1.15rem;
+}
+
+/* Textos y títulos de cada sección */
+.formulario form ul li p,
+.formulario form ul li h2 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Sección 2, 3 y 4 -> inputs con texto a un lado */
+.formulario form ul .seccionDos div .inputs p,
+.formulario form ul .seccionTres div .inputs p,
+.formulario form ul .seccionCuatro div .inputs p {
+  background-color: #fff;
+  border: 2px solid var(--decorado);
+  border-radius: 10px;
+  color: var(--decorado);
+}
+
+.formulario form ul .seccionDos div .inputs p input[type="number"],
+.formulario form ul .seccionTres div .inputs p input[type="text"],
+.formulario form ul .seccionCuatro div .inputs p input[type="text"] {
+  display: inline-block;
+  border: 0;
+  margin: 0;
+  width: 90%;
+}
+
+.formulario form ul .seccionTres div .inputs p input[type="text"],
+.formulario form ul .seccionCuatro div .inputs p input[type="text"] {
+  width: 83%;
+}
+
+/* Sección 3 */
+.formulario form ul .seccionTres .instruccion {
+  margin: 1rem auto;
+}
+
+/* Botones */
+.formulario form .buttonsForm {
+  background-color: steelblue;  /* Quitar al final */
+  display: flex;
+  height: 3.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.formulario form .buttonsForm button {
+  background-color: var(--decorado);
+  display: block;
+  width: 8rem;
+  padding: 0.25rem 0;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  color: var(--decorado2);
+  border-radius: 9999px;
+}
+
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Desktop View
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
