@@ -67,7 +67,7 @@ header nav {
   position: absolute;
   width: 70vw;
   height: 0;
-  top: 3.1rem;
+  top: 6rem;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 20px;
@@ -154,12 +154,6 @@ main {
   Desktop View
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
 @media screen and (min-width: 1000px) {
-  /* Logo */
-  header .header__logo {
-    background-color: #907335;
-    width: 8rem;
-  }
-
   /* Esto ya se verá en PC */
   header .navCenter {
     display: block;
@@ -207,7 +201,7 @@ main {
 
   /* Logo */
   header .header__logo {
-    width: 6rem;
+    width: 10rem;
   }
 
   header .header__logo a img {
