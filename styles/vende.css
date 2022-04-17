@@ -56,24 +56,8 @@ html {
 .formulario .indicador span {
   display: block;
   background-color: var(--fondo);
-  width: 25%;
   height: 1rem;
-}
-
-.formulario .indicador .indicador1.active {
-  width: 25%;
-}
-
-.formulario .indicador .indicador2.active {
-  width: 25%;
-}
-
-.formulario .indicador .indicador3.active {
-  width: 25%;
-}
-
-.formulario .indicador .indicador4.active {
-  width: 25%;
+  transition: 1s;
 }
 
 /* Formulario */
@@ -87,7 +71,6 @@ html {
   display: flex;
   width: 400%;
   transition: 0.75s;
-  margin-left: -100%; /* Quitar al final */
 }
 
 .formulario form ul li {

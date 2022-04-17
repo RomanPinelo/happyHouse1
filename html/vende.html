@@ -31,13 +31,13 @@
         <a href="#">Compra</a>
         <a href="#">Blog</a>
       </div>
-      <a class="header__contacto" href="#">Contacto</a>
+      <a class="header__contacto" href="#ubicaCont">Contacto</a>
       <!-- Botón de menú y menú en celular -->
       <nav id="headerMenu">
         <a href="vende.html">Vende</a>
         <a href="#">Compra</a>
         <a href="#">Blog</a>
-        <a href="#">Contacto</a>
+        <a id="headerContacto" href="#ubicaCont">Contacto</a>
       </nav>
       <div class="button" id="buttonMenu">
         <span class="button_bar Bar1" id="bar1"></span>
@@ -59,13 +59,13 @@
 
       <section class="formulario">
         <div class="indicador">
-          <span class="indicador1"></span>
-          <span class="indicador2"></span>
-          <span class="indicador3"></span>
-          <span class="indicador4"></span>
+          <span class="indicador1" id="indicadorSeccion1"></span>
+          <span class="indicador2" id="indicadorSeccion2"></span>
+          <span class="indicador3" id="indicadorSeccion3"></span>
+          <span class="indicador4" id="indicadorSeccion4"></span>
         </div>
-        <form action="" method="post">
-          <ul>
+        <form action="../php/vende.php" method="post">
+          <ul id="formularioUl">
             <li class="seccionUno">
               <p>
                 <span class="numero">1.</span>
@@ -187,9 +187,10 @@
             </li>
           </ul>
           <div class="buttonsForm">
-            <button>Atrás</button>
-            <button>Continuar</button>
-            <button type="submit">Enviar</button>
+            <!-- Si no pongo el type="button", se envia el formulario y ya no lleno el resto de los datos -->
+            <button type="button" id="atras">Atrás</button>
+            <button type="button" id="continuar">Continuar</button>
+            <button id="enviar" type="submit">Enviar</button>
           </div>
         </form>
       </section> <!-- Sección formulario -->
@@ -209,6 +210,7 @@
 
 
     <script src="../scripts/script.js"></script>
+    <script src="../scripts/vende.js"></script>
   </body>
 
 </html>
