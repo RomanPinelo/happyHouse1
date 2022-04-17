@@ -102,7 +102,7 @@ html {
 .formulario form ul li div .inputs select,
 .formulario form ul li div .inputs details {
   display: block;
-  width: 95%;
+  width: 381px;
   height: 38px;
   margin: 1rem auto;
   padding-left: 0.25rem;
@@ -113,6 +113,8 @@ html {
 
 .formulario form ul li div .inputs details {
   height: auto;
+  padding: 0;
+  overflow: hidden;
 }
 
 .formulario form ul li div .inputs select,
@@ -121,15 +123,10 @@ html {
   color: #00000088;
 }
 
-.formulario form ul li div .inputs details {
-  padding: 0;
-  overflow: hidden;
-}
-
 .formulario form ul li div .inputs details summary {
   width: 100%;
   height: 100%;
-  padding: 0.3rem 0 0 0.25rem;
+  padding: 0.35rem 0 0.35rem 0.25rem;
 }
 
 /* Quita las reglas del la lista de cada parte del formulario */
@@ -144,7 +141,7 @@ html {
 }
 
 .formulario form ul li div .inputs  ul li input[type="checkbox"] {
-  margin: 1rem;
+  margin: 0.25rem 0  0.25rem 1.5rem;
 }
 
 .formulario form ul li div .inputs .pisoPropiedad::placeholder {
@@ -167,9 +164,12 @@ html {
 .formulario form ul .seccionTres div .inputs p,
 .formulario form ul .seccionCuatro div .inputs p {
   background-color: #fff;
+  width: 381px;
+  height: 38px;
   border: 2px solid var(--decorado);
   border-radius: 10px;
   color: var(--decorado);
+  text-align: center;
 }
 
 .formulario form ul .seccionDos div .inputs p input[type="number"],
@@ -179,6 +179,7 @@ html {
   border: 0;
   margin: 0;
   width: 90%;
+  height: 100%;
 }
 
 .formulario form ul .seccionTres div .inputs p input[type="text"],
@@ -189,6 +190,12 @@ html {
 /* Sección 3 */
 .formulario form ul .seccionTres .instruccion {
   margin: 1rem auto;
+}
+
+#otrosEspecifica {
+  width: 90%;
+  margin: 0 auto;
+  border: 0;
 }
 
 /* Botones */
@@ -219,6 +226,8 @@ html {
   .pasos .pasos__texto {
     display: flex;
     justify-content: space-evenly;
+    width: 60rem;
+    margin: 0 auto;
   }
 
   /*********************************** Sección de formulario ***********************************/
@@ -231,7 +240,6 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* height: 39rem; */
   }
 
   .formulario form ul li div img,

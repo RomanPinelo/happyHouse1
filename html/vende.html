@@ -48,7 +48,7 @@
     </header>
 
     <main>
-      <section class="pasos">
+      <section class="pasos" id="pasos">
         <h1><span>Vende</span> tu propiedad</h1>
         <div class="pasos__texto">
           <p><span>1</span> Registra tu propiedad.</p>
@@ -109,7 +109,7 @@
                     <option value="Casa">Eleva autos</option>
                     <option value="Terreno">Tandem</option>
                   </select>
-                  <details>
+                  <details id="adicionalesDetails">
                     <summary class="placeholderText">Adicionales:</summary>
                       <ul>
                         <li><input type="checkbox" name="balcon"> Balcón / Terraza</li>
@@ -145,15 +145,16 @@
                     <option value="No">No</option>
                   </select>
                   
-                  <p><input class="numberIndistinto" type="text" name="cuotaMantenimiento" id="cuotaMantenimiento" placeholder="Cuota de mantenimiento:"> MXN</p>
-                  <details>
+                  <p>$<input class="numberIndistinto" type="text" name="cuotaMantenimiento" id="cuotaMantenimiento" placeholder="Cuota de mantenimiento:"> MXN</p>
+                  <details id="amenidadesDetails">
                     <summary class="placeholderText">Amenidades:</summary>
                       <ul>
                         <li><input type="checkbox" name="seguridad"> Seguridad</li>
                         <li><input type="checkbox" name="gimnasio"> Gimnasio</li>
                         <li><input type="checkbox" name="alberca"> Alberca</li>
                         <li><input type="checkbox" name="roofGarden"> Roof Garden</li>
-                        <li><input type="checkbox" name="otros"> Otros</li>
+                        <li><input type="checkbox" name="otros" id="otros"> Otros</li>
+                        <li><input type="text" name="otrosEspecifica" id="otrosEspecifica" placeholder="Especifique:"></li>
                       </ul>
                   </details>
                 </div>
@@ -164,7 +165,7 @@
               <div>
                 <img src="../img/realTimeCollaboration.svg" alt="Imagen">
                 <div class="inputs">
-                  <p><input class="dineroDeseado numberIndistinto" type="text" name="recibirDinero" id="recibirDinero" placeholder="¿Cuánto esperas recibir?"> MXN</p>
+                  <p>$<input class="dineroDeseado numberIndistinto" type="text" name="recibirDinero" id="recibirDinero" placeholder="¿Cuánto esperas recibir?"> MXN</p>
                   <select name="relacion">
                     <option class="placeholderText" hidden selected>Relación con la propiedad:</option>
                     <option value="Propietario">Propietario</option>

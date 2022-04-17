@@ -11,29 +11,43 @@ var indicador2 = document.getElementById("indicadorSeccion2");
 var indicador3 = document.getElementById("indicadorSeccion3");
 var indicador4 = document.getElementById("indicadorSeccion4");
 
+// Al estar en los pasos 2, 3 y 4 en el formulario, la sección pasos desaparece
+var seccionPasos = document.getElementById("pasos");
+
+// Los elementos details que se cerrarán al preionar continuar
+var amenidades_details = document.getElementById("amenidadesDetails");
+var adicionales_details = document.getElementById("adicionalesDetails");
+
+// Casilla otros de Amenidades del formulario
+var checkOtro = document.getElementById("otros");
+var especificaOtro = document.getElementById("otrosEspecifica");
+
+// Inicia algunas variables
 indicador1.style.width = "25%";
 indicador2.style.width = "0";
 indicador3.style.width = "0";
 indicador4.style.width = "0";
 
-
 atrasButton.style.display = "none";
 enviarButton.style.display = "none";
 
-
+// Funciones de los botones
 continuarButton.addEventListener('click', () => {
   margin_Left -= 100;
   formulario.style.marginLeft = `${margin_Left}%`;
   if (margin_Left < 0) {
-    atrasButton.style.display = "block"
+    atrasButton.style.display = "block";
+    seccionPasos.style.display = "none";
   }
   if (margin_Left == -100) {
     indicador2.style.width = "25%";
   }
   if (margin_Left == -200) {
     indicador3.style.width = "25%";
+    adicionales_details.removeAttribute("open"); // Cierra el elemento details
   }
   if (margin_Left == -300) {
+    amenidades_details.removeAttribute("open");
     atrasButton.style.display = "none";
     continuarButton.style.display = "none";
     enviarButton.style.display = "block";
@@ -47,6 +61,7 @@ atrasButton.addEventListener('click', () => {
   if (margin_Left == 0) {
     atrasButton.style.display = "none";
     indicador2.style.width = "0";
+    seccionPasos.style.display = "block";
   }
   if (margin_Left < 0) {
     atrasButton.style.display = "block"
@@ -103,3 +118,16 @@ window.onload = function() {
     document.querySelectorAll(".numberIndistinto").forEach(el => el.addEventListener("keyup", numberFormatIndistinto));
     
 };
+
+// Función para aparecer y desaparecer los input númericos en caso de checkear un input anterior
+// en la sección dos del formulario de venta
+function checkInputOtro() {
+  setInterval(() => {
+    especificaOtro.style.display = "none";
+    if (checkOtro.checked) {
+      especificaOtro.style.display = "block";
+    }
+  }, 250);
+}
+
+checkInputOtro();
