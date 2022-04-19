@@ -25,6 +25,8 @@ headerContactoButton.addEventListener('click', () => {
 // Toma el año actual
 // Obtengo la fecha para ponerla en el footer
 var footerYear = document.getElementById("anioActual");
+var footerYearCel = document.getElementById("anioActualCel");
 var fecha = new Date();
 
 footerYear.innerHTML = fecha.getFullYear();
+footerYearCel.innerHTML = fecha.getFullYear();

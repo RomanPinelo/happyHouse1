@@ -72,7 +72,7 @@
                 Ingresa los datos de forma segura y sin sorpresas.
               </p>
               <div>
-                <img src="../img/mapDark.svg" alt="Imagen">
+                <img class="imagenMapa" src="../img/mapDark.svg" alt="Imagen">
                 <div class="inputs">
                   <p class="pregunta">¿Dónde se <span>ubica</span>?</p>
                   <input type="text" name="estado" placeholder="Estado:">
@@ -85,11 +85,11 @@
               </div>
             </li>
             <li class="seccionDos">
-              <p>
+              <p class="cuentanos">
                 Cuéntanos de tu <span>propiedad</span>
               </p>
               <div>
-                <img src="../img/qualityTime.svg" alt="Imagen">
+                <img class="quality" src="../img/qualityTime.svg" alt="Imagen">
                 <div class="inputs">
                   <select name="tipoPropiedad">
                     <option class="placeholderText" hidden selected>Tipo de propiedad:</option>
@@ -129,7 +129,7 @@
                 solo ingresa las que apliquen.
               </p>
               <div>
-                <img src="../img/cityGirl.svg" alt="Imagen">
+                <img class="city" src="../img/cityGirl.svg" alt="Imagen">
                 <div class="inputs">
                   <input type="number" name="edadEdif" placeholder="Edad del edificio:">
                   <input type="number" name="pisosEdif" placeholder="Total de pisos del edificio:">
@@ -144,8 +144,6 @@
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                   </select>
-                  
-                  <p>$<input class="numberIndistinto" type="text" name="cuotaMantenimiento" id="cuotaMantenimiento" placeholder="Cuota de mantenimiento:"> MXN</p>
                   <details id="amenidadesDetails">
                     <summary class="placeholderText">Amenidades:</summary>
                       <ul>
@@ -157,13 +155,14 @@
                         <li><input type="text" name="otrosEspecifica" id="otrosEspecifica" placeholder="Especifique:"></li>
                       </ul>
                   </details>
+                  <p>$<input class="numberIndistinto" type="text" name="cuotaMantenimiento" id="cuotaMantenimiento" placeholder="Cuota de mantenimiento:"> MXN</p>
                 </div>
               </div>
             </li>
             <li class="seccionCuatro">
               <h2>¿Cómo te <span>contactámos</span>?</h2>
               <div>
-                <img src="../img/realTimeCollaboration.svg" alt="Imagen">
+                <img class="chat" src="../img/realTimeCollaboration.svg" alt="Imagen">
                 <div class="inputs">
                   <p>$<input class="dineroDeseado numberIndistinto" type="text" name="recibirDinero" id="recibirDinero" placeholder="¿Cuánto esperas recibir?"> MXN</p>
                   <select name="relacion">
@@ -171,8 +170,9 @@
                     <option value="Propietario">Propietario</option>
                     <option value="Asesor">Asesor</option>
                   </select>
-                  <input type="text" name="nombreCompleto" placeholder="Nombre Completo:">
-                  <input type="number" name="telefono" placeholder="Teléfono:">
+                  <input type="text" name="nombreCompleto" placeholder="Nombre Completo:" required>
+                  <input type="number" name="telefono" placeholder="Teléfono:" required>
+                  <input type="email" name="correo" placeholder="Correo:" required>
                   <select name="conocer">
                     <option class="placeholderText" hidden selected>¿Cómo nos conociste?</option>
                     <option value="Facebook">Facebook</option>
@@ -183,6 +183,14 @@
                     <option value="YouTube">YouTube</option>
                     <option value="Otro">Otro</option>
                   </select>
+                  <div class="politicaTerminos">
+                    <input type="checkbox" name="politicaPrivacidad" id="politicaPrivacidad" required>
+                    <p>
+                      Acepto <a href="#" target="_blank">Políticas de Privacidad</a>
+                      y
+                      <a href="#" target="_blank">Términos y Condiciones</a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </li>
@@ -198,13 +206,32 @@
 
       <footer>
         <div class="info">
-
+          <a href="https://www.google.com.mx/maps/place/Blvd.+Adolfo+L%C3%B3pez+Mateos+172,+Merced+G%C3%B3mez,+Benito+Ju%C3%A1rez,+03930+Ciudad+de+M%C3%A9xico,+CDMX/@19.363686,-99.1925563,17z/data=!4m5!3m4!1s0x85d201c082b7d2b1:0xb657ac53ac818181!8m2!3d19.3634026!4d-99.1907753" target="_blank"><span>D:</span> Blvd. Adolfo López Mateos 172, Merced Gómez, Benito Juárez, 03930 Ciudad de México, CDMX.</a>
+          <a href="mailto:contacto@happyhousemx.com" target="_blank"><span>M:</span> contacto@happyhousemx.com</a>
+          <div class="telefonos">
+            <a href="tel:5588521259" target="_blank"><span>T:</span> 55 8852 1259</a>
+            <a href="tel:5638572294" target="_blank"><span>C:</span> 56 3857 2294</a>
+            <a href="#"><span></span></a>
+          </div>
         </div>
-        <div class="logo">
-
+        <div class="logoPc">
+          <img src="../img/logoFooter.png" alt="Logo footer">
+          <p><span id="anioActual"></span> - Happy House - Todos lo derechos reservados</p>
         </div>
         <div class="redes">
-          
+          <div class="footer__redes">
+            <a href="https://m.facebook.com/HAPPY-HOUSE-103120935667789/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/happyhousemx.oficial/?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </div>
+          <a class="aviso" href="#">Aviso de Privacidad</a>
+        </div>
+        <div class="logoCel">
+          <img src="../img/logoFooter.png" alt="Logo footer">
+          <p><span id="anioActualCel"></span> - Happy House - Todos lo derechos reservados</p>
         </div>
       </footer>
     </main>

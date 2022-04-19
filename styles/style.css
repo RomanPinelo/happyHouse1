@@ -165,6 +165,7 @@ main {
     height: 1.5rem;
     display: flex;
     justify-content: space-between;
+    margin-right: 7rem;
   }
 
   header .navCenter a {

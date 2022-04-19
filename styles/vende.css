@@ -102,7 +102,7 @@ html {
 .formulario form ul li div .inputs select,
 .formulario form ul li div .inputs details {
   display: block;
-  width: 381px;
+  width: 95%;
   height: 38px;
   margin: 1rem auto;
   padding-left: 0.25rem;
@@ -164,7 +164,7 @@ html {
 .formulario form ul .seccionTres div .inputs p,
 .formulario form ul .seccionCuatro div .inputs p {
   background-color: #fff;
-  width: 381px;
+  width: 95%;
   height: 38px;
   border: 2px solid var(--decorado);
   border-radius: 10px;
@@ -184,7 +184,7 @@ html {
 
 .formulario form ul .seccionTres div .inputs p input[type="text"],
 .formulario form ul .seccionCuatro div .inputs p input[type="text"] {
-  width: 83%;
+  width: 80%;
 }
 
 /* Sección 3 */
@@ -198,9 +198,34 @@ html {
   border: 0;
 }
 
+/* Sección 4 */
+/* Términos y condiciones y Políticas de privacidad */
+.formulario form ul .seccionCuatro div .inputs .politicaTerminos {
+  width: 95%;
+  height: auto;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+}
+
+.formulario form ul .seccionCuatro div .inputs .politicaTerminos p {
+  background-color: var(--fondo1);
+  border: 0;
+  border-radius: 0;
+  color: #000;
+  width: 90%;
+  height: auto;
+  text-align: left;
+  font-size: 1.14rem;
+}
+
+.formulario form ul .seccionCuatro div .inputs .politicaTerminos p a {
+  color: var(--decorado);
+  text-decoration: none;
+}
+
 /* Botones */
 .formulario form .buttonsForm {
-  background-color: steelblue;  /* Quitar al final */
   display: flex;
   height: 3.5rem;
   justify-content: space-evenly;
@@ -219,6 +244,93 @@ html {
   border-radius: 9999px;
 }
 
+/*********************************** Sección footer ***********************************/
+footer {
+  /* background-color: var(--fondo); */
+}
+
+/* Se verá hasta la vista en PC */
+footer .logoPc {
+  display: none;
+}
+
+/* links a dirección, correo y teléfonos */
+footer .info {
+  background-color: #907335;/* Quitar ak final */
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer .info a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: justify;
+  padding: 0.5rem 0;
+}
+
+footer .info a span {
+  color: var(--decorado);
+}
+
+/* Links a redes */
+footer .redes {
+  background-color: #ccc;/* Quitar al final */
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer .redes .footer__redes {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .redes .footer__redes a {
+  background-color: var(--fondo2);/* Quitar al final */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+footer .redes .footer__redes a i {
+  color: var(--decorado);
+}
+
+/* Aviso de privacidad */
+footer .redes .aviso {
+  background-color: skyblue;/* Quitar al final */
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  color: #fff;
+}
+
+/* Logo en celular */
+footer .logoCel {
+  background-color: #ffffff88;/* Quitar al final */
+  width: 95%;
+  margin: 0 auto;
+}
+
+footer .logoCel img {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  width: 50%;
+}
+
+footer .logoCel p {
+  background-color: yellowgreen;/* Quitar al final */
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Desktop View
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
@@ -233,13 +345,22 @@ html {
   /*********************************** Sección de formulario ***********************************/
   .formulario form ul li p,
   .formulario form ul li h2 {
-    margin: 1rem 13rem;
+    margin: 1rem 11.5rem;
   }
 
   .formulario form ul li div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+  /* Margenes del div de cada sección */
+  .formulario form ul .seccionUno div {
+    margin-top: 1.75rem;
+  }
+
+  .formulario form ul .seccionDos .cuentanos {
+    font-size: 2.05rem;
   }
 
   .formulario form ul li div img,
@@ -249,21 +370,85 @@ html {
     margin: 0;
   }
 
-  .formulario form ul li div img {
-    margin-left: 10rem;
+  /* Decorados inputs */
+  .formulario form ul li div .inputs input[type="text"],
+  .formulario form ul li div .inputs input[type="number"],
+  .formulario form ul li div .inputs input[type="email"],
+  .formulario form ul li div .inputs select,
+  .formulario form ul li div .inputs details {
+    width: 370px;
+  }
+
+  /* Imágenes formulario */
+  .formulario form ul .seccionUno div .imagenMapa {
+    width: 22%;
+    margin-bottom: 0.75rem;
+  }
+
+  .formulario form ul .seccionDos div .quality {
+    width: 25%;
+  }
+
+  .formulario form ul .seccionTres div .city {
+    margin-top: 3rem;
+  }
+
+  .formulario form ul .seccionCuatro div .chat {
+    width: 23.5%;
+    margin: 0 0 1.3rem 0;
   }
 
   .formulario form ul li div .inputs {
-    margin-right: 8rem;
+    margin-right: 2rem;
   }
 
   .formulario form ul li div .inputs p {
     margin: 0 auto;
   }
 
-  /* Sección tres */
+  /* Sección 2, 3 y 4 -> inputs con texto a un lado */
+  .formulario form ul .seccionDos div .inputs p,
+  .formulario form ul .seccionTres div .inputs p,
+  .formulario form ul .seccionCuatro div .inputs p {
+    width: 370px;
+  }
+
+  /* Sección 3 */
+  .formulario form ul .seccionTres h2 {
+    margin-bottom: 0;
+  }
+
   .formulario form ul .seccionTres .instruccion {
-    margin: 0 13rem;
-    width: 51%;
+    margin: 0 11rem;
+    width: 33%;
+    font-size: 0.8rem;
+  }
+
+  /* Sección 4 */
+  /* Términos y condiciones y Políticas de privacidad */
+  .formulario form ul .seccionCuatro div .inputs .politicaTerminos {
+    width: 440px;
+    margin: 2rem 0.5rem;
+  }
+
+  .formulario form ul .seccionCuatro div .inputs .politicaTerminos p {
+    width: 420px;
+  }
+
+  /* Botones */
+  .formulario form .buttonsForm {
+    margin-bottom: 2rem;
+  }
+
+  .formulario form .buttonsForm button {
+    background-color: var(--decorado);
+    display: block;
+    width: 8rem;
+    padding: 0.25rem 0;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    color: var(--decorado2);
+    border-radius: 9999px;
   }
 }

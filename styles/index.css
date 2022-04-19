@@ -118,7 +118,8 @@ html {
 
 /*********************************** Sección de Socios estratégicos ***********************************/
 .alianzas {
-  background-color: var(--fondo1);
+  /* background-color: var(--fondo1); Cuando pasen las imagenes con el mismo fondo, cambiarlo */
+  background-color: #fff;
   margin: 1rem 0;
 }
 
@@ -385,16 +386,16 @@ footer .footer__redes a:hover i {
 
   .presentacion .presentacion__texto h1 {
     text-align: left;
-    width: 26rem;
-    font-size: 2.1rem;
+    width: 28.25rem;
+    font-size: 2.2rem;
   }
 
   .presentacion .presentacion__texto h1 span {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 
   .presentacion .presentacion__texto p {
-    width: 26rem;
+    width: 28.25rem;
   }
 
   .presentacion .presentacion__texto .comprar {
@@ -416,11 +417,11 @@ footer .footer__redes a:hover i {
 
   .quienesSomos .quienesSomos__titulo h2 {
     width: 100%;
-    height: 8rem;
-    line-height: 8rem;
-    font-size: 2.75rem;
+    height: 12rem;
+    line-height: 12rem;
+    font-size: 3.25rem;
     text-align: right;
-    padding-right: 3rem;
+    padding-right: 3.25rem;
   }
 
   .quienesSomos .quienesSomos__texto {
@@ -451,7 +452,7 @@ footer .footer__redes a:hover i {
   }
   
   .alianzas .alianzas__logos button {
-    background-color: var(--fondo1);
+    background-color: #fff;
     display: block;
     width: 20%;
     border: 0;
@@ -486,7 +487,7 @@ footer .footer__redes a:hover i {
 
   /*********************************** Sección de ubicación y contacto ***********************************/
   .ubicaCont {
-    height: 40rem;
+    height: 36.5rem;
     position: relative;
   }
   
@@ -501,11 +502,11 @@ footer .footer__redes a:hover i {
   }
 
   .ubicaCont form {
-    width: 22.5rem;
-    height: 35rem;
+    width: 21rem;
+    height: 30.75rem;
     position: absolute;
     top: 3rem;
-    right: 4rem;
+    right: 7rem;
     z-index: 5;
   }
 
@@ -515,11 +516,19 @@ footer .footer__redes a:hover i {
   }
 
   .ubicaCont form input {
-    padding: 0.25rem;
+    padding: 0.1rem 0.25rem;
   }
   
   .ubicaCont form textarea {
-    padding: 0.25rem;
+    padding: 0.1rem 0.25rem;
+  }
+
+  .ubicaCont form p {
+    margin: 0 auto;
+  }
+
+  .ubicaCont form button {
+    margin: 0.25rem auto;
   }
 
   /* Contacto */
@@ -528,23 +537,25 @@ footer .footer__redes a:hover i {
   }
 
   .ubicaCont .ubicaCont__datos h3 {
-    padding: 0.1rem 2rem;
-  }
-
-  .ubicaCont .ubicaCont__datos div {
-    width: 70%;
-    margin: 2.75rem 2rem 0;
+    padding: 0.1rem 5.25rem;
   }
 
   .ubicaCont .ubicaCont__datos .direction {
     display: block;
-    width: 95%;
+    width: 87%;
+    font-size: 1rem;
+  }
+
+  .ubicaCont .ubicaCont__datos div {
+    width: 65%;
+    margin: 1.5rem 5.25rem 0;
   }
 
   .ubicaCont .ubicaCont__datos a {
     display: inline-block;
     margin: 0.25rem auto;
     width: 25%;
+    font-size: 1.05rem;
   }
 
   .ubicaCont .ubicaCont__datos .correo {
