@@ -246,7 +246,7 @@ html {
 
 /*********************************** Sección footer ***********************************/
 footer {
-  /* background-color: var(--fondo); */
+  background-color: var(--fondo);
 }
 
 /* Se verá hasta la vista en PC */
@@ -256,7 +256,6 @@ footer .logoPc {
 
 /* links a dirección, correo y teléfonos */
 footer .info {
-  background-color: #907335;/* Quitar ak final */
   width: 95%;
   margin: 0 auto;
 }
@@ -269,13 +268,16 @@ footer .info a {
   padding: 0.5rem 0;
 }
 
+footer .info a:hover {
+  color: var(--fondo2);
+}
+
 footer .info a span {
   color: var(--decorado);
 }
 
 /* Links a redes */
 footer .redes {
-  background-color: #ccc;/* Quitar al final */
   width: 95%;
   margin: 0 auto;
 }
@@ -286,7 +288,7 @@ footer .redes .footer__redes {
 }
 
 footer .redes .footer__redes a {
-  background-color: var(--fondo2);/* Quitar al final */
+  background-color: var(--fondo2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,15 +296,16 @@ footer .redes .footer__redes a {
   height: 2.75rem;
   border-radius: 50%;
   text-decoration: none;
+  color: var(--decorado);
 }
 
-footer .redes .footer__redes a i {
-  color: var(--decorado);
+footer .redes .footer__redes a:hover {
+  background-color: var(--decorado);
+  color: var(--fondo2);
 }
 
 /* Aviso de privacidad */
 footer .redes .aviso {
-  background-color: skyblue;/* Quitar al final */
   display: block;
   text-decoration: none;
   text-align: center;
@@ -311,9 +314,12 @@ footer .redes .aviso {
   color: #fff;
 }
 
+footer .redes .aviso:hover {
+  color: var(--fondo2);
+}
+
 /* Logo en celular */
 footer .logoCel {
-  background-color: #ffffff88;/* Quitar al final */
   width: 95%;
   margin: 0 auto;
 }
@@ -326,9 +332,9 @@ footer .logoCel img {
 }
 
 footer .logoCel p {
-  background-color: yellowgreen;/* Quitar al final */
   font-size: 0.9rem;
   text-align: center;
+  padding: 0 0 1rem;
 }
 
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
@@ -450,5 +456,80 @@ footer .logoCel p {
     cursor: pointer;
     color: var(--decorado2);
     border-radius: 9999px;
+  }
+
+  /*********************************** Sección footer ***********************************/
+  footer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /* Ya se ve la vista en PC */
+  footer .logoPc {
+    display: block;
+    width: 22.5%;
+  }
+
+  footer .logoPc img {
+    display: block;
+    width: 11rem;
+    margin: 0 auto;
+  }
+
+  footer .logoPc p {
+    font-size: 0.9rem;
+    color: #fff;
+  }
+
+  /* links a dirección, correo y teléfonos */
+  footer .info {
+    width: 24%;
+    margin: 0 0 0 3.17rem;
+  }
+
+  footer .info .telefonos {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .info a {
+    padding: 0;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  footer .info a:hover {
+    color: var(--fondo2);
+  }
+
+  footer .info a span {
+    color: var(--decorado);
+    font-size: 1.2rem;
+  }
+
+  /* Links a redes */
+  footer .redes {
+    width: 30%;
+    margin: 0 4.1rem 0 0;
+  }
+
+  footer .redes .footer__redes a {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  /* Aviso de privacidad */
+  footer .redes .aviso {
+    margin-top: 0;
+    padding: 0.5rem 0;
+    font-size: 1.25rem;
+  }
+
+  /* Logo ya no se ve en celular */
+  footer .logoCel {
+    display: none;
   }
 }
