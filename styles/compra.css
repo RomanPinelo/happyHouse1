@@ -1,0 +1,15 @@
+/* Variables de color */
+:root {
+  --decorado: #bc9321;
+  --decorado1: #a08a5a;
+  --decorado2: #ffecb7;
+  --decorado4: #907335;
+  --fondo: #0b0020;
+  --fondo1: #e6e6e6;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
