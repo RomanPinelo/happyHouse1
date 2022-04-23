@@ -24,7 +24,7 @@
     <header>
 
       <div class="header__logo">
-        <a href="../index.html"><img src="../img/logoMenu.jpeg" alt="Logo del Menú"></a>
+        <a href="../index.html"><img src="../img/logoMenu.png" alt="Logo del Menú"></a>
       </div>
       <div class="navCenter">
         <a href="./vende.html">Vende</a>
@@ -48,7 +48,79 @@
     </header>
 
     <main>
-      
+
+      <section class="ayudaBuscar">
+        <h1>
+          Te ayudamos a <span>encontar</span> tu <span>hogar</span>
+        </h1>
+        <img class="ayudaBuscar__img imagen1" src="#" alt="Imagen">
+        <img class="ayudaBuscar__img imagen2" src="#" alt="Imagen">
+        <div class="buscaPropiedad">
+          <p class="buscaPropiedad__titulo">Busca tu propiedad</p>
+          <p class="buscaPropiedad__numPropiedades">
+            <span id="numeroPropiedades">100</span> Propiedades en 
+            <select class="estado" id="estado">
+              <option value="CDMX">CDMX</option>
+              <option value="Puebla">Puebla</option>
+              <option value="Querétaro">Querétaro</option>
+              <option value="Yucatán">Yucatán</option>
+            </select>
+          </p>
+          <input type="text" id="alcaldiaMunicipio" placeholder="Introduce la Alcaldía o Municipio:">
+          <p class="buscaPropiedad__tipoPropiedad">
+            Tipo de propiedad:
+            <select class="tipoPropiedad" id="tipo_propiedad">
+              <option class="placeholderText" hidden selected></option>
+              <option value="Casa">Casa</option>
+              <option value="Departamento">Departamento</option>
+              <option value="Terreno">Terreno</option>
+            </select>
+          </p>
+          <div class="inputsPequeños">
+            <p>
+              Habitaciones:
+              <select class="habitacionesPropiedad" id="habitaciones_propiedad">
+                <option class="placeholderText" hidden selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </p>
+            <p>
+              Baños:
+              <select class="banosPropiedad" id="banos_propiedad">
+                <option class="placeholderText" hidden selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </p>
+            <p>
+              Estacionamiento:
+              <select class="estacionamientoPropiedad" id="estacionamiento_propiedad">
+                <option class="placeholderText" hidden selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </p>
+            <p>
+              Adicionales:
+              <select class="adicionalesPropiedad" id="adicionales_propiedad">
+                <option class="placeholderText" hidden selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </p>
+          </div>
+          <button>Buscar</button>
+        </div>
+      </section>
 
       <footer>
         <div class="info">
