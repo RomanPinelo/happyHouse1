@@ -250,7 +250,7 @@ footer .logoCel p {
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
 @media screen and (min-width: 1000px) {
   header {
-    height: 4.5rem;
+    height: 80px;
   }
 
   /* Esto ya se verá en PC */
@@ -266,6 +266,7 @@ footer .logoCel p {
   header .navCenter a {
     text-decoration: none;
     color: #000;
+    font-size: 1.25rem;
   }
 
   header .navCenter a:hover {
@@ -279,7 +280,7 @@ footer .logoCel p {
 
   header .header__contacto {
     display: block;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: var(--decorado);
     text-decoration: none;
   }
@@ -308,7 +309,7 @@ footer .logoCel p {
   }
 
   main {
-    top: 4.5rem;
+    top: 80px;
   }
 
   /*********************************** Sección footer vende, compra ***********************************/

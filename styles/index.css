@@ -1,3 +1,6 @@
+/* Fuentes */
+@import url(https://allfont.es/allfont.css?fonts=book-antiqua);
+
 /* Variables de color */
 :root {
   --decorado: #bc9321;
@@ -48,7 +51,8 @@ html {
 }
 
 .presentacion .presentacion__texto h1 {
-  width: 90%;
+  font-family: 'Book Antiqua', arial;
+  width: 95%;
   margin: 0 auto;
   text-align: center;
 }
@@ -385,17 +389,21 @@ footer .footer__redes a:hover i {
   }
 
   .presentacion .presentacion__texto h1 {
+    background-color: #907335;/* Quitar al final */
     text-align: left;
-    width: 28.25rem;
-    font-size: 2.2rem;
+    font-weight: bold;
+    width: 161px;
+    font-size: 28px;
   }
 
   .presentacion .presentacion__texto h1 span {
-    font-size: 2.8rem;
+    font-size: 32px;
   }
 
   .presentacion .presentacion__texto p {
     width: 28.25rem;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .presentacion .presentacion__texto .comprar {
