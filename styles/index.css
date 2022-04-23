@@ -1,5 +1,13 @@
 /* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url(https://allfont.es/allfont.css?fonts=book-antiqua);
+@font-face{
+  font-family: "bodoni-mt";
+  src:url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("woff"),
+  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("opentype"),
+  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 /* Variables de color */
 :root {
@@ -41,6 +49,7 @@ html {
   position: absolute;
   right: 0;
   bottom: 1rem;
+  font-family: "bodoni-mt";
 }
 
 /* Texto */
@@ -68,16 +77,19 @@ html {
 .presentacion .presentacion__texto a {
   display: block;
   margin: 1rem 0;
-  padding: 0.5rem 1rem;
+  width: 11rem;
+  padding: 0.5rem 0;
   text-decoration: none;
+  text-align: center;
   background-color: var(--decorado);
   color: #fff;
   border-radius: 9999px;
-  font-size: 1rem;
+  font-size: 13px;
+  font-family: 'Book Antiqua', arial;
 }
 
 .presentacion .presentacion__texto a span {
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 
 /*********************************** Sección de ¿Quiénes somos? ***********************************/
@@ -89,6 +101,9 @@ html {
   background-color: var(--fondo);
   text-align: center;
   color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 31px;
 }
 
 .quienesSomos .quienesSomos__texto {
@@ -107,18 +122,63 @@ html {
 }
 
 .proyeDesa h2{
-  background-color: #e6e6e655;/* Quitar al final */
+  /*background-color: #e6e6e655;/* Quitar al final */
   text-align: center;
   color: var(--decorado);
   font-weight: 400;
   margin: 1rem 0;
+  font-size: 31px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .proyeDesa .proyeDesa__cards {
   background-color: #ff000055;/* Quitar al final */
   width: 100%;
   height: 12.5rem;
+  position: relative;
+  overflow: hidden;
 }
+
+.proyeDesa .proyeDesa__cards button,
+.proyeDesa .proyeDesa__cards ul {
+  position: absolute;
+}
+
+.proyeDesa .proyeDesa__cards ul {
+  width: 500%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  list-style: none;
+}
+
+.proyeDesa .proyeDesa__cards ul li a img {
+  display: block;
+  width: 100%;
+}
+
+.proyeDesa .proyeDesa__cards button {
+  width: 20%;
+  height: 100%;
+  top: 0;
+  background-color: #ffffff88;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.proyeDesa .proyeDesa__cards .leftButton {
+  left: 0;
+  z-index: 3;
+}
+
+.proyeDesa .proyeDesa__cards .rightButton {
+  left: 80%;
+  z-index: 3;
+}
+
+
 
 /*********************************** Sección de Socios estratégicos ***********************************/
 .alianzas {
@@ -131,6 +191,8 @@ html {
   font-weight: 400;
   text-align: center;
   color: var(--decorado);
+  font-size: 31px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .alianzas .alianzas__logos button {
@@ -167,6 +229,7 @@ html {
 .alianzas .alianzas__texto p {
   text-align: center;
   width: 95%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .alianzas .alianzas__texto p span {
@@ -178,6 +241,8 @@ html {
 .ubicaCont h2 {
   text-align: center;
   color: var(--decorado);
+  font-size: 31px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Mapa */
@@ -213,7 +278,7 @@ html {
   width: 90%;
   margin: 1rem auto;
   outline: none;
-  border: 2px solid var(--decorado);
+  border: 1px solid var(--decorado);
   border-radius: 10px;
   padding: 0.5rem;
 }
@@ -230,7 +295,7 @@ html {
   margin: 1rem auto;
   resize: none;
   outline: none;
-  border: 2px solid var(--decorado);
+  border: 1px solid var(--decorado);
   border-radius: 10px;
   padding: 0.5rem;
 }
@@ -389,11 +454,11 @@ footer .footer__redes a:hover i {
   }
 
   .presentacion .presentacion__texto h1 {
-    background-color: #907335;/* Quitar al final */
     text-align: left;
     font-weight: bold;
-    width: 161px;
+    width: 370px;
     font-size: 28px;
+    margin-left: 23.5%;
   }
 
   .presentacion .presentacion__texto h1 span {
@@ -401,33 +466,42 @@ footer .footer__redes a:hover i {
   }
 
   .presentacion .presentacion__texto p {
-    width: 28.25rem;
+    width: 370px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.4rem;
+    margin-left: 1.75%;
+  }
+
+  .presentacion .presentacion__texto a {
+    padding: 0.3rem 0;
+    margin: 0.5rem auto;
   }
 
   .presentacion .presentacion__texto .comprar {
-    margin-top: 5rem;
+    margin-top: 1.5rem;
   }
 
   /*********************************** Sección de ¿Quiénes somos? ***********************************/
   .quienesSomos {
     display: flex;
+    align-items: center;
     width: 100%;
-    height: 22.5rem;
+    height: 315px;
   }
 
   .quienesSomos .quienesSomos__titulo {
     width: 45%;
+    height: 137px;
     display: flex;
     align-items: center;
   }
 
   .quienesSomos .quienesSomos__titulo h2 {
     width: 100%;
-    height: 12rem;
-    line-height: 12rem;
-    font-size: 3.25rem;
+    height: 137px;
+    line-height: 137px;
+    font-size: 38px;
     text-align: right;
     padding-right: 3.25rem;
   }
@@ -443,13 +517,39 @@ footer .footer__redes a:hover i {
   .quienesSomos .quienesSomos__texto p {
     width: 31rem;
     text-align: center;
-    margin-left: 3rem;
-    font-size: 1.1rem;
+    margin: 0.35rem 0 0.35rem 3rem;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   /*********************************** Sección de Proyectos y desarrollos ***********************************/
+  .proyeDesa {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .proyeDesa .proyeDesa__cards {
-    height: 15rem;
+    height: 226px;
+  }
+
+  .proyeDesa .proyeDesa__cards button {
+    width: 30%;
+  }
+
+  .proyeDesa .proyeDesa__cards .rightButton {
+    left: 70%;
+  }
+
+  .proyeDesa .proyeDesa__cards ul li  {
+    width: 5%;
+    margin: 0 0.85%;
+  }
+
+  .proyeDesa .proyeDesa__cards ul li a img {
+    object-fit: cover;
+    width: 21.2rem;
   }
 
   /*********************************** Sección de Socios estratégicos ***********************************/
@@ -489,53 +589,82 @@ footer .footer__redes a:hover i {
   }
 
   .alianzas .alianzas__texto p {
-    width: 39%;
-    font-size: 1.5rem;
+    width: 55%;
+    font-size: 30px;
   }
 
   /*********************************** Sección de ubicación y contacto ***********************************/
   .ubicaCont {
-    height: 36.5rem;
+    height: 505px;
     position: relative;
   }
   
   .ubicaCont h2 {
     text-align: left;
-    margin: 1rem 23rem;
+    margin: 1.5rem 16rem;
   }
 
   .ubicaCont .ubicaCont__mapa {
     width: 100%;
-    height: 24rem;
+    height: 298px;
   }
 
   .ubicaCont form {
-    width: 21rem;
-    height: 30.75rem;
+    width: 312px;
+    height: 410px;
     position: absolute;
     top: 3rem;
-    right: 7rem;
+    right: 10.8rem;
     z-index: 5;
   }
 
   .ubicaCont form h3 {
-    padding: 0.25rem 0;
+    margin: 1.2rem 0;
+    padding: 0;
     font-weight: 400;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .ubicaCont form input {
-    padding: 0.1rem 0.25rem;
+    width: 266px;
+    height: 26px;
+    padding: 0 0.6rem;
+    margin: 0.55rem auto;
+  }
+
+  .ubicaCont form input::placeholder,
+  .ubicaCont form textarea::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: #00000055;
   }
   
   .ubicaCont form textarea {
-    padding: 0.1rem 0.25rem;
+    width: 266px;
+    height: 140px;
+    padding: 0.25rem 0.6rem;
+    margin: 0.55rem auto;
   }
 
   .ubicaCont form p {
-    margin: 0 auto;
+    width: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    margin: 0;
+  }
+
+  .ubicaCont form .politicaTerminos input[type="checkbox"] {
+    margin: 0.5rem 0.3rem 0.5rem 0;
   }
 
   .ubicaCont form button {
+    display: block;
+    font-family: 'Book Antiqua', arial;
+    font-size: 14px;
+    height: 26px;
+    width: 100px;
+    padding: 0;
     margin: 0.25rem auto;
   }
 
@@ -545,25 +674,35 @@ footer .footer__redes a:hover i {
   }
 
   .ubicaCont .ubicaCont__datos h3 {
-    padding: 0.1rem 5.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0.75rem 8rem 0;
   }
 
   .ubicaCont .ubicaCont__datos .direction {
     display: block;
     width: 87%;
-    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 8rem;
   }
 
   .ubicaCont .ubicaCont__datos div {
     width: 65%;
-    margin: 1.5rem 5.25rem 0;
+    margin: 1.6rem 8rem 0;
   }
 
   .ubicaCont .ubicaCont__datos a {
     display: inline-block;
     margin: 0.25rem auto;
     width: 25%;
-    font-size: 1.05rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .ubicaCont .ubicaCont__datos a span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
   }
 
   .ubicaCont .ubicaCont__datos .correo {
@@ -578,35 +717,44 @@ footer .footer__redes a:hover i {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 120px;
   }
 
   footer .footer__logo {
-    margin: 0;
+    width: 77px;
+    height: 77px;
+    margin: 0 0 0 7.75rem;
+    padding: 0;
   }
 
   footer .footer__texto {
-    margin: 0 0 0 10rem;
+    margin: 1rem 0 0 15rem;
   }
 
   footer .footer__texto a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.75rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   footer .footer__texto p {
-    font-size: 0.75rem;
-    margin-top: 1rem;
+    font-size: 10px;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   footer .footer__redes {
     width: 22.5rem;
+    margin-right: 6.9rem;
+    justify-content: flex-end;
   }
 
   footer .footer__redes a {
-    width: 3rem;
-    height: 3rem;
+    width: 38px;
+    height: 38px;
     margin-bottom: 0;
+    margin-right: 1rem;
   }
 
   footer .footer__redes a i {
