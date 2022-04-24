@@ -61,7 +61,7 @@ html {
 
 .presentacion .presentacion__texto h1 {
   font-family: 'Book Antiqua', arial;
-  width: 95%;
+  /* width: 95%; */
   margin: 0 auto;
   text-align: center;
 }

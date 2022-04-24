@@ -142,7 +142,7 @@ header nav a {
 }
 
 main {
-  /*background-color: steelblue;/* Quitar al final */
+  background-color: steelblue;/* Quitar al final */
   width: 100%;
   min-height: 3rem;
   position: absolute;
@@ -265,7 +265,7 @@ footer .logoCel p {
   header .navCenter a {
     text-decoration: none;
     color: #000;
-    font-size: 1.25rem;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
   }
 
@@ -320,32 +320,36 @@ footer .logoCel p {
   footer {
     display: flex;
     width: 100%;
-    height: 200px;
-    justify-content: space-evenly;
+    height: 120px;
     align-items: center;
   }
 
   /* Ya se ve la vista en PC */
   footer .logoPc {
     display: block;
-    width: 22.5%;
+    width: 14.8rem;
+    margin-left: 4.9rem;
   }
 
   footer .logoPc img {
     display: block;
-    width: 11rem;
+    width: 75px;
     margin: 0 auto;
   }
 
   footer .logoPc p {
-    font-size: 0.9rem;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    text-align: center;
+    margin-top: 0.9rem;
   }
 
   /* links a dirección, correo y teléfonos */
   footer .info {
     width: 24%;
-    margin: 0 0 0 3.17rem;
+    margin: 0 0 0 10rem;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   footer .info .telefonos {
@@ -355,8 +359,8 @@ footer .logoCel p {
 
   footer .info a {
     padding: 0;
-    margin: 0.5rem 0;
-    font-size: 1rem;
+    margin: 0.5rem 0 0;
+    font-size: 14px;
   }
 
   footer .info a:hover {
@@ -370,20 +374,26 @@ footer .logoCel p {
 
   /* Links a redes */
   footer .redes {
-    width: 30%;
-    margin: 0 4.1rem 0 0;
+    width: 10rem; /* Modificar cuando se agreguen más redes */
+    margin: 0 0 0 14.75rem;
+  }
+
+  footer .redes .footer__redes {
+    justify-content: flex-end; /* Modificar cuando se agreguen más redes */
   }
 
   footer .redes .footer__redes a {
-    width: 2.75rem;
-    height: 2.75rem;
+    width: 38px;
+    height: 38px;
+    margin: 0 0.5rem; /* Modificar cuando se agreguen más redes */
   }
 
   /* Aviso de privacidad */
   footer .redes .aviso {
-    margin-top: 0;
+    margin-top: 0.5rem;
     padding: 0.5rem 0;
-    font-size: 1.25rem;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   /* Logo ya no se ve en celular */

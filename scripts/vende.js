@@ -48,7 +48,6 @@ continuarButton.addEventListener('click', () => {
   }
   if (margin_Left == -300) {
     amenidades_details.removeAttribute("open");
-    atrasButton.style.display = "none";
     continuarButton.style.display = "none";
     enviarButton.style.display = "block";
     indicador4.style.width = "25%";
@@ -71,6 +70,8 @@ atrasButton.addEventListener('click', () => {
   }
   if (margin_Left == -200) {
     indicador4.style.width = "0";
+    continuarButton.style.display = "block";
+    enviarButton.style.display = "none";
   }
 });
 
