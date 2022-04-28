@@ -134,7 +134,7 @@ html {
 .formulario form ul li div .inputs details summary {
   width: 100%;
   height: 100%;
-  padding: 0.35rem 0 0.35rem 0.25rem;
+  padding: 0.24rem 0 0.24rem 0.25rem;
 }
 
 /* Quita las reglas del la lista de cada parte del formulario */
@@ -207,6 +207,10 @@ html {
 }
 
 /* Sección 4 */
+#pRecibirDinero {
+  height: 50px;
+  margin-bottom: 1.75rem;
+}
 /* Términos y condiciones y Políticas de privacidad */
 .formulario form ul .seccionCuatro div .inputs .politicaTerminos {
   width: 95%;
@@ -288,7 +292,8 @@ html {
   
   .formulario form ul li p,
   .formulario form ul li h2 {
-    margin: 1rem 11.5rem;
+    margin: 1rem 14rem;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .formulario form ul li div {
@@ -303,14 +308,13 @@ html {
   }
 
   .formulario form ul .seccionDos .cuentanos {
-    font-size: 2.05rem;
+    font-size: 23px;
   }
 
   .formulario form ul li div img,
   .formulario form ul li div .inputs {
-    /*background-color: #907335;/* Quitar al final */
     display: block;
-    width: 30%;
+    width: 266px;
     margin: 0;
   }
 
@@ -324,28 +328,55 @@ html {
     height: 30px;
   }
 
+  .formulario form ul li div .inputs select,
+  .formulario form ul li div .inputs details {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+  }
+
+  .formulario form ul li div .inputs details {
+    height: auto;
+  }
+
   /* Imágenes formulario */
   .formulario form ul .seccionUno div .imagenMapa {
     width: 266px;
     height: auto;
-    margin: 0 0 0 9rem;
+    margin: -0.5rem 0 0 14rem;
   }
 
   .formulario form ul .seccionDos div .quality {
-    width: 25%;
+    width: 266px;
+    height: auto;
+    margin: -0.25rem 0 0 14rem;
   }
 
   .formulario form ul .seccionTres div .city {
-    margin-top: 3rem;
+    width: 266px;
+    height: auto;
+    margin: 1rem 0 0 14rem;
   }
 
   .formulario form ul .seccionCuatro div .chat {
-    width: 23.5%;
-    margin: 0 0 1.3rem 0;
+    width: 266px;
+    margin: 0.4rem 0 0 14rem;
   }
 
-  .formulario form ul li div .inputs {
-    margin-right: 2rem;
+  /* Margenes derechos de los inputs */
+  .formulario form ul .seccionUno div .inputs {
+    margin: -0.23rem 13.25rem 0 0;
+  }
+
+  .formulario form ul .seccionDos div .inputs {
+    margin: 0rem 13.1rem 0.6rem 0;
+  }
+
+  .formulario form ul .seccionTres div .inputs {
+    margin: -0.4rem 13.1rem 0 0;
+  }
+
+  .formulario form ul .seccionCuatro div .inputs {
+    margin: 0.45rem 13.1rem 0 0;
   }
 
   .formulario form ul li div .inputs p {
@@ -358,6 +389,7 @@ html {
   .formulario form ul .seccionCuatro div .inputs p {
     width: 266px;
     height: 30px;
+    font-size: 16px;
   }
 
   .formulario form ul .seccionDos div .inputs p input[type="number"] {
@@ -385,23 +417,34 @@ html {
   /* Sección 3 */
   .formulario form ul .seccionTres h2 {
     margin-bottom: 0;
+    font-size: 23px;
   }
 
   .formulario form ul .seccionTres .instruccion {
-    margin: 0 11rem;
-    width: 33%;
-    font-size: 0.8rem;
+    margin: 0 13.75rem;
+    width: 35%;
+    font-size: 14px;
+    font-family: arial;
   }
 
   /* Sección 4 */
+  .formulario form ul .seccionCuatro h2 {
+    font-size: 23px;
+  }
+
+  #pRecibirDinero {
+    height: 45px;
+  }
+
   /* Términos y condiciones y Políticas de privacidad */
   .formulario form ul .seccionCuatro div .inputs .politicaTerminos {
-    width: 440px;
-    margin: 2rem 0.5rem;
+    width: 266px;
+    margin: 1rem 0.5rem 0;
   }
 
   .formulario form ul .seccionCuatro div .inputs .politicaTerminos p {
-    width: 420px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
   }
 
   /* Botones */
@@ -422,5 +465,40 @@ html {
     border-radius: 9999px;
     font-family: 'Book Antiqua', arial;
     font-size: 17px;
+  }
+
+  /* Quitar al final */
+  #indicadorCentral {
+    background-color: #0b0020;
+    width: 1px;
+    height: 145vh;
+    position: absolute;
+    top: 0;
+    left: 50.5%;
+    z-index: 100;
+  }
+
+  /* Quitar al final */
+  #indicadorSuperior {
+    background-color: #0b0020;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 127px;
+    /* top: 351px; */
+    left: 0;
+    z-index: 100;
+  }
+
+  /* Quitar al final */
+  #indicadorinferior {
+    background-color: #0b0020;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 508px;
+    /* top: 725px; */
+    left: 0;
+    z-index: 100;
   }
 }

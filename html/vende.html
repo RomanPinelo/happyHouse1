@@ -64,7 +64,7 @@
           <span class="indicador3" id="indicadorSeccion3"></span>
           <span class="indicador4" id="indicadorSeccion4"></span>
         </div>
-        <form action="../php/vende.php" method="post">
+        <form id="formularioHeight" action="../php/vende.php" method="post">
           <ul id="formularioUl">
             <li class="seccionUno">
               <p>
@@ -164,7 +164,7 @@
               <div>
                 <img class="chat" src="../img/realTimeCollaboration.svg" alt="Imagen">
                 <div class="inputs">
-                  <p>$<input class="dineroDeseado numberIndistinto" type="text" name="recibirDinero" id="recibirDinero" placeholder="¿Cuánto esperas recibir?"> MXN</p>
+                  <p id="pRecibirDinero">$<input class="dineroDeseado numberIndistinto" type="text" name="recibirDinero" id="recibirDinero" placeholder="¿Cuánto esperas recibir?"> MXN</p>
                   <select name="relacion">
                     <option class="placeholderText" hidden selected>Relación con la propiedad:</option>
                     <option value="Propietario">Propietario</option>
@@ -214,7 +214,7 @@
           </div>
         </div>
         <div class="logoPc">
-          <img src="../img/logoFooter.jpeg" alt="Logo footer">
+          <img src="../img/logoFooter.png" alt="Logo footer">
           <p><span id="anioActual"></span> - Happy House - Todos lo derechos reservados</p>
         </div>
         <div class="redes">
@@ -229,12 +229,16 @@
           <a class="aviso" href="#">Aviso de Privacidad</a>
         </div>
         <div class="logoCel">
-          <img src="../img/logoFooter.jpeg" alt="Logo footer">
+          <img src="../img/logoFooter.png" alt="Logo footer">
           <p><span id="anioActualCel"></span> - Happy House - Todos lo derechos reservados</p>
         </div>
       </footer>
     </main>
 
+    <!-- Quitar al final -->
+    <span id="indicadorCentral"></span>
+    <span id="indicadorSuperior"></span>
+    <span id="indicadorinferior"></span>
 
     <script src="../scripts/script.js"></script>
     <script src="../scripts/vende.js"></script>

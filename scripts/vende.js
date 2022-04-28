@@ -18,6 +18,9 @@ var seccionPasos = document.getElementById("pasos");
 var amenidades_details = document.getElementById("amenidadesDetails");
 var adicionales_details = document.getElementById("adicionalesDetails");
 
+// Formulario el cual se modificara su height
+var formularioAltura = document.getElementById("formularioHeight");
+
 // Casilla otros de Amenidades del formulario
 var checkOtro = document.getElementById("otros");
 var especificaOtro = document.getElementById("otrosEspecifica");
@@ -38,19 +41,31 @@ continuarButton.addEventListener('click', () => {
   if (margin_Left < 0) {
     atrasButton.style.display = "block";
     seccionPasos.style.display = "none";
+    if (screen.width > 1000) {
+      formularioAltura.style.height = "490px";
+    }
   }
   if (margin_Left == -100) {
     indicador2.style.width = "25%";
+    if (screen.width > 1000) {
+      formularioAltura.style.height = "auto";
+    }
   }
   if (margin_Left == -200) {
     indicador3.style.width = "25%";
     adicionales_details.removeAttribute("open"); // Cierra el elemento details
+    if (screen.width > 1000) {
+      formularioAltura.style.height = "auto";
+    }
   }
   if (margin_Left == -300) {
-    amenidades_details.removeAttribute("open");
+    amenidades_details.removeAttribute("open"); // Cierra el elemento details
     continuarButton.style.display = "none";
     enviarButton.style.display = "block";
     indicador4.style.width = "25%";
+    if (screen.width > 1000) {
+      formularioAltura.style.height = "490px";
+    }
   }
 });
 
@@ -61,17 +76,31 @@ atrasButton.addEventListener('click', () => {
     atrasButton.style.display = "none";
     indicador2.style.width = "0";
     seccionPasos.style.display = "block";
+    if (screen.width > 1000) {
+      formularioAltura.style.height = "490px";
+    }
+    adicionales_details.removeAttribute("open"); // Cierra el elemento details
   }
   if (margin_Left < 0) {
     atrasButton.style.display = "block"
+    if (screen.width > 1000) {
+      formularioAltura.style.height = "490px";
+    }
   }
   if (margin_Left == -100) {
     indicador3.style.width = "0";
+    if (screen.width > 1000) {
+      formularioAltura.style.height = "auto";
+    }
+    amenidades_details.removeAttribute("open"); // Cierra el elemento details
   }
   if (margin_Left == -200) {
     indicador4.style.width = "0";
     continuarButton.style.display = "block";
     enviarButton.style.display = "none";
+    if (screen.width > 1000) {
+      formularioAltura.style.height = "auto";
+    }
   }
 });
 
