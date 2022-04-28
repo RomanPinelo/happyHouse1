@@ -466,39 +466,4 @@ html {
     font-family: 'Book Antiqua', arial;
     font-size: 17px;
   }
-
-  /* Quitar al final */
-  #indicadorCentral {
-    background-color: #0b0020;
-    width: 1px;
-    height: 145vh;
-    position: absolute;
-    top: 0;
-    left: 50.5%;
-    z-index: 100;
-  }
-
-  /* Quitar al final */
-  #indicadorSuperior {
-    background-color: #0b0020;
-    width: 100%;
-    height: 1px;
-    position: absolute;
-    top: 127px;
-    /* top: 351px; */
-    left: 0;
-    z-index: 100;
-  }
-
-  /* Quitar al final */
-  #indicadorinferior {
-    background-color: #0b0020;
-    width: 100%;
-    height: 1px;
-    position: absolute;
-    top: 508px;
-    /* top: 725px; */
-    left: 0;
-    z-index: 100;
-  }
 }
