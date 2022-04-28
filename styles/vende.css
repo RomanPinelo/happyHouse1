@@ -427,6 +427,10 @@ html {
     font-family: arial;
   }
 
+  .formulario form ul li div .inputs .pisoPropiedad::placeholder {
+    font-size: 15px;
+  }
+
   /* Sección 4 */
   .formulario form ul .seccionCuatro h2 {
     font-size: 23px;
