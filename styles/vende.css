@@ -115,7 +115,7 @@ html {
   margin: 1rem auto;
   padding-left: 0.25rem;
   outline: none;
-  border: 2px solid var(--decorado);
+  border: 1px solid var(--decorado);
   border-radius: 10px;
 }
 
@@ -174,7 +174,7 @@ html {
   background-color: #fff;
   width: 95%;
   height: 38px;
-  border: 2px solid var(--decorado);
+  border: 1px solid var(--decorado);
   border-radius: 10px;
   color: var(--decorado);
   text-align: center;
@@ -342,41 +342,41 @@ html {
   .formulario form ul .seccionUno div .imagenMapa {
     width: 266px;
     height: auto;
-    margin: -0.5rem 0 0 14rem;
+    margin: -0.5rem 0 0 8.4rem;
   }
 
   .formulario form ul .seccionDos div .quality {
     width: 266px;
     height: auto;
-    margin: -0.25rem 0 0 14rem;
+    margin: -0.25rem 0 0 8.4rem;
   }
 
   .formulario form ul .seccionTres div .city {
     width: 266px;
     height: auto;
-    margin: 1rem 0 0 14rem;
+    margin: 1rem 0 0 8.4rem;
   }
 
   .formulario form ul .seccionCuatro div .chat {
     width: 266px;
-    margin: 0.4rem 0 0 14rem;
+    margin: 0.4rem 0 0 8.4rem;
   }
 
   /* Margenes derechos de los inputs */
   .formulario form ul .seccionUno div .inputs {
-    margin: -0.23rem 13.25rem 0 0;
+    margin: -0.23rem 8.5rem 0 0;
   }
 
   .formulario form ul .seccionDos div .inputs {
-    margin: 0rem 13.1rem 0.6rem 0;
+    margin: 0rem 8.5rem 0.6rem 0;
   }
 
   .formulario form ul .seccionTres div .inputs {
-    margin: -0.4rem 13.1rem 0 0;
+    margin: -0.4rem 8.5rem 0 0;
   }
 
   .formulario form ul .seccionCuatro div .inputs {
-    margin: 0.45rem 13.1rem 0 0;
+    margin: 0.45rem 8.5rem 0 0;
   }
 
   .formulario form ul li div .inputs p {

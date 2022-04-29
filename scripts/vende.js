@@ -43,6 +43,9 @@ continuarButton.addEventListener('click', () => {
     seccionPasos.style.display = "none";
     if (screen.width > 1000) {
       formularioAltura.style.height = "490px";
+      atrasButton.style.marginLeft = "18.5rem";
+      continuarButton.style.marginRight = "18.5rem";
+      enviarButton.style.marginRight = "18.5rem";
     }
   }
   if (margin_Left == -100) {
@@ -67,6 +70,11 @@ continuarButton.addEventListener('click', () => {
       formularioAltura.style.height = "490px";
     }
   }
+  if (margin_Left == 0) {
+    if (screen.width > 1000) {
+      continuarButton.style.margin = "0";
+    }
+  }
 });
 
 atrasButton.addEventListener('click', () => {
@@ -78,6 +86,7 @@ atrasButton.addEventListener('click', () => {
     seccionPasos.style.display = "block";
     if (screen.width > 1000) {
       formularioAltura.style.height = "490px";
+      continuarButton.style.margin = "0";
     }
     adicionales_details.removeAttribute("open"); // Cierra el elemento details
   }
@@ -85,6 +94,9 @@ atrasButton.addEventListener('click', () => {
     atrasButton.style.display = "block"
     if (screen.width > 1000) {
       formularioAltura.style.height = "490px";
+      atrasButton.style.marginLeft = "18.5rem";
+      continuarButton.style.marginRight = "18.5rem";
+      enviarButton.style.marginRight = "18.5rem";
     }
   }
   if (margin_Left == -100) {

@@ -142,7 +142,7 @@ header nav a {
 }
 
 main {
-  background-color: steelblue;/* Quitar al final */
+  /*background-color: steelblue;/* Quitar al final */
   width: 100%;
   min-height: 3rem;
   position: absolute;
@@ -234,7 +234,7 @@ footer .logoCel img {
   display: block;
   margin: 0 auto;
   padding: 0.5rem 0;
-  width: 50%;
+  width: 25%;
 }
 
 footer .logoCel p {
