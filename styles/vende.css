@@ -256,6 +256,11 @@ html {
   border-radius: 9999px;
 }
 
+.formulario form .buttonsForm button:hover {
+  background-color: var(--decorado2);
+  color: var(--decorado);
+}
+
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Desktop View
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/

@@ -142,7 +142,7 @@ header nav a {
 }
 
 main {
-  /*background-color: steelblue;/* Quitar al final */
+  background-color: steelblue;/* Quitar al final */
   width: 100%;
   min-height: 3rem;
   position: absolute;

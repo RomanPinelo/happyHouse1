@@ -1,0 +1,95 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://allfont.es/allfont.css?fonts=book-antiqua');
+@font-face{
+  font-family: "bodoni-mt";
+  src:url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("woff"),
+  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("opentype"),
+  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Variables de color */
+:root {
+  --decorado: #bc9321;
+  --decorado1: #a08a5a;
+  --decorado2: #ffecb7;
+  --decorado4: #907335;
+  --fondo: #0b0020;
+  --fondo1: #e6e6e6;
+  --fondo2: #b3b3b3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Mobile View 
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+.indicador {
+  width: 100%;
+  height: 10px;
+  background-color: var(--fondo);
+}
+
+h1 {
+  background-color: var(--decorado2);/* Quitar al final */
+  text-align: center;
+  margin: 1rem 0;
+}
+
+h1 span {
+  color: var(--decorado);
+}
+
+.mensajeTexto {
+  background-color: teal;/* Quitar al final */
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.forSaleImage {
+  background-color: #907335;/* Quitar al final */
+  display: block;
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.irInicio {
+  background-color: var(--decorado);
+  display: block;
+  width: 8rem;
+  padding: 0.25rem 0;
+  border: 0;
+  color: var(--decorado2);
+  text-decoration: none;
+  text-align: center;
+  border-radius: 9999px;
+  margin: 1rem auto;
+}
+
+.irInicio:hover {
+  background-color: var(--decorado2);
+  color: var(--decorado);
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Desktop View
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 23px;
+    font-weight: 400;
+  }
+
+  .mensajeTexto {
+    font-size: 14px;
+    width: 22.5rem;
+    text-align: center;
+  }
+
+  .forSaleImage {
+    width: 266px;
+  }
+}
