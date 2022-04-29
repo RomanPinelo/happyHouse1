@@ -1,6 +1,6 @@
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url(https://allfont.es/allfont.css?fonts=book-antiqua);
+@import url('https://allfont.es/allfont.css?fonts=book-antiqua');
 @font-face{
   font-family: "bodoni-mt";
   src:url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("woff"),
