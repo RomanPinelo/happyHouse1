@@ -36,7 +36,8 @@ html {
 h1 {
   background-color: var(--decorado2);/* Quitar al final */
   text-align: center;
-  margin: 1rem 0;
+  width: 95%;
+  margin: 1rem auto;
 }
 
 h1 span {
