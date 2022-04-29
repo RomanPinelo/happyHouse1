@@ -27,6 +27,15 @@ html {
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Mobile View 
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+.infoCorreo {
+  background-color: var(--fondo1);
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .indicador {
   width: 100%;
   height: 10px;
@@ -34,10 +43,10 @@ html {
 }
 
 h1 {
-  background-color: var(--decorado2);/* Quitar al final */
+  /*background-color: var(--decorado2);/* Quitar al final */
   text-align: center;
   width: 95%;
-  margin: 1rem auto;
+  margin: 0;
 }
 
 h1 span {
@@ -45,16 +54,17 @@ h1 span {
 }
 
 .mensajeTexto {
-  background-color: teal;/* Quitar al final */
+  /*background-color: teal;/* Quitar al final */
   width: 95%;
-  margin: 1rem auto;
+  margin: 0;
+  text-align: justify;
 }
 
 .forSaleImage {
-  background-color: #907335;/* Quitar al final */
+  /*background-color: #907335;/* Quitar al final */
   display: block;
   width: 95%;
-  margin: 1rem auto;
+  margin: 0;
 }
 
 .irInicio {
@@ -67,7 +77,7 @@ h1 span {
   text-decoration: none;
   text-align: center;
   border-radius: 9999px;
-  margin: 1rem auto;
+  margin: 0;
 }
 
 .irInicio:hover {
@@ -79,18 +89,30 @@ h1 span {
   Desktop View
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
 @media screen and (min-width: 1000px) {
+  .infoCorreo {
+    height: calc(100vh - 210px);
+    /* justify-content: flex-start; */
+  }
+
   h1 {
     font-size: 23px;
     font-weight: 400;
+    /* margin-top: ; */
   }
 
   .mensajeTexto {
     font-size: 14px;
     width: 22.5rem;
     text-align: center;
+    /* margin-top: ; */
   }
 
   .forSaleImage {
     width: 266px;
+    /* margin-top: ; */
+  }
+
+  .irInicio {
+    /* margin-top: ; */
   }
 }
