@@ -183,8 +183,8 @@ html {
 
 /*********************************** Sección de Socios estratégicos ***********************************/
 .alianzas {
-  /* background-color: var(--fondo1); Cuando pasen las imagenes con el mismo fondo, cambiarlo */
-  background-color: #fff;
+  background-color: var(--fondo1); /* Cuando pasen las imagenes con el mismo fondo, cambiarlo */
+  /* background-color: #fff; */
   margin: 1rem 0;
 }
 
@@ -557,13 +557,10 @@ footer .footer__redes a:hover i {
 
   /*********************************** Sección de Socios estratégicos ***********************************/
   .alianzas .alianzas__logos {
-    width: 95%;
-    margin: 0 auto;
     display: flex;
   }
   
   .alianzas .alianzas__logos button {
-    background-color: #fff;
     display: block;
     width: 20%;
     border: 0;

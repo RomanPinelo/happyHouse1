@@ -91,7 +91,6 @@ h1 span {
 @media screen and (min-width: 1000px) {
   .infoCorreo {
     height: calc(100vh - 210px);
-    /* justify-content: flex-start; */
   }
 
   h1 {
