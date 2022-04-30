@@ -1,0 +1,87 @@
+/* Fuentes */
+@import url(https://allfont.es/allfont.css?fonts=book-antiqua);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Variables de color */
+:root {
+  --decorado: #bc9321;
+  --decorado1: #a08a5a;
+  --decorado2: #ffecb7;
+  --decorado4: #907335;
+  --fondo: #0b0020;
+  --fondo1: #e6e6e6;
+  --fondo2: #b3b3b3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Mobile View 
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+/*********************************** Indicador ***********************************/
+.indicador {
+  width: 100%;
+  height: 10px;
+  background-color: var(--fondo);
+}
+
+/*********************************** Sección de formulario ***********************************/
+.formulario {
+background-color: var(--fondo1);
+}
+
+.formulario h1 {
+  background-color: salmon;  /* quitar al final */
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.formulario h1 span {
+  color: var(--decorado);
+}
+
+/* Imágenes */
+.formulario .imgCelular {
+  display: block;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.formulario .imgPc {
+  display: none;
+}
+
+/* Formulario */
+
+
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Desktop View
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+@media screen and (min-width: 1000px) {
+  /*********************************** Sección de formulario ***********************************/
+  .formulario {
+    width: 100%;
+    height: calc(100vh - 210px);
+  }
+
+  .formulario h1 {
+
+  }
+
+  /* Imágenes */
+  .formulario .imgCelular {
+    display: none;
+  }
+
+  .formulario .imgPc {
+    display: block;
+    width: 50px;
+  }
+  
+  /* Formulario */
+}
