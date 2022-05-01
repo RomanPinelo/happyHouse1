@@ -211,6 +211,7 @@ html {
   height: 50px;
   margin-bottom: 1.75rem;
 }
+
 /* Términos y condiciones y Políticas de privacidad */
 .formulario form ul .seccionCuatro div .inputs .politicaTerminos {
   width: 95%;
@@ -254,6 +255,8 @@ html {
   cursor: pointer;
   color: var(--decorado2);
   border-radius: 9999px;
+  font-family: 'Book Antiqua', arial;
+  font-size: 17px;
 }
 
 .formulario form .buttonsForm button:hover {

@@ -37,7 +37,9 @@ background-color: var(--fondo1);
   width: 90%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
 }
 
 .formulario h1 span {
@@ -48,7 +50,7 @@ background-color: var(--fondo1);
 .formulario .imgCelular {
   display: block;
   width: 90%;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 .formulario .imgPc {
@@ -56,6 +58,140 @@ background-color: var(--fondo1);
 }
 
 /* Formulario */
+.formulario form {
+  background-color: #907335;/* Quitar al final */
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Quitar todo al final */
+.formulario form .presupuestoInputs {
+  background-color: #b3b3b3;
+}
+
+.formulario form .presupuestoInputs p {
+  background-color: yellowgreen;  /* Quitar al final */
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+
+.formulario form .presupuestoInputs p span {
+  color: var(--decorado);
+  font-size: 15px;
+}
+
+.formulario form .presupuestoInputs .maxMin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario form .presupuestoInputs .maxMin .adicionalesPropiedad {
+  width: 48%;
+  margin-bottom: 0;
+}
+
+.formulario form input[type="text"],
+.formulario form input[type="number"],
+.formulario form input[type="email"],
+.formulario form select,
+.formulario form details,
+.formulario form textarea {
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: 1px solid var(--decorado);
+  border-radius: 10px;
+  padding-left: 0.25rem;
+  margin: 0.75rem 0;
+}
+
+.formulario form details {
+  height: auto;
+  overflow: hidden;
+}
+
+#otrosEspecifica {
+  border: 0;
+}
+
+.formulario form textarea {
+  height: 10rem;
+  resize: none;
+  padding: 0.5rem 0.25rem;
+}
+
+.formulario form .presupuestoInputs select,
+.formulario form details .placeholderText {
+  color: #00000088;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  padding-left: 0;
+}
+
+::placeholder {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+
+.formulario form details .placeholderText {
+  padding: 0.3rem 0;
+}
+
+/* Términos y condiciones y Políticas de privacidad */
+.formulario form .politicaTerminos {
+  width: 266px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.formulario form .politicaTerminos p {
+  background-color: var(--fondo1);
+  border: 0;
+  border-radius: 0;
+  color: #000;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 11px;
+  margin-left: 0.5rem;
+}
+
+.formulario form .politicaTerminos p a {
+  color: var(--decorado);
+  text-decoration: none;
+}
+
+.formulario form button {
+  background-color: var(--decorado);
+  display: block;
+  width: 8rem;
+  padding: 0.25rem 0;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  color: var(--decorado2);
+  border-radius: 9999px;
+  font-family: 'Book Antiqua', arial;
+  font-size: 17px;
+  margin: 1rem auto 0;
+}
+
+.formulario form button:hover {
+  background-color: var(--decorado2);
+  color: var(--decorado);
+}
+
+.formulario form .marBottom {
+  width: 100%;
+  height: 1rem;
+}
 
 
 
@@ -70,7 +206,7 @@ background-color: var(--fondo1);
   }
 
   .formulario h1 {
-
+    padding-bottom: 0.5rem;
   }
 
   /* Imágenes */
@@ -80,8 +216,53 @@ background-color: var(--fondo1);
 
   .formulario .imgPc {
     display: block;
-    width: 50px;
+    width: 266px;
   }
   
   /* Formulario */
+  .formulario form {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .formulario form .presupuestoInputs p {
+    margin: 0 auto;
+  }
+
+  .formulario form input[type="text"],
+  .formulario form input[type="number"],
+  .formulario form input[type="email"],
+  .formulario form select,
+  .formulario form details,
+  .formulario form textarea {
+    width: 266px;
+  }
+
+  .formulario form .presupuestoInputs input[type="text"],
+  .formulario form .presupuestoInputs input[type="number"],
+  .formulario form .presupuestoInputs select,
+  .formulario form .presupuestoInputs details,
+  .formulario form .presupuestoInputs textarea {
+    margin: 0.65rem 0;
+  }
+
+  .formulario form .contactoInputs input[type="text"],
+  .formulario form .contactoInputs input[type="number"],
+  .formulario form .contactoInputs input[type="email"],
+  .formulario form .contactoInputs textarea {
+    margin: 0.15rem 0;
+  }
+
+  .formulario form .presupuestoInputs {
+    margin-left: 12.5rem;
+  }
+
+  .formulario form .contactoInputs {
+    margin-right: 12.5rem;
+  }
+
+  .formulario form .marBottom {
+    display: none;
+  }
 }
