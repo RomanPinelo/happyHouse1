@@ -33,7 +33,6 @@ background-color: var(--fondo1);
 }
 
 .formulario h1 {
-  background-color: salmon;  /* quitar al final */
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -59,28 +58,25 @@ background-color: var(--fondo1);
 
 /* Formulario */
 .formulario form {
-  background-color: #907335;/* Quitar al final */
   width: 90%;
   margin: 0 auto;
 }
 
-/* Quitar todo al final */
-.formulario form .presupuestoInputs {
-  background-color: #b3b3b3;
-}
-
 .formulario form .presupuestoInputs p {
-  background-color: yellowgreen;  /* Quitar al final */
   width: 96%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin: 0 auto;
+  font-size: 1rem;
 }
 
 .formulario form .presupuestoInputs p span {
   color: var(--decorado);
-  font-size: 15px;
+}
+
+.formulario form .contactoInputs p {
+  font-size: 1rem;
 }
 
 .formulario form .presupuestoInputs .maxMin {
@@ -145,9 +141,10 @@ background-color: var(--fondo1);
 /* Términos y condiciones y Políticas de privacidad */
 .formulario form .politicaTerminos {
   width: 266px;
-  height: auto;
+  height: 30px;
   display: flex;
   align-items: center;
+  margin: 0.9375rem 0;
 }
 
 .formulario form .politicaTerminos p {
@@ -190,7 +187,7 @@ background-color: var(--fondo1);
 
 .formulario form .marBottom {
   width: 100%;
-  height: 1rem;
+  height: 0.9375rem;
 }
 
 
@@ -202,11 +199,11 @@ background-color: var(--fondo1);
   /*********************************** Sección de formulario ***********************************/
   .formulario {
     width: 100%;
-    height: calc(100vh - 210px);
+    height: 490px;
   }
 
   .formulario h1 {
-    padding-bottom: 0.5rem;
+    padding: 2rem 0 2.1rem;
   }
 
   /* Imágenes */
@@ -216,7 +213,8 @@ background-color: var(--fondo1);
 
   .formulario .imgPc {
     display: block;
-    width: 266px;
+    width: 300px;
+    height: auto;
   }
   
   /* Formulario */
@@ -228,6 +226,11 @@ background-color: var(--fondo1);
 
   .formulario form .presupuestoInputs p {
     margin: 0 auto;
+  }
+
+  .formulario form .presupuestoInputs .maxMin {
+    background-color: #fff;
+    margin-top: 0;
   }
 
   .formulario form input[type="text"],
@@ -244,14 +247,26 @@ background-color: var(--fondo1);
   .formulario form .presupuestoInputs select,
   .formulario form .presupuestoInputs details,
   .formulario form .presupuestoInputs textarea {
-    margin: 0.65rem 0;
+    margin: 0.9375rem 0;
   }
 
   .formulario form .contactoInputs input[type="text"],
   .formulario form .contactoInputs input[type="number"],
   .formulario form .contactoInputs input[type="email"],
   .formulario form .contactoInputs textarea {
-    margin: 0.15rem 0;
+    margin: 0.9375rem 0;
+  }
+
+  .formulario form .contactoInputs input[type="text"] {
+    margin-top: 0;
+  }
+
+  .formulario form .contactoInputs textarea {
+    height: 7.5rem;
+  }
+
+  .formulario form .presupuestoInputs .adicionalesPropiedad {
+    margin-top: 0;
   }
 
   .formulario form .presupuestoInputs {
