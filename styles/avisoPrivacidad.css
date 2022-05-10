@@ -1,0 +1,61 @@
+/* Variables de color */
+:root {
+  --fondo1: #e6e6e6;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Mobile View 
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+.informacion {
+  background-color: var(--fondo1);
+}
+
+.informacion h1,
+.informacion h2 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.informacion h1 {
+  margin: 0;
+  padding-top: 2rem;
+}
+
+.informacion p {
+  margin: 1rem;
+  text-align: justify;
+}
+
+.informacion ul {
+  margin: 1rem 2rem;
+  text-align: justify;
+}
+
+.informacion .subtitulo {
+  font-weight: bold;
+  text-align: center;
+}
+
+.informacion .fecha {
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+}
+
+
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Desktop View
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+@media screen and (min-width: 1000px) {
+  .informacion p {
+    margin: 1rem 7.5rem;
+  }
+
+  .informacion ul {
+    margin: 1rem 8.75rem;
+  }
+
+  .informacion .subtitulo {
+    margin: 1rem 17rem;
+  }
+}
