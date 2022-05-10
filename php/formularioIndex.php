@@ -17,7 +17,7 @@
   $header .= "Content-Type: text/plain";
 
   // Asunto
-  $contactoAsunto = "Tengo una duda"
+  $contactoAsunto = "Tengo una duda";
 
   // Se construye el mensaje con los datos enviados
   $mensaje = "Este mensaje fue enviado por: " . $contactoNombre . "\r\n";
