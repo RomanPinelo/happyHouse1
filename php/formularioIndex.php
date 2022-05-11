@@ -24,8 +24,8 @@
   $mensaje .= "Sus datos son:" . "\r\n";
   $mensaje .= "Correo: " .  $contactoEmail . "\r\n";
   $mensaje .= "Teléfono: " . $contactoTelefono . "\r\n";
-  $mensaje .= "Su mensaje es: " . "\r\n";
   $mensaje .= "\r\n";
+  $mensaje .= "Su mensaje es: " . "\r\n";
   $mensaje .= $contactoMensaje . "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "Aceptó la política de privacidad, términos y condiciones: ";

@@ -67,18 +67,18 @@
   $mensaje .= "Municipio o alcadía: " . $muniAlcalPro . "." . "\r\n";
   $mensaje .= "Colonia: " . $coloniaPro . "." . "\r\n";
   $mensaje .= "Calle: " . $callePro . "." . "\r\n";
-  $mensaje .= "No. exterior: " . $numExtPro . "." . "\r\n";
-  $mensaje .= "No. interior: " . $numIntPro . "." . "\r\n";
+  $mensaje .= "No. exterior: " . $numExtPro . "\r\n";
+  $mensaje .= "No. interior: " . $numIntPro . "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "\r\n";
-  $mensaje .= "Sobre su propiedad";
+  $mensaje .= "Sobre su propiedad" . "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "Es: " . $tipoPro . "." . "\r\n";
-  $mensaje .= "La superficie habitable es: " . $supHabitablePro . "m<sup>2</sup>." . "\r\n";
-  $mensaje .= "Tiene: " . $habitacionesPro . "habitaciones." . "\r\n";
-  $mensaje .= "Tiene: " . $banosPro . "baños." . "\r\n";
-  $mensaje .= "Tiene: " . $estacionamientoPro . "estacionamientos." . "\r\n";
+  $mensaje .= "La superficie habitable es: " . $supHabitablePro . " m2." . "\r\n";
+  $mensaje .= "Tiene: " . $habitacionesPro . " habitaciones." . "\r\n";
+  $mensaje .= "Tiene: " . $banosPro . " baños." . "\r\n";
+  $mensaje .= "Tiene: " . $estacionamientoPro . " estacionamientos." . "\r\n";
   $mensaje .= "El tipo de estacionamiento es: " . $tipoEstacionamientoPro . "." . "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "Sus adicionales son:" . "\r\n";
@@ -104,8 +104,8 @@
 
   $mensaje .= "Si es edificio" . "\r\n";
   $mensaje .= "\r\n";
-  $mensaje .= "La edad del edificio es: " . $edadEdifPro. "años." . "\r\n";
-  $mensaje .= "El total de pisos del edificio son: " . $pisosEdifPro. "pisos." . "\r\n";
+  $mensaje .= "La edad del edificio es: " . $edadEdifPro. " años." . "\r\n";
+  $mensaje .= "El total de pisos del edificio son: " . $pisosEdifPro. " pisos." . "\r\n";
   $mensaje .= "El departamento se encuentra en el piso: " . $pisoPropiPro . "." . "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "\r\n";

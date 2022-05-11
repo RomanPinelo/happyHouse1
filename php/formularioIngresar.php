@@ -44,31 +44,31 @@
   $mensaje .=  "\r\n";
   $mensaje .= "Las características deseadas para su nuevo hogar son: " . "\r\n";
   $mensaje .=  "\r\n";
-  $mensaje .= "Presupuesto mínimo: " . $cantidadMin . "\r\n";
-  $mensaje .= "Presupuesto mínimo: " . $cantidadMax . "\r\n";
-  $mensaje .= "Zona de interes: " . $zonaInteres . "\r\n";
-  $mensaje .= "Tipo de propiedad: " . $tipoPropiedad . "\r\n";
-  $mensaje .= "Superficie: " . $superficiePro . "\r\n";
-  $mensaje .= "Habitaciones: " . $habitacionesPro . "\r\n";
-  $mensaje .= "Baños: " . $banosPro . "\r\n";
-  $mensaje .= "Estacionamientos: " . $estacionamientoPro . "\r\n";
+  $mensaje .= "Presupuesto mínimo: " . $cantidadMin . " MXN." . "\r\n";
+  $mensaje .= "Presupuesto máximo: " . $cantidadMax . " MXN." . "\r\n";
+  $mensaje .= "Zona de interes: " . $zonaInteres . "." . "\r\n";
+  $mensaje .= "Tipo de propiedad: " . $tipoPropiedad . "." . "\r\n";
+  $mensaje .= "Superficie: " . $superficiePro . " m2." . "\r\n";
+  $mensaje .= "Habitaciones: " . $habitacionesPro . "." . "\r\n";
+  $mensaje .= "Baños: " . $banosPro . "." . "\r\n";
+  $mensaje .= "Estacionamientos: " . $estacionamientoPro . "." . "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "Amenidades:" . "\r\n";
   
   if (!empty($seguridadPro)) {
-    $mensaje .= "* Seguridad" . "\r\n";
+    $mensaje .= "* Seguridad." . "\r\n";
   }
   if (!empty($gimnasioPro)) {
-    $mensaje .= "* Gimnasio" . "\r\n";
+    $mensaje .= "* Gimnasio." . "\r\n";
   }
   if (!empty($albercaPro)) {
-    $mensaje .= "* Alberca" . "\r\n";
+    $mensaje .= "* Alberca." . "\r\n";
   }
   if (!empty($roofGardenPro)) {
-    $mensaje .= "* Roof Garden" . "\r\n";
+    $mensaje .= "* Roof Garden." . "\r\n";
   }
   if (!empty($otrosPro)) {
-    $mensaje .= $otrosEspeciPro . "\r\n";
+    $mensaje .= "* Otros: " . $otrosEspeciPro . "." . "\r\n";
   }
 
   $mensaje .=  "\r\n";
