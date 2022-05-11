@@ -118,12 +118,7 @@ html {
 }
 
 /*********************************** Sección de Proyectos y desarrollos ***********************************/
-.proyeDesa {
-  background-color: #90733577;/* Quitar al final */
-}
-
 .proyeDesa h2{
-  background-color: #e6e6e655;/* Quitar al final */
   text-align: center;
   color: var(--decorado);
   font-weight: 400;
@@ -154,6 +149,7 @@ html {
 .proyeDesa .container__slider .slider .slider__section a {
   display: block;
   width: 100%;
+  height: 100%;
 }
 
 .proyeDesa .container__slider .slider .slider__section a .slider__img {
@@ -560,10 +556,74 @@ footer .footer__redes a:hover i {
     align-items: center;
   }
 
-  /* Slider en celular */
-  /* .proyeDesa .sliderCel {
-    
-  } */
+  /* Slider en PC */
+  .proyeDesa .container__slider {
+    width: 100%;
+  }
+
+  .proyeDesa .container__slider .slider {
+    display: flex;
+    width: 166.65%; /* Depende del número de imágenes x * 100% */
+    height: 17.5rem;
+    margin-left: -33.33%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+  }
+
+  .proyeDesa .container__slider .slider .slider__section {
+    width: 33.33%;
+  }
+
+  .proyeDesa .container__slider .slider .slider__section a {
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .proyeDesa .container__slider .slider .slider__section a .slider__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .proyeDesa .container__slider .slider__btn {
+    background-color: #ffffff88;
+    width: 33.33%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .proyeDesa .container__slider .slider__btn span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: var(--fondo);
+    color: var(--decorado);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .proyeDesa .container__slider .slider__btn span:hover {
+    background-color: #fff;
+  }
+
+  .proyeDesa .container__slider .slider__btn--left {
+    left: 0;
+  }
+
+  .proyeDesa .container__slider .slider__btn--right {
+    right: 0;
+  }
 
   /*********************************** Sección de Socios estratégicos ***********************************/
   .alianzas .alianzas__logos {
