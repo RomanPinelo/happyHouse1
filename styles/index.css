@@ -123,7 +123,7 @@ html {
 }
 
 .proyeDesa h2{
-  /*background-color: #e6e6e655;/* Quitar al final */
+  background-color: #e6e6e655;/* Quitar al final */
   text-align: center;
   color: var(--decorado);
   font-weight: 400;
@@ -132,51 +132,74 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-.proyeDesa .proyeDesa__cards {
-  background-color: #ff000055;/* Quitar al final */
-  width: 100%;
-  height: 12.5rem;
-  position: relative;
+/* Slider en celular */
+.proyeDesa .container__slider {
+  width: 95%;
+  margin: auto;
   overflow: hidden;
+  position: relative;
 }
 
-.proyeDesa .proyeDesa__cards button,
-.proyeDesa .proyeDesa__cards ul {
-  position: absolute;
-}
-
-.proyeDesa .proyeDesa__cards ul {
-  width: 500%;
-  height: 100%;
-  top: 0;
-  left: 0;
+.proyeDesa .container__slider .slider {
   display: flex;
-  list-style: none;
+  width: 500%; /* Depende del número de imágenes x * 100% */
+  height: 15rem;
+  margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
 }
 
-.proyeDesa .proyeDesa__cards ul li a img {
+.proyeDesa .container__slider .slider .slider__section {
+  width: 100%;
+}
+
+.proyeDesa .container__slider .slider .slider__section a {
   display: block;
   width: 100%;
 }
 
-.proyeDesa .proyeDesa__cards button {
-  width: 20%;
+.proyeDesa .container__slider .slider .slider__section a .slider__img {
+  display: block;
+  width: 100%;
   height: 100%;
-  top: 0;
+  object-fit: cover;
+}
+
+.proyeDesa .container__slider .slider__btn {
   background-color: #ffffff88;
-  outline: none;
-  border: 0;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proyeDesa .container__slider .slider__btn span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: var(--fondo);
+  color: var(--decorado);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
   cursor: pointer;
 }
 
-.proyeDesa .proyeDesa__cards .leftButton {
-  left: 0;
-  z-index: 3;
+.proyeDesa .container__slider .slider__btn span:hover {
+  background-color: #fff;
 }
 
-.proyeDesa .proyeDesa__cards .rightButton {
-  left: 80%;
-  z-index: 3;
+.proyeDesa .container__slider .slider__btn--left {
+  left: 0;
+}
+
+.proyeDesa .container__slider .slider__btn--right {
+  right: 0;
 }
 
 
@@ -537,27 +560,10 @@ footer .footer__redes a:hover i {
     align-items: center;
   }
 
-  .proyeDesa .proyeDesa__cards {
-    height: 226px;
-  }
-
-  .proyeDesa .proyeDesa__cards button {
-    width: 30%;
-  }
-
-  .proyeDesa .proyeDesa__cards .rightButton {
-    left: 70%;
-  }
-
-  .proyeDesa .proyeDesa__cards ul li  {
-    width: 5%;
-    margin: 0 0.85%;
-  }
-
-  .proyeDesa .proyeDesa__cards ul li a img {
-    object-fit: cover;
-    width: 21.2rem;
-  }
+  /* Slider en celular */
+  /* .proyeDesa .sliderCel {
+    
+  } */
 
   /*********************************** Sección de Socios estratégicos ***********************************/
   .alianzas .alianzas__logos {

@@ -84,17 +84,39 @@
 
       <section class="proyeDesa">
         <h2>Proyectos y Desarrollos</h2>
-        <div class="proyeDesa__cards">
-          <button class="leftButton"><span><i class="fa fa-angle-left" aria-hidden="true"></i></span></button>
-          <ul>
-            <li><a href=""><img src="./propiedades/cipres.jpeg" alt="Desarrollo" loading="lazy"></a></li>
-            <li><a href=""><img src="./propiedades/dam.jpeg" alt="Desarrollo" loading="lazy"></a></li>
-            <li><a href=""><img src="./propiedades/citta.jpeg" alt="Desarrollo" loading="lazy"></a></li>
-            <li><a href=""><img src="./propiedades/mitla.jpeg" alt="Desarrollo" loading="lazy"></a></li>
-            <li><a href=""><img src="./propiedades/watuum.jpeg" alt="Desarrollo" loading="lazy"></a></li>
-          </ul>
-          <button class="rightButton"><span><i class="fa fa-angle-right" aria-hidden="true"></i></span></button>
+
+        <div class="container__slider">
+          <div class="slider" id="slider">
+            <div class="slider__section">
+              <a href="#">
+                <img src="./img/desarrollos/cipres.jpeg" alt="Imagen" class="slider__img">
+              </a>
+            </div>
+            <div class="slider__section">
+              <a href="#">
+                <img src="./img/desarrollos/citta.jpeg" alt="Imagen" class="slider__img">
+              </a>
+            </div>
+            <div class="slider__section">
+              <a href="#">
+                <img src="./img/desarrollos/dam.jpeg" alt="Imagen" class="slider__img">
+              </a>
+            </div>
+            <div class="slider__section">
+              <a href="#">
+                <img src="./img/desarrollos/mitla.jpeg" alt="Imagen" class="slider__img">
+              </a>
+            </div>
+            <div class="slider__section">
+              <a href="#">
+                <img src="./img/desarrollos/watuum.jpeg" alt="Imagen" class="slider__img">
+              </a>
+            </div>
+          </div>
+          <div class="slider__btn slider__btn--right" id="btn-right"><span>&#62;</span></div>
+          <div class="slider__btn slider__btn--left" id="btn-left"><span>&#60;</span></div>
         </div>
+
       </section> <!-- class proyeDesa -->
 
       <section class="alianzas">
@@ -197,6 +219,7 @@
 
 
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/index.js"></script>
   </body>
 
 </html>
