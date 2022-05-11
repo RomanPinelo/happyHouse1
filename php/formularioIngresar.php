@@ -49,9 +49,9 @@
   $mensaje .= "Zona de interes: " . $zonaInteres . "." . "\r\n";
   $mensaje .= "Tipo de propiedad: " . $tipoPropiedad . "." . "\r\n";
   $mensaje .= "Superficie: " . $superficiePro . " m2." . "\r\n";
-  $mensaje .= "Habitaciones: " . $habitacionesPro . "." . "\r\n";
-  $mensaje .= "Baños: " . $banosPro . "." . "\r\n";
-  $mensaje .= "Estacionamientos: " . $estacionamientoPro . "." . "\r\n";
+  $mensaje .= "Habitaciones: " . $habitacionesPro . "\r\n";
+  $mensaje .= "Baños: " . $banosPro . "\r\n";
+  $mensaje .= "Estacionamientos: " . $estacionamientoPro . "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "Amenidades:" . "\r\n";
   

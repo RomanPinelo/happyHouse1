@@ -31,9 +31,9 @@
   $mensaje .= "Aceptó la política de privacidad, términos y condiciones: ";
 
   if (!empty($contactoPolPrivacidad)) {
-    $mensaje .= "Si" . "\r\n";
+    $mensaje .= "Si." . "\r\n";
   } else {
-    $mensaje .= "No" . "\r\n";
+    $mensaje .= "No." . "\r\n";
   }
 
   $mensaje .= "\r\n";

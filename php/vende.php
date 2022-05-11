@@ -106,7 +106,7 @@
   $mensaje .= "\r\n";
   $mensaje .= "La edad del edificio es: " . $edadEdifPro. " años." . "\r\n";
   $mensaje .= "El total de pisos del edificio son: " . $pisosEdifPro. " pisos." . "\r\n";
-  $mensaje .= "El departamento se encuentra en el piso: " . $pisoPropiPro . "." . "\r\n";
+  $mensaje .= "El departamento se encuentra en el piso: " . $pisoPropiPro . "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "\r\n";
   $mensaje .= "La orientación es: " . $orientacionPro . "." . "\r\n";
