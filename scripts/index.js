@@ -10,7 +10,7 @@ const btnRight = document.querySelector("#btn-right");
 slider.insertAdjacentElement('afterbegin', sliderSectionLast); //Coloca el último elemento al inicio del slider
 
 // Funciones
-function NextCel() {
+function proyectosNextCel() {
   let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
   slider.style.marginLeft = "-200%";
   slider.style.transition = "all 0.5s";
@@ -21,7 +21,7 @@ function NextCel() {
   }, 500);
 }
 
-function PrevCel() {
+function proyectosPrevCel() {
   let sliderSection = document.querySelectorAll(".slider__section");
   let sliderSectionLast = sliderSection[sliderSection.length - 1];
   slider.style.marginLeft = "0";
@@ -33,7 +33,7 @@ function PrevCel() {
   }, 500);
 }
 
-function NextPc() {
+function proyectosNextPc() {
   let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
   slider.style.marginLeft = "-66.66%";
   slider.style.transition = "all 0.5s";
@@ -44,7 +44,7 @@ function NextPc() {
   }, 500);
 }
 
-function PrevPc() {
+function proyectosPrevPc() {
   let sliderSection = document.querySelectorAll(".slider__section");
   let sliderSectionLast = sliderSection[sliderSection.length - 1];
   slider.style.marginLeft = "0";
@@ -57,32 +57,32 @@ function PrevPc() {
 }
 
 btnRight.addEventListener('click', function(){
-  NextCel();
+  proyectosNextCel();
 });
 
 btnLeft.addEventListener('click', function(){
-  PrevCel();
+  proyectosPrevCel();
 });
 
 // Esto hace que sea automático y es opcional
 setInterval(function() {
-  NextCel();
+  proyectosNextCel();
 }, 5000);
 
 
 // Slider de proyectos y desarrollos en PC
 if (screen.width > 1000) {
   btnRight.addEventListener('click', function(){
-    NextPc();
+    proyectosNextPc();
   });
   
   btnLeft.addEventListener('click', function(){
-    PrevPc();
+    proyectosPrevPc();
   });
   
   // Esto hace que sea automático y es opcional
   setInterval(function() {
-    NextPc();
+    proyectosNextPc();
   }, 5000);
 }
 

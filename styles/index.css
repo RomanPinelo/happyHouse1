@@ -202,8 +202,7 @@ html {
 
 /*********************************** Sección de Socios estratégicos ***********************************/
 .alianzas {
-  background-color: var(--fondo1); /* Cuando pasen las imagenes con el mismo fondo, cambiarlo */
-  /* background-color: #fff; */
+  background-color: aqua; /* Al final cambiarlo a var(--fondo1) */
   margin: 1rem 0;
 }
 
@@ -213,29 +212,53 @@ html {
   color: var(--decorado);
   font-size: 31px;
   font-family: 'Open Sans', sans-serif;
+  margin: 0 0 1rem;
+  padding-top: 1rem;
 }
 
-.alianzas .alianzas__logos button {
-  display: none;
-}
-
-.alianzas .alianzas__logos ul li {
+/* Slider en celular */
+.alianzas .container__slider1 {
+  position: relative;
   width: 100%;
-  list-style: none;
+  height: 12.5rem;
 }
 
-.alianzas .alianzas__logos ul li div {
-  width: 95%;
-  height: 12rem;
-  margin: 1rem auto;
-}
-
-.alianzas .alianzas__logos ul li div img {
-  display: block;
-  width: 100%;
+.alianzas .container__slider1 .slider__btn1 {
+  background-color: var(--fondo1);
+  width: 10%;
   height: 100%;
-  object-fit: contain;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--decorado);
+  font-size: 2rem;
+  font-family: monospace;
 }
+
+.alianzas .container__slider1 .slider__btn1:hover {
+  background-color: #cfcfcf;
+}
+
+.alianzas .container__slider1 .slider__btn--left1 {
+  left: 0;
+}
+
+.alianzas .container__slider1 .slider__btn--right1 {
+  right: 0;
+}
+
+.alianzas .container__slider1 .sliderImg {
+  background-color: #907335;  /* Cambiar al final por var(--fondo1) */
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  overflow: hidden;
+}
+
 
 .alianzas .alianzas__texto {
   background-color: #b3b3b3;
@@ -626,33 +649,7 @@ footer .footer__redes a:hover i {
   }
 
   /*********************************** Sección de Socios estratégicos ***********************************/
-  .alianzas .alianzas__logos {
-    display: flex;
-  }
-  
-  .alianzas .alianzas__logos button {
-    display: block;
-    width: 20%;
-    border: 0;
-    color: var(--decorado);
-    cursor: pointer;
-  }
-
-  .alianzas .alianzas__logos ul {
-    width: 60%;
-  }
-  
-  .alianzas .alianzas__logos ul li {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .alianzas .alianzas__logos ul li div {
-    width: 22.5%;
-    height: 12rem;
-  }
+  /* Slider en PC */
 
   .alianzas .alianzas__texto {
     height: 7rem;
