@@ -106,6 +106,16 @@ background-color: var(--fondo1);
   margin: 0.75rem 0;
 }
 
+.formulario form input[type=number]::-webkit-inner-spin-button,
+.formulario form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formulario form input[type=number] { 
+  -moz-appearance:textfield; 
+}
+
 .formulario form details {
   height: auto;
   overflow: hidden;

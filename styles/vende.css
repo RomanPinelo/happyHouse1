@@ -119,6 +119,16 @@ html {
   border-radius: 10px;
 }
 
+.formulario form ul li div .inputs input[type=number]::-webkit-inner-spin-button,
+.formulario form ul li div .inputs input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formulario form ul li div .inputs input[type=number] { 
+  -moz-appearance:textfield; 
+}
+
 .formulario form ul li div .inputs details {
   height: auto;
   padding: 0;
