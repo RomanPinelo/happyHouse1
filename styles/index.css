@@ -259,6 +259,26 @@ html {
   overflow: hidden;
 }
 
+.alianzas .container__slider1 .sliderImg .slider1 {
+  display: flex;
+  width: 500%; /* Depende del número de imágenes x * 100% */
+  height: 15rem;
+  margin-left: -50%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+}
+
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 {
+  width: 50%;
+}
+
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .slider__img1 {
+  background-color: #0b0020;
+  display: block;
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+  margin: auto;
+}
+
 
 .alianzas .alianzas__texto {
   background-color: #b3b3b3;

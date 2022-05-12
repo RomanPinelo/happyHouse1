@@ -1,5 +1,4 @@
-// Slider de proyectos y desarrollos en celular
-// Variables y constantes
+// Variables y constantes de proyectos y desarrollos
 const slider = document.querySelector("#slider");
 let sliderSection = document.querySelectorAll(".slider__section");
 let sliderSectionLast = sliderSection[sliderSection.length - 1]; //Siempre obtengo la última imagen para ponerla al principio y se vea el efecto del slider
@@ -8,8 +7,18 @@ const btnLeft = document.querySelector("#btn-left");
 const btnRight = document.querySelector("#btn-right");
 
 slider.insertAdjacentElement('afterbegin', sliderSectionLast); //Coloca el último elemento al inicio del slider
+// __________________________________________________________________________________________________________________
+// Variables y constantes de socios
+const slider1 = document.querySelector("#slider1");
+let sliderSection1 = document.querySelectorAll(".slider__section1");
+let sliderSectionLast1 = sliderSection1[sliderSection1.length - 1]; //Siempre obtengo la última imagen para ponerla al principio y se vea el efecto del slider
 
-// Funciones
+const btnLeft1 = document.querySelector("#btn-left1");
+const btnRight1 = document.querySelector("#btn-right1");
+
+slider1.insertAdjacentElement('afterbegin', sliderSectionLast1); //Coloca el último elemento al inicio del slider
+
+// Funciones de proyectos y desarrollos en celular
 function proyectosNextCel() {
   let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
   slider.style.marginLeft = "-200%";
@@ -33,6 +42,7 @@ function proyectosPrevCel() {
   }, 500);
 }
 
+// Funciones de proyectos y desarrollos en PC
 function proyectosNextPc() {
   let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
   slider.style.marginLeft = "-66.66%";
@@ -55,7 +65,56 @@ function proyectosPrevPc() {
     slider.style.marginLeft = "-33.33%";
   }, 500);
 }
+// ______________________________________________
+// Funciones de socios en celular
+function sociosNextCel() {
+  let sliderSectionFirst1 = document.querySelectorAll(".slider__section1")[0];
+  slider1.style.marginLeft = "-100%";
+  slider1.style.transition = "all 0.5s";
+  setTimeout(function(){
+    slider1.style.transition = "none";
+    slider1.insertAdjacentElement('beforeend', sliderSectionFirst1);  //El primer elemento se mueve al final
+    slider1.style.marginLeft = "-50%";
+  }, 500);
+}
 
+function sociosPrevCel() {
+  let sliderSection1 = document.querySelectorAll(".slider__section1");
+  let sliderSectionLast1 = sliderSection1[sliderSection1.length - 1];
+  slider1.style.marginLeft = "0";
+  slider1.style.transition = "all 0.5s";
+  setTimeout(function(){
+    slider1.style.transition = "none";
+    slider1.insertAdjacentElement('afterbegin', sliderSectionLast1);  //El último elemento se mueve al inicio
+    slider1.style.marginLeft = "-50%";
+  }, 500);
+}
+
+// Funciones de socios en PC
+function sociosNextPc() {
+  let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
+  slider.style.marginLeft = "-66.66%";
+  slider.style.transition = "all 0.5s";
+  setTimeout(function(){
+    slider.style.transition = "none";
+    slider.insertAdjacentElement('beforeend', sliderSectionFirst);  //El primer elemento se mueve al final
+    slider.style.marginLeft = "-33.33%";
+  }, 500);
+}
+
+function sociosPrevPc() {
+  let sliderSection = document.querySelectorAll(".slider__section");
+  let sliderSectionLast = sliderSection[sliderSection.length - 1];
+  slider.style.marginLeft = "0";
+  slider.style.transition = "all 0.5s";
+  setTimeout(function(){
+    slider.style.transition = "none";
+    slider.insertAdjacentElement('afterbegin', sliderSectionLast);  //El último elemento se mueve al inicio
+    slider.style.marginLeft = "-33.33%";
+  }, 500);
+}
+
+// Slider de proyectos y desarrllos en celular
 btnRight.addEventListener('click', function(){
   proyectosNextCel();
 });
@@ -87,5 +146,16 @@ if (screen.width > 1000) {
 }
 
 
+// Slider de socios en celular
+btnRight1.addEventListener('click', function(){
+  sociosNextCel();
+});
 
-// Slider socios estrategicos en celular
+btnLeft1.addEventListener('click', function(){
+  sociosPrevCel();
+});
+
+// Esto hace que sea automático y es opcional
+setInterval(function() {
+  sociosNextCel();
+}, 5000);
