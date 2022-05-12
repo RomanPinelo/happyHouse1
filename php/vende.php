@@ -1,7 +1,7 @@
 <?php 
 
   // Se establece la dirección de a quien va dirigido el mensaje y asunto del correo.
-  $destinatario = "l.espi1213@gmail.com"; //Al final cambiar a contacto@happyhousemx.com
+  $destinatario = "contacto@happyhousemx.com";
 
   // Variables del formulario
   $estadoPro = $_POST['estado'];
@@ -154,9 +154,9 @@
   $mensaje .= "¡Ponerse en contacto inmediatamente!";
 
   if (mail($destinatario, $contactoAsunto, utf8_decode($mensaje), $header)) {
-    echo "<script>setTimeout(\"location.href='../html/correoEnviado.html'\", 250)</script>";
+    echo "<script>setTimeout(\"location.href='../html/correoEnviado.html'\", 100)</script>";
   } else {
-    echo "<script>setTimeout(\"location.href='../html/correoNoEnviado.html'\", 250)</script>";
+    echo "<script>setTimeout(\"location.href='../html/correoNoEnviado.html'\", 100)</script>";
   }
 
 ?>

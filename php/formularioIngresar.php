@@ -1,7 +1,7 @@
 <?php 
 
   // Se establece la dirección de a quien va dirigido el mensaje y asunto del correo.
-  $destinatario = "l.espi1213@gmail.com"; //Al final cambiar a contacto@happyhousemx.com
+  $destinatario = "contacto@happyhousemx.com";
 
   // Variables del formulario
   $cantidadMin = $_POST['minimo'];
@@ -33,7 +33,7 @@
   $header .= "Content-Type: text/plain";
 
   // Asunto
-  $contactoAsunto = "Características deseadas en nueva propiedad";
+  $contactoAsunto = "Quiero comprar";
 
   // Se construye el mensaje con los datos enviados
   $mensaje = "Este mensaje fue enviado por: " . $contactoNombre . "\r\n";
@@ -91,9 +91,9 @@
   $mensaje .= "¡Ponerse en contacto inmediatamente!";
 
   if (mail($destinatario, $contactoAsunto, utf8_decode($mensaje), $header)) {
-    echo "<script>setTimeout(\"location.href='../html/correoEnviadoCompra.html'\", 250)</script>";
+    echo "<script>setTimeout(\"location.href='../html/correoEnviadoCompra.html'\", 100)</script>";
   } else {
-    echo "<script>setTimeout(\"location.href='../html/correoNoEnviado.html'\", 250)</script>";
+    echo "<script>setTimeout(\"location.href='../html/correoNoEnviado.html'\", 100)</script>";
   }
 
 ?>
