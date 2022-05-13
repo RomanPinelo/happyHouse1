@@ -92,25 +92,25 @@ function sociosPrevCel() {
 
 // Funciones de socios en PC
 function sociosNextPc() {
-  let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
-  slider.style.marginLeft = "-66.66%";
-  slider.style.transition = "all 0.5s";
+  let sliderSectionFirst1 = document.querySelectorAll(".slider__section1")[0];
+  slider1.style.marginLeft = "-50%";
+  slider1.style.transition = "all 0.5s";
   setTimeout(function(){
-    slider.style.transition = "none";
-    slider.insertAdjacentElement('beforeend', sliderSectionFirst);  //El primer elemento se mueve al final
-    slider.style.marginLeft = "-33.33%";
+    slider1.style.transition = "none";
+    slider1.insertAdjacentElement('beforeend', sliderSectionFirst1);  //El primer elemento se mueve al final
+    slider1.style.marginLeft = "-25%";
   }, 500);
 }
 
 function sociosPrevPc() {
-  let sliderSection = document.querySelectorAll(".slider__section");
-  let sliderSectionLast = sliderSection[sliderSection.length - 1];
-  slider.style.marginLeft = "0";
-  slider.style.transition = "all 0.5s";
+  let sliderSection1 = document.querySelectorAll(".slider__section1");
+  let sliderSectionLast1 = sliderSection1[sliderSection1.length - 1];
+  slider1.style.marginLeft = "0";
+  slider1.style.transition = "all 0.5s";
   setTimeout(function(){
-    slider.style.transition = "none";
-    slider.insertAdjacentElement('afterbegin', sliderSectionLast);  //El último elemento se mueve al inicio
-    slider.style.marginLeft = "-33.33%";
+    slider1.style.transition = "none";
+    slider1.insertAdjacentElement('afterbegin', sliderSectionLast1);  //El último elemento se mueve al inicio
+    slider1.style.marginLeft = "-25%";
   }, 500);
 }
 
@@ -159,3 +159,19 @@ btnLeft1.addEventListener('click', function(){
 setInterval(function() {
   sociosNextCel();
 }, 5000);
+
+// Slider de socios en PC
+if (screen.width > 1000) {
+  btnRight1.addEventListener('click', function(){
+    sociosNextPc();
+  });
+  
+  btnLeft1.addEventListener('click', function(){
+    sociosPrevPc();
+  });
+  
+  // Esto hace que sea automático y es opcional
+  setInterval(function() {
+    sociosNextPc();
+  }, 5000);
+}
