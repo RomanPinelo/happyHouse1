@@ -292,6 +292,27 @@ html {
   margin: auto;
 }
 
+/* anchos de cada imagen */
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .century,
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .localty,
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .legan,
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .creditaria {
+  width: 58%;
+}
+
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .deca {
+  width: 37.5%;
+}
+
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .dreams {
+  width: 90%;
+}
+
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .lezgo {
+  width: 42.5%;
+}
+
+
 
 .alianzas .alianzas__texto {
   background-color: #b3b3b3;
