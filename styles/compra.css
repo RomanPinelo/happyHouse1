@@ -281,10 +281,10 @@ flex-wrap: wrap;}
   .ayudaBuscar .ayudaBuscar__img {
     display: block;
     position: absolute;
+    object-fit: cover;
   }
 
   .ayudaBuscar .imagen1 {
-    background-color: #907335;  /* Quitar al final */
     width: 876px;
     height: 315px;
     bottom: 0;
@@ -292,7 +292,6 @@ flex-wrap: wrap;}
   }
 
   .ayudaBuscar .imagen2 {
-    background-color: #907335;  /* Quitar al final */
     width: 470px;
     height: 268px;
     top: 0;
