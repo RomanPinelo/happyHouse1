@@ -36,6 +36,7 @@ html {
 /* Menú por anclaje */
 .menuAnclaje {
   width: 100%;
+  height: 32.5px;
   background-color: var(--fondo);
   display: flex;
   justify-content: space-around;
@@ -44,20 +45,15 @@ html {
 .menuAnclaje a {
   text-decoration: none;
   color: #fff;
+  line-height: 32.5px;
 }
 
 .menuAnclaje a:hover {
   color: var(--decorado);
 }
 
-.menuAnclaje a:focus {
-  color: var(--decorado);
-}
-
 /* Sección de información */
 .infoDesarrollo {
-  min-height: 10rem;  /* Quitar al final */
-  background-color: #e6e6e6;  /* Quitar al final */
   width: 100%;
 }
 
@@ -130,8 +126,181 @@ html {
 .infoDesarrollo .infoDesarrollo--texto {
   width: 95%;
   margin: 1rem auto;
-  min-height: 3rem;/* Quitar al final */
-  background-color: #907335;/* Quitar al final */
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .direccionDesarrollo {
+  text-align: center;
+  margin: 0 0 0.5rem;
+  font-size: 16px;
+  color: #00000088;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .precioDesarrollo {
+  text-align: center;
+  color: var(--decorado);
+  font-size: 19px;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .precioDesarrollo span {
+  font-size: 14px;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .estadoDesarrollo,
+.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .proyectoDesarrollo,
+.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .nombreDesarrollo,
+.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .tipoDesarrollo {
+  margin: 0.5rem 0;
+  font-size: 18px;
+  color: #00000088;
+  text-align: center;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .proyectoDesarrollo {
+  padding-top: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Subtítulos */
+.infoDesarrollo .infoDesarrollo--texto h3 {
+  margin: 2rem 0 1rem;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .descripcion {
+  text-align: justify;
+}
+
+/* Planos de distribución */
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion {
+  width: 100%;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--fondo);
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu button {
+  display: block;
+  width: 5rem;
+  height: 2rem;
+  margin: 0.5rem 0;
+  background-color: var(--decorado);
+  color: var(--decorado2);
+  outline: none;
+  border: 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu button:hover {
+  background-color: var(--decorado2);
+  color: var(--decorado);
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img {
+  width: 100%;
+  height: 14rem;
+  margin-top: 1rem;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/* mapa de ubicación */
+.infoDesarrollo .infoDesarrollo--texto iframe {
+  display: block;
+  width: 100%;
+  height: 15rem;
+}
+
+/* Texto de formulario */
+.infoDesarrollo .infoDesarrollo--texto .visitanosFormulario {
+  text-align: justify;
+}
+
+/* Formulario */
+.infoDesarrollo .infoDesarrollo--texto form {
+  width: 300px;
+  height: 21rem;
+  border: 1px solid #b3b3b3;
+  margin: 1rem auto;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input {
+  display: block;
+  width: 266px;
+  height: 26px;
+  font-size: 17px;
+  margin: 1rem auto;
+  outline: none;
+  border: 1px solid var(--decorado);
+  border-radius: 10px;
+  padding-left: 0.5rem;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  margin: 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input[type=number]::-webkit-inner-spin-button,
+.infoDesarrollo .infoDesarrollo--texto form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input[type=number] { 
+  -moz-appearance:textfield; 
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: #00000055;
+  }
+
+.infoDesarrollo .infoDesarrollo--texto form .politicaTerminos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form .politicaTerminos p {
+  width: 92%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form .politicaTerminos p a {
+  text-decoration: none;
+  color: var(--decorado);
+}
+
+.infoDesarrollo .infoDesarrollo--texto form button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 2.25rem;
+  background-color: var(--decorado);
+  color: var(--decorado2);
+  border: 2px solid var(--decorado);
+  outline: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form button:hover {
+  background-color: var(--decorado2);
+  color: var(--decorado);
 }
 
 /* Columna de imágenes en celular */
@@ -166,12 +335,46 @@ html {
     width: 65%;
     margin: 0;
   }
+  
+  .infoDesarrollo .infoDesarrollo--texto .direccionPrecio .direccion {
+    font-size: 14px;
+    height: 27px;
+    color: #00000088;
+    line-height: 27px;
+  }
+  
+  .infoDesarrollo .infoDesarrollo--texto .direccionPrecio .precio {
+    color: var(--decorado);
+    height: 27px;
+    font-size: 24px;
+  }
+  
+  .infoDesarrollo .infoDesarrollo--texto .direccionPrecio .precio span {
+    font-size: 14px;
+  }
+
+  /* Planos de distribución */
+  .infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img {
+    height: 23.5rem;
+  }
+
+  /* Texto de formulario */
+  .infoDesarrollo .infoDesarrollo--texto .visitanosFormulario {
+    margin-left: 2rem;
+  }
 
   /* Columna de imágenes en PC */
   .infoDesarrollo .infoDesarrollo--imagenesPC {
     display: block;
     width: 35%;
-    background-color: aqua;  /* Quitar al final */
-    min-height: 3rem;  /* Quitar al final */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  .infoDesarrollo .infoDesarrollo--imagenesPC img {
+    display: block;
+    width: 95%;
   }
 }
