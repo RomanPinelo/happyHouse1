@@ -90,6 +90,10 @@ html {
   font-family: 'Book Antiqua', arial;
 }
 
+.presentacion .presentacion__texto .comprar {
+  margin-bottom: 0.1rem;
+}
+
 .presentacion .presentacion__texto a span {
   font-size: 18px;
 }
@@ -599,6 +603,7 @@ footer .footer__redes a:hover i {
 
   .presentacion .presentacion__texto .comprar {
     margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   /*********************************** Sección de ¿Quiénes somos? ***********************************/
@@ -680,6 +685,10 @@ footer .footer__redes a:hover i {
   }
 
   /*********************************** Sección de Socios estratégicos ***********************************/
+  .alianzas {
+    margin-top: 2rem;
+  }
+
   /* Slider en PC */
   .alianzas .container__slider1 {
     height: 13rem;
