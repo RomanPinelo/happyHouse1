@@ -126,6 +126,11 @@ html {
   right: 0;
 }
 
+/* Columna de imágenes en celular */
+.infoDesarrollo .infoDesarrollo--imagenesPC {
+  display: none;
+}
+
 
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Desktop View
@@ -142,8 +147,13 @@ html {
     margin: 0 auto;
   }
 
-  /* Slider en celular */
+  /* Slider en PC */
   .infoDesarrollo .container__slider {
     display: none;
+  }
+
+  /* Columna de imágenes en PC */
+  .infoDesarrollo .infoDesarrollo--imagenesPC {
+    display: block;
   }
 }
