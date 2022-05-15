@@ -188,15 +188,15 @@ html {
   width: 5rem;
   height: 2rem;
   margin: 0.5rem 0;
-  background-color: var(--decorado);
-  color: var(--decorado2);
+  background-color: var(--fondo2);
+  color: var(--decorado);
   outline: none;
   border: 0;
 }
 
 .infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu button:hover {
-  background-color: var(--decorado2);
-  color: var(--decorado);
+  background-color: var(--decorado);
+  color: var(--fondo2);
 }
 
 .infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img {
