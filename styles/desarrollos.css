@@ -1,0 +1,149 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://allfont.es/allfont.css?fonts=book-antiqua');
+@font-face{
+  font-family: "bodoni-mt";
+  src:url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("woff"),
+  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("opentype"),
+  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Variables de color */
+:root {
+  --decorado: #bc9321;
+  --decorado1: #a08a5a;
+  --decorado2: #ffecb7;
+  --decorado4: #907335;
+  --fondo: #0b0020;
+  --fondo1: #e6e6e6;
+  --fondo2: #b3b3b3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Mobile View 
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+/* Menú por anclaje */
+.menuAnclaje {
+  width: 100%;
+  background-color: var(--fondo);
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuAnclaje a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menuAnclaje a:hover {
+  color: var(--decorado);
+}
+
+.menuAnclaje a:focus {
+  color: var(--decorado);
+}
+
+/* Sección de información */
+.infoDesarrollo {
+  min-height: 10rem;  /* Quitar al final */
+  background-color: #e6e6e6;  /* Quitar al final */
+  width: 100%;
+}
+
+/* Slider en celular */
+.infoDesarrollo .container__slider {
+  width: 95%;
+  margin: 1rem auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.infoDesarrollo .container__slider .slider {
+  display: flex;
+  width: 500%; /* Depende del número de imágenes x * 100% */
+  height: 12.25rem;
+  margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+}
+
+.infoDesarrollo .container__slider .slider .slider__section {
+  width: 100%;
+}
+
+.infoDesarrollo .container__slider .slider .slider__section img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.infoDesarrollo .container__slider .slider__btn {
+  background-color: #ffffff88;
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoDesarrollo .container__slider .slider__btn span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: var(--fondo);
+  color: var(--decorado);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.infoDesarrollo .container__slider .slider__btn span:hover {
+  background-color: #fff;
+}
+
+.infoDesarrollo .container__slider .slider__btn--left {
+  left: 0;
+}
+
+.infoDesarrollo .container__slider .slider__btn--right {
+  right: 0;
+}
+
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Desktop View
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+@media screen and (min-width: 1000px) {
+  /* Menú por anclaje */
+  .menuAnclaje {
+    justify-content: space-evenly;
+  }
+
+  /* Sección de información */
+  .infoDesarrollo {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  /* Slider en celular */
+  .infoDesarrollo .container__slider {
+    display: none;
+  }
+}

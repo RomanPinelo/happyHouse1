@@ -114,7 +114,7 @@ function sociosPrevPc() {
   }, 500);
 }
 
-// Slider de proyectos y desarrllos en celular
+// Slider de proyectos y desarrollos en celular
 btnRight.addEventListener('click', function(){
   proyectosNextCel();
 });
