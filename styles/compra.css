@@ -192,8 +192,32 @@ flex-wrap: wrap;}
 }
 
 /******************************** Sección de tarjetas *******************************/
-.propiedadesCard {
+.propiedadesCards {
   min-height: 2rem;
+}
+
+.propiedadesCards .propiedadesCards__indicador {
+  width: 12rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+
+.propiedadesCards .propiedadesCards__indicador button {
+  background-color: #fff;
+  display: block;
+  width: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: var(--decorado);
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.propiedadesCards .propiedadesCards__indicador button:hover {
+  background-color: var(--decorado);
+  color: #fff;
 }
 
 /******************************** Sección de no encuentras *******************************/
