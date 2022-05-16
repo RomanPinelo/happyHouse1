@@ -228,7 +228,7 @@ html {
 /* Formulario */
 .infoDesarrollo .infoDesarrollo--texto form {
   width: 300px;
-  height: 21rem;
+  height: 20rem;
   border: 1px solid #b3b3b3;
   margin: 1rem auto;
 }
@@ -288,14 +288,17 @@ html {
 
 .infoDesarrollo .infoDesarrollo--texto form button {
   display: block;
-  margin: 1rem auto;
-  padding: 0.5rem 2.25rem;
+  width: 8rem;
+  margin: 1rem auto 0;
+  padding: 0.25rem 0;
   background-color: var(--decorado);
   color: var(--decorado2);
-  border: 2px solid var(--decorado);
+  border: 0;
   outline: none;
   border-radius: 9999px;
   cursor: pointer;
+  font-family: 'Book Antiqua', arial;
+  font-size: 17px;
 }
 
 .infoDesarrollo .infoDesarrollo--texto form button:hover {
