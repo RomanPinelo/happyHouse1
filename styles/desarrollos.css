@@ -33,6 +33,10 @@ html {
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Mobile View 
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+main {
+  position: relative;
+}
+
 /* Menú por anclaje */
 .menuAnclaje {
   width: 100%;
@@ -40,6 +44,9 @@ html {
   background-color: var(--fondo);
   display: flex;
   justify-content: space-around;
+  position: fixed;
+  top: 3rem;
+  z-index: 10;
 }
 
 .menuAnclaje a {
@@ -55,6 +62,9 @@ html {
 /* Sección de información */
 .infoDesarrollo {
   width: 100%;
+  height: 142.5rem;
+  position: absolute;
+  top: 32.5px;
 }
 
 /* Slider en celular */
@@ -311,6 +321,11 @@ html {
   display: none;
 }
 
+footer {
+  position: absolute;
+  top: calc(32.5px + 142.5rem);
+}
+
 
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Desktop View
@@ -319,13 +334,16 @@ html {
   /* Menú por anclaje */
   .menuAnclaje {
     justify-content: space-evenly;
+    top: 80px;
   }
 
   /* Sección de información */
   .infoDesarrollo {
     width: 65%;
-    margin: 1rem auto;
+    height: 117.5rem;
     display: flex;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   /* Slider en PC */
@@ -379,5 +397,9 @@ html {
   .infoDesarrollo .infoDesarrollo--imagenesPC img {
     display: block;
     width: 95%;
+  }
+
+  footer {
+    top: calc(32.5px + 117.5rem);
   }
 }
