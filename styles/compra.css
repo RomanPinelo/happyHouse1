@@ -192,10 +192,6 @@ flex-wrap: wrap;}
 }
 
 /******************************** Sección de tarjetas *******************************/
-.propiedadesCards {
-  min-height: 2rem;
-}
-
 .propiedadesCards .propiedadesCards__indicador {
   width: 12rem;
   display: flex;
@@ -215,6 +211,122 @@ flex-wrap: wrap;}
   cursor: pointer;
 }
 
+/* Área de tarjetas */
+.propiedadesCards .propiedadesCards__cards {
+  width: 100%;
+  overflow: hidden;
+  background-color: aqua;/* Quitar al final */
+}
+
+.propiedadesCards .propiedadesCards__cards ul {
+  width: 200%;
+  display: flex;
+  transition: 1s;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards {
+  width: 100%;
+  list-style: none;
+}
+
+/*------------------------------------------------------- Tarjetas --------------------------------------*/
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo {
+  background-color: #b3b3b3;/* Quitar al final */
+  width: 95%;
+  margin: 1rem auto;
+}
+
+/* Carrusel */
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel {
+  background-color: yellow;  /* Quitar al final */
+  width: 100%;
+  height: 14rem;
+  position: relative;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel .cardInfo__caruosel-carousel {
+  background-color: #ff000055;/* Quitar al final */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel .cardInfo__caruosel-text {
+  background-color: #b3b3b3b7;
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 15px 15px 0 0;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel .cardInfo__caruosel-text span {
+  line-height: 2rem;
+  margin: 0 1rem;
+}
+
+/* Texto de la tarjeta */
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info {
+  background-color: var(--fondo1);
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .precioLogos,
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .direccionLogos {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5rem 0;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .precioLogos {
+  margin-top: 0;
+  padding-top: 0.5rem;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .direccionLogos {
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .precioLogos .precioLogos__precio {
+  color: var(--decorado);
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .precioLogos .precioLogos__precio span {
+  font-size: 14px;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .precioLogos .precioLogos___logos {
+  color: rgba(0, 0, 0, 0.493);
+  font-size: 16px;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .precioLogos .precioLogos___logos i {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .direccionLogos .direccionLogos__direccion {
+  color: rgba(0, 0, 0, 0.493);
+  font-size: 14px;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .direccionLogos .direccionLogos__logos {
+  color: rgba(0, 0, 0, 0.493);
+  font-size: 16px;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .direccionLogos .direccionLogos__logos i {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+
+/* indicador de páginas */
 .propiedadesCards .propiedadesCards__indicador button:hover {
   background-color: var(--decorado);
   color: #fff;
@@ -353,6 +465,9 @@ flex-wrap: wrap;}
   }
 
   /******************************** Sección de tarjetas *******************************/
+  .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo {
+    width: 300px;
+  }
   
   
   /******************************** Sección de no encuentras *******************************/
