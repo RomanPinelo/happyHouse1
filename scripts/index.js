@@ -145,6 +145,21 @@ if (screen.width > 1000) {
   }, 5000);
 }
 
+// La segunda imagen del slider de proyectos y desarrollos en PC la pondrá a todo color
+// setInterval(() => {
+//   if (screen.width > 1000) {
+//     let sliderSectionSecond = document.querySelectorAll(".slider__section");
+//     for (let i = 0; i < sliderSectionSecond.length; i++) {
+//       sliderSectionSecond[i].style.opacity = "0.5";
+//       sliderSectionSecond[i].style.transition = "none";
+//       if (i == 2) {
+//         sliderSectionSecond[i].style.opacity = "1";
+//       }
+//     }
+//     sliderSectionSecond.style.opacity = "1";
+//   }
+// }, 10);
+
 
 // Slider de socios en celular
 btnRight1.addEventListener('click', function(){

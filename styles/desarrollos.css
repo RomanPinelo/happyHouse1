@@ -62,7 +62,7 @@ main {
 /* Sección de información */
 .infoDesarrollo {
   width: 100%;
-  height: 115rem;
+  height: 112rem;
   position: absolute;
   top: 32.5px;
 }
@@ -94,7 +94,6 @@ main {
 }
 
 .infoDesarrollo .container__slider .slider__btn {
-  background-color: #ffffff88;
   width: 60px;
   height: 100%;
   position: absolute;
@@ -342,7 +341,7 @@ main {
 
 footer {
   position: absolute;
-  top: calc(32.5px + 115rem);
+  top: calc(32.5px + 112rem);
 }
 
 
