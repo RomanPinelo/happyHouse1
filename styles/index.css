@@ -316,11 +316,15 @@ html {
 }
 
 .alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .dreams {
-  width: 90%;
+  width: 85%;
 }
 
 .alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .lezgo {
   width: 42.5%;
+}
+
+.alianzas .container__slider1 .sliderImg .slider1 .slider__section1 .lopez {
+  width: 75%;
 }
 
 
