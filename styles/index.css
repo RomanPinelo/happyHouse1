@@ -572,6 +572,58 @@ footer .footer__redes a:hover i {
   color: #b3b3b3;
 }
 
+
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  iPad View
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+@media screen and (min-width: 768px) {
+  /*********************************** Sección de Proyectos y desarrollos ***********************************/
+  /* Slider en iPad y PC */
+  .proyeDesa .container__slider {
+    width: 100%;
+    margin: auto;
+  }
+
+  .proyeDesa .container__slider .slider {
+    width: 266.64%; /* Depende del número de imágenes x * 33.33% */
+    height: auto;
+    margin-left: -33.33%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+  }
+
+  .proyeDesa .container__slider .slider .slider__section {
+    width: 33.33%;
+  }
+
+  .proyeDesa .container__slider .slider .slider__section a {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .proyeDesa .container__slider .slider__btn {
+    background-color: #ffffff88;
+    width: 33.33%;
+  }
+
+  /*********************************** Sección de Socios estratégicos ***********************************/
+  /* Slider en iPad y PC */
+  .alianzas .container__slider1 {
+    height: 11rem;
+  }
+
+  .alianzas .container__slider1 .sliderImg .slider1 {
+    width: 250%; /* Depende del número de imágenes x * 25% */
+    height: 11rem;
+    margin-left: -25%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+  }
+
+  .alianzas .container__slider1 .sliderImg .slider1 .slider__section1 {
+    width: 25%;
+  }
+}
+
+
+
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Desktop View
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
@@ -681,52 +733,10 @@ footer .footer__redes a:hover i {
     align-items: center;
   }
 
-  /* Slider en PC */
-  .proyeDesa .container__slider {
-    width: 100%;
-    margin: auto;
-  }
-
-  .proyeDesa .container__slider .slider {
-    width: 266.64%; /* Depende del número de imágenes x * 100% */
-    height: 17.5rem;
-    margin-left: -33.33%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
-  }
-
-  .proyeDesa .container__slider .slider .slider__section {
-    width: 33.33%;
-  }
-
-  .proyeDesa .container__slider .slider .slider__section a {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .proyeDesa .container__slider .slider__btn {
-    background-color: #ffffff88;
-    width: 33.33%;
-  }
-
   /*********************************** Sección de Socios estratégicos ***********************************/
   .alianzas {
     margin-top: 2rem;
   }
-
-  /* Slider en PC */
-  .alianzas .container__slider1 {
-    height: 13rem;
-  }
-
-  .alianzas .container__slider1 .sliderImg .slider1 {
-    width: 250%; /* Depende del número de imágenes x * 100% */
-    height: 13rem;
-    margin-left: -25%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
-  }
-
-  .alianzas .container__slider1 .sliderImg .slider1 .slider__section1 {
-    width: 25%;
-  }
-
 
   .alianzas .alianzas__texto {
     height: 7rem;

@@ -42,7 +42,7 @@ function proyectosPrevCel() {
   }, 500);
 }
 
-// Funciones de proyectos y desarrollos en PC
+// Funciones de proyectos y desarrollos en iPad y PC
 function proyectosNextPc() {
   let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
   slider.style.marginLeft = "-66.66%";
@@ -129,8 +129,8 @@ setInterval(function() {
 }, 5000);
 
 
-// Slider de proyectos y desarrollos en PC
-if (screen.width > 1000) {
+// Slider de proyectos y desarrollos en iPad y PC
+if (screen.width > 768) {
   btnRight.addEventListener('click', function(){
     proyectosNextPc();
   });
@@ -147,7 +147,7 @@ if (screen.width > 1000) {
 
 // La segunda imagen del slider de proyectos y desarrollos en PC la pondrá a todo color
 // setInterval(() => {
-//   if (screen.width > 1000) {
+//   if (screen.width > 768) {
 //     let sliderSectionSecond = document.querySelectorAll(".slider__section");
 //     for (let i = 0; i < sliderSectionSecond.length; i++) {
 //       sliderSectionSecond[i].style.opacity = "0.5";
@@ -175,8 +175,8 @@ setInterval(function() {
   sociosNextCel();
 }, 5000);
 
-// Slider de socios en PC
-if (screen.width > 1000) {
+// Slider de socios en iPad y PC
+if (screen.width > 768) {
   btnRight1.addEventListener('click', function(){
     sociosNextPc();
   });
