@@ -7,7 +7,7 @@ const btnLeft = document.querySelector("#btn-left");
 const btnRight = document.querySelector("#btn-right");
 
 slider.insertAdjacentElement('afterbegin', sliderSectionLast); //Coloca el último elemento al inicio del slider
-// Del slider, opaca las imagenes de los lados y la del centro la deja a todo color
+// Del slider, desde el inicio opaca las imagenes de los lados y la del centro la deja a todo color
 if (screen.width > 768) {
   for (let i = 0; i < sliderSection.length; i++) {
     sliderSection[i].style.opacity = "0.5";
@@ -57,6 +57,7 @@ function proyectosNextPc() {
   let sliderSectionSecond = document.querySelectorAll(".slider__section");
   slider.style.marginLeft = "-66.66%";
   slider.style.transition = "all 0.5s";
+  // Mantiene la imagen del centro a todo color y las de las orillas opacas
   for (let i = 0; i < sliderSectionSecond.length; i++) {
     sliderSectionSecond[i].style.opacity = "0.5";
     if (i == 3) {
@@ -75,6 +76,7 @@ function proyectosPrevPc() {
   let sliderSectionLast = sliderSection[sliderSection.length - 1];
   slider.style.marginLeft = "0";
   slider.style.transition = "all 0.5s";
+  // Mantiene la imagen del centro a todo color y las de las orillas opacas
   for (let i = 0; i < sliderSection.length; i++) {
     sliderSection[i].style.opacity = "0.5";
     if (i == 1) {
