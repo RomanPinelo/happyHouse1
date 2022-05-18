@@ -623,6 +623,13 @@ footer .footer__redes a:hover i {
 }
 
 
+/*********************************** Sección de ubicación y contacto ***********************************/
+  /* Formulario */
+  .ubicaCont form {
+    width: 50%;
+  }
+
+
 
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Desktop View
