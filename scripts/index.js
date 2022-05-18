@@ -7,6 +7,15 @@ const btnLeft = document.querySelector("#btn-left");
 const btnRight = document.querySelector("#btn-right");
 
 slider.insertAdjacentElement('afterbegin', sliderSectionLast); //Coloca el último elemento al inicio del slider
+// Del slider, opaca las imagenes de los lados y la del centro la deja a todo color
+if (screen.width > 768) {
+  for (let i = 0; i < sliderSection.length; i++) {
+    sliderSection[i].style.opacity = "0.5";
+    if (i == 1) {
+      sliderSection[i].style.opacity = "1";
+    }
+  }
+}
 // __________________________________________________________________________________________________________________
 // Variables y constantes de socios
 const slider1 = document.querySelector("#slider1");
@@ -45,8 +54,15 @@ function proyectosPrevCel() {
 // Funciones de proyectos y desarrollos en iPad y PC
 function proyectosNextPc() {
   let sliderSectionFirst = document.querySelectorAll(".slider__section")[0];
+  let sliderSectionSecond = document.querySelectorAll(".slider__section");
   slider.style.marginLeft = "-66.66%";
   slider.style.transition = "all 0.5s";
+  for (let i = 0; i < sliderSectionSecond.length; i++) {
+    sliderSectionSecond[i].style.opacity = "0.5";
+    if (i == 3) {
+      sliderSectionSecond[i].style.opacity = "1";
+    }
+  }
   setTimeout(function(){
     slider.style.transition = "none";
     slider.insertAdjacentElement('beforeend', sliderSectionFirst);  //El primer elemento se mueve al final
@@ -59,13 +75,19 @@ function proyectosPrevPc() {
   let sliderSectionLast = sliderSection[sliderSection.length - 1];
   slider.style.marginLeft = "0";
   slider.style.transition = "all 0.5s";
+  for (let i = 0; i < sliderSection.length; i++) {
+    sliderSection[i].style.opacity = "0.5";
+    if (i == 1) {
+      sliderSection[i].style.opacity = "1";
+    }
+  }
   setTimeout(function(){
     slider.style.transition = "none";
     slider.insertAdjacentElement('afterbegin', sliderSectionLast);  //El último elemento se mueve al inicio
     slider.style.marginLeft = "-33.33%";
   }, 500);
 }
-// ______________________________________________
+
 // Funciones de socios en celular
 function sociosNextCel() {
   let sliderSectionFirst1 = document.querySelectorAll(".slider__section1")[0];
@@ -144,22 +166,6 @@ if (screen.width > 768) {
     proyectosNextPc();
   }, 5000);
 }
-
-// La segunda imagen del slider de proyectos y desarrollos en PC la pondrá a todo color
-// setInterval(() => {
-//   if (screen.width > 768) {
-//     let sliderSectionSecond = document.querySelectorAll(".slider__section");
-//     for (let i = 0; i < sliderSectionSecond.length; i++) {
-//       sliderSectionSecond[i].style.opacity = "0.5";
-//       sliderSectionSecond[i].style.transition = "none";
-//       if (i == 2) {
-//         sliderSectionSecond[i].style.opacity = "1";
-//       }
-//     }
-//     sliderSectionSecond.style.opacity = "1";
-//   }
-// }, 10);
-
 
 // Slider de socios en celular
 btnRight1.addEventListener('click', function(){
