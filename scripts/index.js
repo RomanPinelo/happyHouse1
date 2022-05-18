@@ -90,7 +90,7 @@ function sociosPrevCel() {
   }, 500);
 }
 
-// Funciones de socios en PC
+// Funciones de socios en iPad y PC
 function sociosNextPc() {
   let sliderSectionFirst1 = document.querySelectorAll(".slider__section1")[0];
   slider1.style.marginLeft = "-50%";
