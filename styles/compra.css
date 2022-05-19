@@ -232,9 +232,11 @@ flex-wrap: wrap;}
 /*------------------------------------------------------- Tarjetas --------------------------------------*/
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo {
   background-color: #b3b3b3;/* Quitar al final */
+  display: block;
   width: 95%;
   margin: 1rem auto;
   border-radius: 0 0 10px 10px;
+  text-decoration: none;
 }
 
 /* Carrusel */
@@ -256,6 +258,7 @@ flex-wrap: wrap;}
 
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel .cardInfo__caruosel-text {
   background-color: #b3b3b3b7;
+  color: #000;
   width: 100%;
   height: 26px;
   display: flex;
