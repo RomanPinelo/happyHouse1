@@ -273,7 +273,7 @@ flex-wrap: wrap;}
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Texto de la tarjeta */
+/* Texto de la tarjeta en departamentos y casas*/
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info {
   background-color: var(--fondo1);
   height: 60px;
@@ -334,6 +334,55 @@ flex-wrap: wrap;}
   display: inline-block;
   margin-left: 0.5rem;
 }
+
+/* Texto de la tarjeta en desarrollos */
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__infoDesa {
+  background-color: var(--fondo1);
+  height: 89px;
+  border-radius: 0 0 10px 10px;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__infoDesa .nombrePrecio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__infoDesa .nombrePrecio .cardInfo__infoDesa-nombre {
+  color: rgba(0, 0, 0, 0.493);
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__infoDesa .nombrePrecio .cardInfo__infoDesa-ubicacion {
+  color: rgba(0, 0, 0, 0.493);
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__infoDesa .cardInfo__infoDesa-precio {
+  color: var(--decorado);
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__infoDesa .cardInfo__infoDesa-precio span {
+  font-size: 12px;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__infoDesa .cardInfo__infoDesa-logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__infoDesa .cardInfo__infoDesa-logos p {
+  color: rgba(0, 0, 0, 0.493);
+  font-size: 15px;
+}
+
 
 
 /* indicador de páginas */
