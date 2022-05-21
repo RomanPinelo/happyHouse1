@@ -84,7 +84,7 @@ function pintarDatos(datos)  {
           <a href="#" class="cardInfo">
             <div class="cardInfo__carousel">
               <div class="cardInfo__caruosel-carousel">
-
+                <img src="${item.imagen1}" alt="Imagen">
               </div>
               <div class="cardInfo__caruosel-text">
                 <span>${item.tipo}</span>
@@ -114,7 +114,7 @@ function pintarDatos(datos)  {
           <a href="#" class="cardInfo">
             <div class="cardInfo__carousel">
               <div class="cardInfo__caruosel-carousel">
-
+                <img src="${item.imagen1}" alt="Imagen">
               </div>
               <div class="cardInfo__caruosel-text">
                 <span>${item.tipo}</span>
@@ -150,7 +150,7 @@ function pintarDatos(datos)  {
           <a href="#" class="cardInfo">
             <div class="cardInfo__carousel">
               <div class="cardInfo__caruosel-carousel">
-
+                <img src="${item.imagen1}" alt="Imagen">
               </div>
               <div class="cardInfo__caruosel-text">
                 <span>${item.tipo}</span>
@@ -180,7 +180,7 @@ function pintarDatos(datos)  {
           <a href="#" class="cardInfo">
             <div class="cardInfo__carousel">
               <div class="cardInfo__caruosel-carousel">
-
+                <img src="${item.imagen1}" alt="Imagen">
               </div>
               <div class="cardInfo__caruosel-text">
                 <span>${item.tipo}</span>

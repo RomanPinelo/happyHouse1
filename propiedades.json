@@ -24,12 +24,12 @@
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/380068/380068_1.jpg",
-    "imagen2": "../imgPropiedad/380068/380068_2.jpg",
-    "imagen3": "../imgPropiedad/380068/380068_3.jpg",
-    "imagen4": "../imgPropiedad/380068/380068_4.jpg",
-    "imagen5": "../imgPropiedad/380068/380068_5.jpg",
-    "descripcion": "../descripcionPropiedad/380068/propiedad380068.html"
+    "imagen1": "../img/propiedades/380068/380068_1.jpg",
+    "imagen2": "../img/propiedades/380068/380068_2.jpg",
+    "imagen3": "../img/propiedades/380068/380068_3.jpg",
+    "imagen4": "../img/propiedades/380068/380068_4.jpg",
+    "imagen5": "../img/propiedades/380068/380068_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 383696,
@@ -57,12 +57,12 @@
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/383696/383696_1.jpg",
-    "imagen2": "../imgPropiedad/383696/383696_2.jpg",
-    "imagen3": "../imgPropiedad/383696/383696_3.jpg",
-    "imagen4": "../imgPropiedad/383696/383696_4.jpg",
-    "imagen5": "../imgPropiedad/383696/383696_5.jpg",
-    "descripcion": "../descripcionPropiedad/383696/propiedad383696.html"
+    "imagen1": "../img/propiedades/383696/383696_1.jpg",
+    "imagen2": "../img/propiedades/383696/383696_2.jpg",
+    "imagen3": "../img/propiedades/383696/383696_3.jpg",
+    "imagen4": "../img/propiedades/383696/383696_4.jpg",
+    "imagen5": "../img/propiedades/383696/383696_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 398721,
@@ -90,12 +90,12 @@
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/398721/398721_1.jpg",
-    "imagen2": "../imgPropiedad/398721/398721_2.jpg",
-    "imagen3": "../imgPropiedad/398721/398721_3.jpeg",
-    "imagen4": "../imgPropiedad/398721/398721_4.jpeg",
-    "imagen5": "../imgPropiedad/398721/398721_5.jpg",
-    "descripcion": "../descripcionPropiedad/398721/propiedad398721.html"
+    "imagen1": "../img/propiedades/398721/398721_1.jpg",
+    "imagen2": "../img/propiedades/398721/398721_2.jpg",
+    "imagen3": "../img/propiedades/398721/398721_3.jpg",
+    "imagen4": "../img/propiedades/398721/398721_4.jpg",
+    "imagen5": "../img/propiedades/398721/398721_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 384761,
@@ -123,12 +123,12 @@
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/384761/384761_1.jpg",
-    "imagen2": "../imgPropiedad/384761/384761_2.jpg",
-    "imagen3": "../imgPropiedad/384761/384761_3.jpg",
-    "imagen4": "../imgPropiedad/384761/384761_4.jpg",
-    "imagen5": "../imgPropiedad/384761/384761_5.jpg",
-    "descripcion": "../descripcionPropiedad/384761/propiedad384761.html"
+    "imagen1": "../img/propiedades/384761/384761_1.jpg",
+    "imagen2": "../img/propiedades/384761/384761_2.jpg",
+    "imagen3": "../img/propiedades/384761/384761_3.jpg",
+    "imagen4": "../img/propiedades/384761/384761_4.jpg",
+    "imagen5": "../img/propiedades/384761/384761_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 422658,
@@ -156,12 +156,12 @@
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/422658/422658_1.jpg",
-    "imagen2": "../imgPropiedad/422658/422658_2.jpg",
-    "imagen3": "../imgPropiedad/422658/422658_3.jpg",
-    "imagen4": "../imgPropiedad/422658/422658_4.jpg",
-    "imagen5": "../imgPropiedad/422658/422658_5.jpg",
-    "descripcion": "../descripcionPropiedad/422658/propiedad422658.html"
+    "imagen1": "../img/propiedades/422658/422658_1.jpg",
+    "imagen2": "../img/propiedades/422658/422658_2.jpg",
+    "imagen3": "../img/propiedades/422658/422658_3.jpg",
+    "imagen4": "../img/propiedades/422658/422658_4.jpg",
+    "imagen5": "../img/propiedades/422658/422658_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 434776,
@@ -189,12 +189,12 @@
     },
     "tipo": "Uso comercial",
     "estado": "Renta mensual",
-    "imagen1": "../imgPropiedad/434776/434776_1.jpg",
-    "imagen2": "../imgPropiedad/434776/434776_2.jpg",
-    "imagen3": "../imgPropiedad/434776/434776_3.jpg",
-    "imagen4": "../imgPropiedad/434776/434776_4.jpg",
-    "imagen5": "../imgPropiedad/434776/434776_5.jpg",
-    "descripcion": "../descripcionPropiedad/434776/propiedad434776.html"
+    "imagen1": "../img/propiedades/434776/434776_1.jpg",
+    "imagen2": "../img/propiedades/434776/434776_2.jpg",
+    "imagen3": "../img/propiedades/434776/434776_3.jpg",
+    "imagen4": "../img/propiedades/434776/434776_4.jpg",
+    "imagen5": "../img/propiedades/434776/434776_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 399062,
@@ -222,12 +222,12 @@
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/399062/399062_1.jpg",
-    "imagen2": "../imgPropiedad/399062/399062_2.jpg",
-    "imagen3": "../imgPropiedad/399062/399062_3.jpg",
-    "imagen4": "../imgPropiedad/399062/399062_4.jpg",
-    "imagen5": "../imgPropiedad/399062/399062_5.jpg",
-    "descripcion": "../descripcionPropiedad/399062/propiedad399062.html"
+    "imagen1": "../img/propiedades/399062/399062_1.jpg",
+    "imagen2": "../img/propiedades/399062/399062_2.jpg",
+    "imagen3": "../img/propiedades/399062/399062_3.jpg",
+    "imagen4": "../img/propiedades/399062/399062_4.jpg",
+    "imagen5": "../img/propiedades/399062/399062_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 403140,
@@ -255,12 +255,12 @@
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/403140/403140_1.jpg",
-    "imagen2": "../imgPropiedad/403140/403140_2.jpg",
-    "imagen3": "../imgPropiedad/403140/403140_3.jpg",
-    "imagen4": "../imgPropiedad/403140/403140_1.jpg",
-    "imagen5": "../imgPropiedad/403140/403140_4.jpg",
-    "descripcion": "../descripcionPropiedad/403140/propiedad403140.html"
+    "imagen1": "../img/propiedades/403140/403140_1.jpg",
+    "imagen2": "../img/propiedades/403140/403140_2.jpg",
+    "imagen3": "../img/propiedades/403140/403140_3.jpg",
+    "imagen4": "../img/propiedades/403140/403140_4.jpg",
+    "imagen5": "../img/propiedades/403140/403140_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 420282,
@@ -288,12 +288,12 @@
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/420282/420282_1.jpg",
-    "imagen2": "../imgPropiedad/420282/420282_2.jpg",
-    "imagen3": "../imgPropiedad/420282/420282_3.jpg",
-    "imagen4": "../imgPropiedad/420282/420282_4.jpg",
-    "imagen5": "../imgPropiedad/420282/420282_5.jpg",
-    "descripcion": "../descripcionPropiedad/420282/propiedad420282.html"
+    "imagen1": "../img/propiedades/420282/420282_1.jpg",
+    "imagen2": "../img/propiedades/420282/420282_2.jpg",
+    "imagen3": "../img/propiedades/420282/420282_3.jpg",
+    "imagen4": "../img/propiedades/420282/420282_4.jpg",
+    "imagen5": "../img/propiedades/420282/420282_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 420344,
@@ -321,12 +321,12 @@
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/420344/420344_1.jpg",
-    "imagen2": "../imgPropiedad/420344/420344_2.jpg",
-    "imagen3": "../imgPropiedad/420344/420344_3.jpg",
-    "imagen4": "../imgPropiedad/420344/420344_4.jpg",
-    "imagen5": "../imgPropiedad/420344/420344_5.jpg",
-    "descripcion": "../descripcionPropiedad/420344/propiedad420344.html"
+    "imagen1": "../img/propiedades/420344/420344_1.jpg",
+    "imagen2": "../img/propiedades/420344/420344_2.jpg",
+    "imagen3": "../img/propiedades/420344/420344_3.jpg",
+    "imagen4": "../img/propiedades/420344/420344_4.jpg",
+    "imagen5": "../img/propiedades/420344/420344_5.jpg",
+    "descripcion": ""
   },
   {
     "id": 422067,
@@ -354,12 +354,12 @@
     },
     "tipo": "Penthouse",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/422067/422067_1.jpg",
-    "imagen2": "../imgPropiedad/422067/422067_2.jpg",
-    "imagen3": "../imgPropiedad/422067/422067_3.jpg",
-    "imagen4": "../imgPropiedad/422067/422067_4.jpg",
-    "imagen5": "../imgPropiedad/422067/422067_5.jpg",
-    "descripcion": "../descripcionPropiedad/422067/propiedad422067.html"
+    "imagen1": "../img/propiedades/422067/422067_1.jpg",
+    "imagen2": "../img/propiedades/422067/422067_2.jpg",
+    "imagen3": "../img/propiedades/422067/422067_3.jpg",
+    "imagen4": "../img/propiedades/422067/422067_4.jpg",
+    "imagen5": "../img/propiedades/422067/422067_5.jpg",
+    "descripcion": ""
   },
   {
     "id": "Albert38",
@@ -393,13 +393,15 @@
     "tipo": "Desarrollo",
     "nombre": "Albert 38",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/albert38/albert38_1.jpg",
-    "imagen2": "../imgPropiedad/albert38/albert38_2.jpg",
-    "imagen3": "../imgPropiedad/albert38/albert38_3.jpg",
-    "imagen4": "../imgPropiedad/albert38/albert38_4.jpg",
-    "imagen5": "../imgPropiedad/albert38/albert38_5.jpg",
-    "imagen6": "../imgPropiedad/albert38/albert38_6.jpg",
-    "descripcion": "../descripcionPropiedad/albert38/desarrolloAlbert38.html"
+    "imagen1": "../img/desarrollos/albert38/albert38_1.jpg",
+    "imagen2": "../img/desarrollos/albert38/albert38_2.jpg",
+    "imagen3": "../img/desarrollos/albert38/albert38_3.jpg",
+    "imagen4": "../img/desarrollos/albert38/albert38_4.jpg",
+    "imagen5": "../img/desarrollos/albert38/albert38_5.jpg",
+    "imagen6": "../img/desarrollos/albert38/albert38_6.jpg",
+    "imagen7": "../img/desarrollos/albert38/albert38_7.jpg",
+    "imagen8": "../img/desarrollos/albert38/albert38_8.jpg",
+    "descripcion": ""
   },
   {
     "id": "Constitucion5",
@@ -433,13 +435,13 @@
     "tipo": "Desarrollo",
     "nombre": "Constitución 5",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/const5/const5_1.jpg",
-    "imagen2": "../imgPropiedad/const5/const5_2.jpg",
-    "imagen3": "../imgPropiedad/const5/const5_3.jpg",
-    "imagen4": "../imgPropiedad/const5/const5_4.jpg",
-    "imagen5": "../imgPropiedad/const5/const5_5.jpg",
-    "imagen6": "../imgPropiedad/const5/const5_6.jpg",
-    "descripcion": "../descripcionPropiedad/const5/desarrolloConst5.html"
+    "imagen1": "../img/desarrollos/const5/const5_1.jpg",
+    "imagen2": "../img/desarrollos/const5/const5_2.jpg",
+    "imagen3": "../img/desarrollos/const5/const5_3.jpg",
+    "imagen4": "../img/desarrollos/const5/const5_4.jpg",
+    "imagen5": "../img/desarrollos/const5/const5_5.jpg",
+    "imagen6": "../img/desarrollos/const5/const5_6.jpg",
+    "descripcion": ""
   },
   {
     "id": "EjeCentral806",
@@ -473,13 +475,15 @@
     "tipo": "Desarrollo",
     "nombre": "Eje Central 806",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/ejeCentral/eje_1.jpg",
-    "imagen2": "../imgPropiedad/ejeCentral/eje_2.jpg",
-    "imagen3": "../imgPropiedad/ejeCentral/eje_3.jpg",
-    "imagen4": "../imgPropiedad/ejeCentral/eje_4.jpg",
-    "imagen5": "../imgPropiedad/ejeCentral/eje_5.jpg",
-    "imagen6": "../imgPropiedad/ejeCentral/eje_6.jpg",
-    "descripcion": "../descripcionPropiedad/ejeCentral/desarrolloEje.html"
+    "imagen1": "../img/desarrollos/ejeCentral/eje_1.jpg",
+    "imagen2": "../img/desarrollos/ejeCentral/eje_2.jpg",
+    "imagen3": "../img/desarrollos/ejeCentral/eje_3.jpg",
+    "imagen4": "../img/desarrollos/ejeCentral/eje_4.jpg",
+    "imagen5": "../img/desarrollos/ejeCentral/eje_5.jpg",
+    "imagen6": "../img/desarrollos/ejeCentral/eje_6.jpg",
+    "imagen7": "../img/desarrollos/ejeCentral/eje_7.jpg",
+    "imagen8": "../img/desarrollos/ejeCentral/eje_8.jpg",
+    "descripcion": ""
   },
   {
     "id": "primeroMayo101",
@@ -513,12 +517,14 @@
     "tipo": "Desarrollo",
     "nombre": "Primero de Mayo",
     "estado": "Entrega inmediata",
-    "imagen1": "../imgPropiedad/primeroMayo/primero_1.jpg",
-    "imagen2": "../imgPropiedad/primeroMayo/primero_2.jpg",
-    "imagen3": "../imgPropiedad/primeroMayo/primero_3.jpg",
-    "imagen4": "../imgPropiedad/primeroMayo/primero_4.jpg",
-    "imagen5": "../imgPropiedad/primeroMayo/primero_5.jpg",
-    "imagen6": "../imgPropiedad/primeroMayo/primero_6.jpg",
-    "descripcion": "../descripcionPropiedad/primeroMayo/desarrolloPrimero.html"
+    "imagen1": "../img/desarrollos/primeroMayo/primero_1.jpg",
+    "imagen2": "../img/desarrollos/primeroMayo/primero_2.jpg",
+    "imagen3": "../img/desarrollos/primeroMayo/primero_3.jpg",
+    "imagen4": "../img/desarrollos/primeroMayo/primero_4.jpg",
+    "imagen5": "../img/desarrollos/primeroMayo/primero_5.jpg",
+    "imagen6": "../img/desarrollos/primeroMayo/primero_6.jpg",
+    "imagen7": "../img/desarrollos/primeroMayo/primero_7.jpg",
+    "imagen8": "../img/desarrollos/primeroMayo/primero_8.jpg",
+    "descripcion": ""
   }
 ]
