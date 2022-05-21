@@ -215,7 +215,6 @@ flex-wrap: wrap;}
 .propiedadesCards .propiedadesCards__cards {
   width: 100%;
   overflow: hidden;
-  background-color: aqua;/* Quitar al final */
 }
 
 .propiedadesCards .propiedadesCards__cards ul {
@@ -231,7 +230,6 @@ flex-wrap: wrap;}
 
 /*------------------------------------------------------- Tarjetas --------------------------------------*/
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo {
-  background-color: #b3b3b3;/* Quitar al final */
   display: block;
   width: 95%;
   margin: 1rem auto;
@@ -241,14 +239,12 @@ flex-wrap: wrap;}
 
 /* Carrusel */
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel {
-  background-color: yellow;  /* Quitar al final */
   width: 100%;
   height: 210px;
   position: relative;
 }
 
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel .cardInfo__caruosel-carousel {
-  background-color: #ff000055;/* Quitar al final */
   width: 100%;
   height: 100%;
   position: absolute;
@@ -532,14 +528,14 @@ flex-wrap: wrap;}
     margin: 0 auto;
   }
   
-  /*------------------------------------------------------- Tarjetas --------------------------------------*/
   .propiedadesCards .propiedadesCards__cards ul .paginasCards {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
   }
-
+  
+  /*------------------------------------------------------- Tarjetas --------------------------------------*/
   .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo {
     width: 310px;
   }
