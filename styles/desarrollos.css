@@ -18,6 +18,7 @@
   --fondo: #0b0020;
   --fondo1: #e6e6e6;
   --fondo2: #b3b3b3;
+  --fondo3: #0b002077;
 }
 
 * {
@@ -67,7 +68,7 @@ main {
   top: 32.5px;
 }
 
-/* Slider en celular */
+/* Slider de imagenes del desarrollo en celular */
 .infoDesarrollo .container__slider {
   width: 95%;
   margin: 1rem auto;
@@ -128,6 +129,70 @@ main {
 }
 
 .infoDesarrollo .container__slider .slider__btn--right {
+  right: 0;
+}
+
+/* Slider de los planos de distribución o información en celular */
+.planosDistribucion .container__slider1 {
+  width: 95%;
+  margin: 0 auto 1.75rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.planosDistribucion .container__slider1 .slider1 {
+  display: flex;
+  /*width: 600%; /* Depende del número de imágenes x * 100% */ /* Se pondra en cada archivo html */
+  height: 12rem;
+  margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+}
+
+.planosDistribucion .container__slider1 .slider1 .slider__section1 {
+  width: 100%;
+}
+
+.planosDistribucion .container__slider1 .slider1 .slider__section1 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.planosDistribucion .container__slider1 .slider__btn1 {
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planosDistribucion .container__slider1 .slider__btn1 span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: var(--fondo3);
+  color: var(--decorado);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.planosDistribucion .container__slider1 .slider__btn1 span:hover {
+  background-color: #ffffff55;
+}
+
+.planosDistribucion .container__slider1 .slider__btn--left1 {
+  left: 0;
+}
+
+.planosDistribucion .container__slider1 .slider__btn--right1 {
   right: 0;
 }
 
@@ -391,6 +456,15 @@ footer {
 
   /* Planos de distribución */
   .infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img {
+    height: 300px;
+  }
+
+  /* Slider de los planos de distribución o información en celular */
+  .planosDistribucion .container__slider1 {
+    width: 500px;
+  }
+
+  .planosDistribucion .container__slider1 .slider1 {
     height: 300px;
   }
 
