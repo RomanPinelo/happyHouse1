@@ -1,0 +1,524 @@
+[
+  {
+    "id": 380068,
+    "direccion": {
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Pilares Del valle",
+      "calle": "Calle Pilares",
+      "numeroInt": "N/A",
+      "numeroExt": "N/A"
+    },
+    "superficie": 148,
+    "recamaras": 3,
+    "banos": 2,
+    "estacionamiento": "N/A",
+    "precio":{
+      "millones": "4,",
+      "miles": "800,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/380068/380068_1.jpg",
+    "imagen2": "../imgPropiedad/380068/380068_2.jpg",
+    "imagen3": "../imgPropiedad/380068/380068_3.jpg",
+    "imagen4": "../imgPropiedad/380068/380068_4.jpg",
+    "imagen5": "../imgPropiedad/380068/380068_5.jpg",
+    "descripcion": "../descripcionPropiedad/380068/propiedad380068.html"
+  },
+  {
+    "id": 383696,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Del Valle",
+      "calle": "Xola",
+      "numeroInt": "N/A",
+      "numeroExt": "N/A"
+    },
+    "superficie": 144,
+    "recamaras": 4,
+    "banos": 2,
+    "estacionamiento": 1,
+    "precio":{
+      "millones": "4,",
+      "miles": "200,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/383696/383696_1.jpg",
+    "imagen2": "../imgPropiedad/383696/383696_2.jpg",
+    "imagen3": "../imgPropiedad/383696/383696_3.jpg",
+    "imagen4": "../imgPropiedad/383696/383696_4.jpg",
+    "imagen5": "../imgPropiedad/383696/383696_5.jpg",
+    "descripcion": "../descripcionPropiedad/383696/propiedad383696.html"
+  },
+  {
+    "id": 398721,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Del Valle",
+      "calle": "José María Rico",
+      "numeroInt": "324",
+      "numeroExt": "N/A"
+    },
+    "superficie": 70,
+    "recamaras": 2,
+    "banos": 2,
+    "estacionamiento": 2,
+    "precio":{
+      "millones": "3,",
+      "miles": "600,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/398721/398721_1.jpg",
+    "imagen2": "../imgPropiedad/398721/398721_2.jpg",
+    "imagen3": "../imgPropiedad/398721/398721_3.jpeg",
+    "imagen4": "../imgPropiedad/398721/398721_4.jpeg",
+    "imagen5": "../imgPropiedad/398721/398721_5.jpg",
+    "descripcion": "../descripcionPropiedad/398721/propiedad398721.html"
+  },
+  {
+    "id": 384761,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Miguel Hidalgo",
+      "colonia": "Anáhuac",
+      "calle": "Mariano Escobedo",
+      "numeroInt": "193",
+      "numeroExt": "N/A"
+    },
+    "superficie": 110,
+    "recamaras": 3,
+    "banos": 2,
+    "estacionamiento": 2,
+    "precio":{
+      "millones": "4,",
+      "miles": "950,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/384761/384761_1.jpg",
+    "imagen2": "../imgPropiedad/384761/384761_2.jpg",
+    "imagen3": "../imgPropiedad/384761/384761_3.jpg",
+    "imagen4": "../imgPropiedad/384761/384761_4.jpg",
+    "imagen5": "../imgPropiedad/384761/384761_5.jpg",
+    "descripcion": "../descripcionPropiedad/384761/propiedad384761.html"
+  },
+  {
+    "id": 422658,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Álvaro Obregón",
+      "colonia": "Olivar De Los Padres",
+      "calle": "Av. Toluca",
+      "numeroInt": "669",
+      "numeroExt": "N/A"
+    },
+    "superficie": 86,
+    "recamaras": 2,
+    "banos": 2,
+    "estacionamiento": 2,
+    "precio":{
+      "millones": "4,",
+      "miles": "200,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/422658/422658_1.jpg",
+    "imagen2": "../imgPropiedad/422658/422658_2.jpg",
+    "imagen3": "../imgPropiedad/422658/422658_3.jpg",
+    "imagen4": "../imgPropiedad/422658/422658_4.jpg",
+    "imagen5": "../imgPropiedad/422658/422658_5.jpg",
+    "descripcion": "../descripcionPropiedad/422658/propiedad422658.html"
+  },
+  {
+    "id": 434776,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Coyoacán",
+      "colonia": "Avante",
+      "calle": "Av. Canal de Miramontes",
+      "numeroInt": "N/A",
+      "numeroExt": "N/A"
+    },
+    "superficie": 300,
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": 3,
+    "precio":{
+      "millones": "",
+      "miles": "65,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Uso comercial",
+    "estado": "Renta mensual",
+    "imagen1": "../imgPropiedad/434776/434776_1.jpg",
+    "imagen2": "../imgPropiedad/434776/434776_2.jpg",
+    "imagen3": "../imgPropiedad/434776/434776_3.jpg",
+    "imagen4": "../imgPropiedad/434776/434776_4.jpg",
+    "imagen5": "../imgPropiedad/434776/434776_5.jpg",
+    "descripcion": "../descripcionPropiedad/434776/propiedad434776.html"
+  },
+  {
+    "id": 399062,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Miguel Hidalgo",
+      "colonia": "Tacuba",
+      "calle": "Marina Nacional",
+      "numeroInt": "N/A",
+      "numeroExt": "60"
+    },
+    "superficie": 104,
+    "recamaras": "3",
+    "banos": "2",
+    "estacionamiento": 2,
+    "precio":{
+      "millones": "4,",
+      "miles": "390,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/399062/399062_1.jpg",
+    "imagen2": "../imgPropiedad/399062/399062_2.jpg",
+    "imagen3": "../imgPropiedad/399062/399062_3.jpg",
+    "imagen4": "../imgPropiedad/399062/399062_4.jpg",
+    "imagen5": "../imgPropiedad/399062/399062_5.jpg",
+    "descripcion": "../descripcionPropiedad/399062/propiedad399062.html"
+  },
+  {
+    "id": 403140,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Miguel Hidalgo",
+      "colonia": "Anahuac",
+      "calle": "Mariano Escobedo",
+      "numeroInt": "N/A",
+      "numeroExt": "193"
+    },
+    "superficie": 85,
+    "recamaras": "3",
+    "banos": "2",
+    "estacionamiento": 1,
+    "precio":{
+      "millones": "4,",
+      "miles": "190,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/403140/403140_1.jpg",
+    "imagen2": "../imgPropiedad/403140/403140_2.jpg",
+    "imagen3": "../imgPropiedad/403140/403140_3.jpg",
+    "imagen4": "../imgPropiedad/403140/403140_1.jpg",
+    "imagen5": "../imgPropiedad/403140/403140_4.jpg",
+    "descripcion": "../descripcionPropiedad/403140/propiedad403140.html"
+  },
+  {
+    "id": 420282,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Del Valle",
+      "calle": "Avenida Coyoacán",
+      "numeroInt": "N/A",
+      "numeroExt": "614"
+    },
+    "superficie": 89,
+    "recamaras": "2",
+    "banos": "2",
+    "estacionamiento": 1,
+    "precio":{
+      "millones": "3,",
+      "miles": "600,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/420282/420282_1.jpg",
+    "imagen2": "../imgPropiedad/420282/420282_2.jpg",
+    "imagen3": "../imgPropiedad/420282/420282_3.jpg",
+    "imagen4": "../imgPropiedad/420282/420282_4.jpg",
+    "imagen5": "../imgPropiedad/420282/420282_5.jpg",
+    "descripcion": "../descripcionPropiedad/420282/propiedad420282.html"
+  },
+  {
+    "id": 420344,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Del Valle",
+      "calle": "Avenida Coyoacán",
+      "numeroInt": "N/A",
+      "numeroExt": "614"
+    },
+    "superficie": 89,
+    "recamaras": "3",
+    "banos": "2",
+    "estacionamiento": 2,
+    "precio":{
+      "millones": "3,",
+      "miles": "700,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/420344/420344_1.jpg",
+    "imagen2": "../imgPropiedad/420344/420344_2.jpg",
+    "imagen3": "../imgPropiedad/420344/420344_3.jpg",
+    "imagen4": "../imgPropiedad/420344/420344_4.jpg",
+    "imagen5": "../imgPropiedad/420344/420344_5.jpg",
+    "descripcion": "../descripcionPropiedad/420344/propiedad420344.html"
+  },
+  {
+    "id": 422067,
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Miguel Hidalgo",
+      "colonia": "Anahuac",
+      "calle": "Lago Xochimilco",
+      "numeroInt": "502",
+      "numeroExt": "47"
+    },
+    "superficie": 78,
+    "recamaras": "3",
+    "banos": "2",
+    "estacionamiento": 1,
+    "precio":{
+      "millones": "3,",
+      "miles": "600,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Penthouse",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/422067/422067_1.jpg",
+    "imagen2": "../imgPropiedad/422067/422067_2.jpg",
+    "imagen3": "../imgPropiedad/422067/422067_3.jpg",
+    "imagen4": "../imgPropiedad/422067/422067_4.jpg",
+    "imagen5": "../imgPropiedad/422067/422067_5.jpg",
+    "descripcion": "../descripcionPropiedad/422067/propiedad422067.html"
+  },
+  {
+    "id": "Albert38",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Albert",
+      "calle": "Albert",
+      "numeroInt": "",
+      "numeroExt": "38"
+    },
+    "superficie": "&ge;64",
+    "recamaras": "2",
+    "banos": "2",
+    "estacionamiento": 1,
+    "precioMinimo":{
+      "millones": "4,",
+      "miles": "385,",
+      "centenas": "961"
+    },
+    "precioMaximo":{
+      "millones": "4,",
+      "miles": "385,",
+      "centenas": "961"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Albert 38",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/albert38/albert38_1.jpg",
+    "imagen2": "../imgPropiedad/albert38/albert38_2.jpg",
+    "imagen3": "../imgPropiedad/albert38/albert38_3.jpg",
+    "imagen4": "../imgPropiedad/albert38/albert38_4.jpg",
+    "imagen5": "../imgPropiedad/albert38/albert38_5.jpg",
+    "imagen6": "../imgPropiedad/albert38/albert38_6.jpg",
+    "descripcion": "../descripcionPropiedad/albert38/desarrolloAlbert38.html"
+  },
+  {
+    "id": "Constitucion5",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Miguel Hidalgo",
+      "colonia": "Escandón I",
+      "calle": "Calle de la Constitución",
+      "numeroInt": "",
+      "numeroExt": "5"
+    },
+    "superficie": "&ge;86",
+    "recamaras": "3",
+    "banos": "2",
+    "estacionamiento": 2,
+    "precioMinimo":{
+      "millones": "4,",
+      "miles": "946,",
+      "centenas": "183"
+    },
+    "precioMaximo":{
+      "millones": "4,",
+      "miles": "946,",
+      "centenas": "183"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Constitución 5",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/const5/const5_1.jpg",
+    "imagen2": "../imgPropiedad/const5/const5_2.jpg",
+    "imagen3": "../imgPropiedad/const5/const5_3.jpg",
+    "imagen4": "../imgPropiedad/const5/const5_4.jpg",
+    "imagen5": "../imgPropiedad/const5/const5_5.jpg",
+    "imagen6": "../imgPropiedad/const5/const5_6.jpg",
+    "descripcion": "../descripcionPropiedad/const5/desarrolloConst5.html"
+  },
+  {
+    "id": "EjeCentral806",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Portales Norte",
+      "calle": "Eje Central Lázaro Cárdenas",
+      "numeroInt": "",
+      "numeroExt": "806"
+    },
+    "superficie": "&ge;64",
+    "recamaras": "2",
+    "banos": "2",
+    "estacionamiento": 1,
+    "precioMinimo":{
+      "millones": "2,",
+      "miles": "993,",
+      "centenas": "179"
+    },
+    "precioMaximo":{
+      "millones": "2,",
+      "miles": "993,",
+      "centenas": "179"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Eje Central 806",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/ejeCentral/eje_1.jpg",
+    "imagen2": "../imgPropiedad/ejeCentral/eje_2.jpg",
+    "imagen3": "../imgPropiedad/ejeCentral/eje_3.jpg",
+    "imagen4": "../imgPropiedad/ejeCentral/eje_4.jpg",
+    "imagen5": "../imgPropiedad/ejeCentral/eje_5.jpg",
+    "imagen6": "../imgPropiedad/ejeCentral/eje_6.jpg",
+    "descripcion": "../descripcionPropiedad/ejeCentral/desarrolloEje.html"
+  },
+  {
+    "id": "primeroMayo101",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "8 de Agosto",
+      "calle": "Av. Primero de Mayo",
+      "numeroInt": "",
+      "numeroExt": "101"
+    },
+    "superficie": "&ge;68",
+    "recamaras": "1-3",
+    "banos": "2",
+    "estacionamiento": 2,
+    "precioMinimo":{
+      "millones": "3,",
+      "miles": "869,",
+      "centenas": "540"
+    },
+    "precioMaximo":{
+      "millones": "3,",
+      "miles": "869,",
+      "centenas": "540"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Primero de Mayo",
+    "estado": "Entrega inmediata",
+    "imagen1": "../imgPropiedad/primeroMayo/primero_1.jpg",
+    "imagen2": "../imgPropiedad/primeroMayo/primero_2.jpg",
+    "imagen3": "../imgPropiedad/primeroMayo/primero_3.jpg",
+    "imagen4": "../imgPropiedad/primeroMayo/primero_4.jpg",
+    "imagen5": "../imgPropiedad/primeroMayo/primero_5.jpg",
+    "imagen6": "../imgPropiedad/primeroMayo/primero_6.jpg",
+    "descripcion": "../descripcionPropiedad/primeroMayo/desarrolloPrimero.html"
+  }
+]
