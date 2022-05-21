@@ -527,6 +527,19 @@ flex-wrap: wrap;}
   }
 
   /******************************** Sección de tarjetas *******************************/
+  .propiedadesCards .propiedadesCards__cards {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  /*------------------------------------------------------- Tarjetas --------------------------------------*/
+  .propiedadesCards .propiedadesCards__cards ul .paginasCards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
   .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo {
     width: 310px;
   }
