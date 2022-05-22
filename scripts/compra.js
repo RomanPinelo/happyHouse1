@@ -117,27 +117,24 @@ function pintarDatos(datos)  {
                 <img src="${item.imagen1}" alt="Imagen">
               </div>
               <div class="cardInfo__caruosel-text">
-                <span>${item.tipo}</span>
+                <span>${item.nombre}</span>
                 <span>${item.estado}</span>
               </div>
             </div>
-            <div class="cardInfo__infoDesa">
-              <div class="nombrePrecio">
-                <p class="cardInfo__infoDesa-nombre">
-                ${item.nombre}
-                </p>
-                <p class="cardInfo__infoDesa-ubicacion">
-                ${item.direccion.estado}
+            <div class="cardInfo__info">
+              <div class="precioLogos">
+                <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
+                <p class="precioLogos___logos">
+                  <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+                  <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
                 </p>
               </div>
-              <p class="cardInfo__infoDesa-precio">
-                $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span> - $${item.precioMaximo.millones}${item.precioMaximo.miles}${item.precioMaximo.centenas}.00 <span>MXN</span>
-              </p>
-              <div class="cardInfo__infoDesa-logos">
-                <p><i class="fa fa-bed" aria-hidden="true"></i> ${item.recamaras}</p>
-                <p><i class="fa fa-bath" aria-hidden="true"></i> ${item.banos}</p>
-                <p><i class="fa fa-car" aria-hidden="true"></i> ${item.estacionamiento}</p>
-                <p><i class="fa fa-arrows-alt" aria-hidden="true"></i> ${item.superficie} m<sup>2</sup></p>
+              <div class="direccionLogos">
+                <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+                <p class="direccionLogos__logos">
+                  <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+                  <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+                </p>
               </div>
             </div>
           </a> <!-- cardInfo a -->
@@ -183,27 +180,24 @@ function pintarDatos(datos)  {
                 <img src="${item.imagen1}" alt="Imagen">
               </div>
               <div class="cardInfo__caruosel-text">
-                <span>${item.tipo}</span>
+                <span>${item.nombre}</span>
                 <span>${item.estado}</span>
               </div>
             </div>
-            <div class="cardInfo__infoDesa">
-              <div class="nombrePrecio">
-                <p class="cardInfo__infoDesa-nombre">
-                ${item.nombre}
-                </p>
-                <p class="cardInfo__infoDesa-ubicacion">
-                ${item.direccion.estado}
+            <div class="cardInfo__info">
+              <div class="precioLogos">
+                <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
+                <p class="precioLogos___logos">
+                  <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+                  <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
                 </p>
               </div>
-              <p class="cardInfo__infoDesa-precio">
-                $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span> - $${item.precioMaximo.millones}${item.precioMaximo.miles}${item.precioMaximo.centenas}.00 <span>MXN</span>
-              </p>
-              <div class="cardInfo__infoDesa-logos">
-                <p><i class="fa fa-bed" aria-hidden="true"></i> ${item.recamaras}</p>
-                <p><i class="fa fa-bath" aria-hidden="true"></i> ${item.banos}</p>
-                <p><i class="fa fa-car" aria-hidden="true"></i> ${item.estacionamiento}</p>
-                <p><i class="fa fa-arrows-alt" aria-hidden="true"></i> ${item.superficie} m<sup>2</sup></p>
+              <div class="direccionLogos">
+                <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+                <p class="direccionLogos__logos">
+                  <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+                  <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+                </p>
               </div>
             </div>
           </a> <!-- cardInfo a -->
