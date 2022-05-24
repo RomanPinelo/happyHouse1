@@ -350,10 +350,10 @@ main {
 }
 
 .infoDesarrollo .infoDesarrollo--texto form input::placeholder {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 17px;
-    color: #00000055;
-  }
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  color: #00000055;
+}
 
 .infoDesarrollo .infoDesarrollo--texto form .politicaTerminos {
   display: flex;
@@ -445,6 +445,7 @@ footer {
 
   .infoDesarrollo .infoDesarrollo--texto .proyectoNombre .nombreDesarrollo {
     font-size: 18px;
+    margin-top: 0.3rem;
   }
   
   .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .direccionEstadoTipoDesarrollo {

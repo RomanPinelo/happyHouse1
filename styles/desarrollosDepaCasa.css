@@ -445,6 +445,7 @@ footer {
 
   .infoDesarrollo .infoDesarrollo--texto .proyectoNombre .nombreDesarrollo {
     font-size: 18px;
+    margin-top: 0.25rem;
   }
   
   .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .direccionEstadoTipoDesarrollo {
