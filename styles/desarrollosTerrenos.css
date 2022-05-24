@@ -418,7 +418,7 @@ footer {
   /* Sección de información */
   .infoDesarrollo {
     width: 76%;
-    height: 88.75rem;
+    height: 89.5rem;
     display: flex;
     left: 50%;
     transform: translateX(-50%);
@@ -503,6 +503,6 @@ footer {
   }
 
   footer {
-    top: calc(32.5px + 88.75rem);
+    top: calc(32.5px + 89.5rem);
   }
 }
