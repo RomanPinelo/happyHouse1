@@ -202,51 +202,46 @@ main {
   margin: 1rem auto;
 }
 
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio {
-  position: relative;
-}
-
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio div {
+.infoDesarrollo .infoDesarrollo--texto .proyectoNombre {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
-}
-
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .direccionDesarrollo {
-  text-align: center;
-  margin: 0 0 0.25rem;
-  font-size: 12px;
-  text-align: left;
-  color: #00000088;
-}
-
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .precioDesarrollo {
-  color: var(--decorado);
-  font-size: 22px;
-  position: absolute;
-  top: 3.7rem;
-  right: 0;
-}
-
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .precioDesarrollo span {
-  font-size: 11px;
-}
-
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .estadoDesarrollo,
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio div .proyectoDesarrollo,
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio div .nombreDesarrollo,
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .tipoDesarrollo {
   margin: 0.25rem 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .proyectoNombre .proyectoDesarrollo,
+.infoDesarrollo .infoDesarrollo--texto .proyectoNombre .nombreDesarrollo {
+  width: 47.5%;
   font-size: 18px;
   color: #00000088;
-  text-align: center;
 }
 
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .estadoDesarrollo,
-.infoDesarrollo .infoDesarrollo--texto .direccionPrecio .tipoDesarrollo {
-  text-align: left;
+.infoDesarrollo .infoDesarrollo--texto .proyectoNombre .proyectoDesarrollo {
+  font-weight: bold;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .direccionEstadoTipoDesarrollo {
   font-size: 12px;
+  color: #00000088;
+  width: 42.5%;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .direccionEstadoTipoDesarrollo p {
+  margin: 0.3rem 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .precioDesarrollo {
+  width: 54%;
+  color: var(--decorado);
+  font-size: 22px;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .precioDesarrollo span {
+  font-size: 11px;
 }
 
 /* Subtítulos */
@@ -440,17 +435,28 @@ footer {
     margin: 0;
   }
 
-  .infoDesarrollo .infoDesarrollo--texto .direccionPrecio div .proyectoDesarrollo {
-    font-size: 24px;
-    font-weight: bold;
+  .infoDesarrollo .infoDesarrollo--texto .proyectoNombre {
+    margin: 1.25rem 0;
   }
 
-  .infoDesarrollo .infoDesarrollo--texto .direccionPrecio .precioDesarrollo {
-    font-size: 25px;
-    top: 4rem;
+  .infoDesarrollo .infoDesarrollo--texto .proyectoNombre .proyectoDesarrollo {
+    font-size: 24px;
+  }
+
+  .infoDesarrollo .infoDesarrollo--texto .proyectoNombre .nombreDesarrollo {
+    font-size: 18px;
   }
   
-  .infoDesarrollo .infoDesarrollo--texto .direccionPrecio .precioDesarrollo span {
+  .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .direccionEstadoTipoDesarrollo {
+    width: 47.5%;
+  }
+  
+  .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .precioDesarrollo {
+    width: 47.5%;
+    font-size: 25px;
+  }
+  
+  .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .precioDesarrollo span {
     font-size: 14px;
   }
 
