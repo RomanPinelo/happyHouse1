@@ -81,7 +81,7 @@ function pintarDatos(datos)  {
     if (contadorPropiedades < 12) {
       if (item.tipo != "Desarrollo") {
         cardsPages[0].innerHTML += `
-          <a href="#" class="cardInfo">
+          <a href="${item.descripcion}" class="cardInfo">
             <div class="cardInfo__carousel">
               <div class="cardInfo__caruosel-carousel">
                 <img src="${item.imagen1}" alt="Imagen">
@@ -144,7 +144,7 @@ function pintarDatos(datos)  {
     if (contadorPropiedades >= 12 && contadorPropiedades < 24) {
       if (item.tipo != "Desarrollo") {
         cardsPages[1].innerHTML += `
-          <a href="#" class="cardInfo">
+          <a href="${item.descripcion}" class="cardInfo">
             <div class="cardInfo__carousel">
               <div class="cardInfo__caruosel-carousel">
                 <img src="${item.imagen1}" alt="Imagen">
