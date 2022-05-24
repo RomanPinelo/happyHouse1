@@ -1,0 +1,508 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://allfont.es/allfont.css?fonts=book-antiqua');
+@font-face{
+  font-family: "bodoni-mt";
+  src:url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("woff"),
+  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("opentype"),
+  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Variables de color */
+:root {
+  --decorado: #bc9321;
+  --decorado1: #a08a5a;
+  --decorado2: #ffecb7;
+  --decorado4: #907335;
+  --fondo: #0b0020;
+  --fondo1: #e6e6e6;
+  --fondo2: #b3b3b3;
+  --fondo3: #0b002077;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Mobile View 
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+main {
+  position: relative;
+}
+
+/* Menú por anclaje */
+.menuAnclaje {
+  width: 100%;
+  height: 32.5px;
+  background-color: var(--fondo);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 3rem;
+  z-index: 10;
+}
+
+.menuAnclaje a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 32.5px;
+}
+
+.menuAnclaje a:hover {
+  color: var(--decorado);
+}
+
+/* Sección de información */
+.infoDesarrollo {
+  width: 100%;
+  height: 114rem;
+  position: absolute;
+  top: 32.5px;
+}
+
+/* Slider de imagenes del desarrollo en celular */
+.infoDesarrollo .container__slider {
+  width: 95%;
+  margin: 1rem auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.infoDesarrollo .container__slider .slider {
+  display: flex;
+  width: 500%; /* Depende del número de imágenes x * 100% */
+  height: 12.25rem;
+  margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+}
+
+.infoDesarrollo .container__slider .slider .slider__section {
+  width: 100%;
+}
+
+.infoDesarrollo .container__slider .slider .slider__section img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.infoDesarrollo .container__slider .slider__btn {
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoDesarrollo .container__slider .slider__btn span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: var(--fondo);
+  color: var(--decorado);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.infoDesarrollo .container__slider .slider__btn span:hover {
+  background-color: #fff;
+}
+
+.infoDesarrollo .container__slider .slider__btn--left {
+  left: 0;
+}
+
+.infoDesarrollo .container__slider .slider__btn--right {
+  right: 0;
+}
+
+/* Slider de los planos de distribución o información en celular */
+.planosDistribucion .container__slider1 {
+  width: 95%;
+  margin: 0 auto 1.75rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.planosDistribucion .container__slider1 .slider1 {
+  display: flex;
+  /*width: 600%; /* Depende del número de imágenes x * 100% */ /* Se pondra en cada archivo html */
+  height: 12rem;
+  margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+}
+
+.planosDistribucion .container__slider1 .slider1 .slider__section1 {
+  width: 100%;
+}
+
+.planosDistribucion .container__slider1 .slider1 .slider__section1 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.planosDistribucion .container__slider1 .slider__btn1 {
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planosDistribucion .container__slider1 .slider__btn1 span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: var(--fondo3);
+  color: var(--decorado);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.planosDistribucion .container__slider1 .slider__btn1 span:hover {
+  background-color: #ffffff55;
+}
+
+.planosDistribucion .container__slider1 .slider__btn--left1 {
+  left: 0;
+}
+
+.planosDistribucion .container__slider1 .slider__btn--right1 {
+  right: 0;
+}
+
+/* Información del desarrollo */
+.infoDesarrollo .infoDesarrollo--texto {
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .proyectoNombre {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.25rem 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .proyectoNombre .proyectoDesarrollo,
+.infoDesarrollo .infoDesarrollo--texto .proyectoNombre .nombreDesarrollo {
+  width: 47.5%;
+  font-size: 18px;
+  color: #00000088;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .proyectoNombre .proyectoDesarrollo {
+  font-weight: bold;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .direccionEstadoTipoDesarrollo {
+  font-size: 12px;
+  color: #00000088;
+  width: 42.5%;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .direccionEstadoTipoDesarrollo p {
+  margin: 0.3rem 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .precioDesarrollo {
+  width: 54%;
+  color: var(--decorado);
+  font-size: 22px;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .precioDesarrollo span {
+  font-size: 11px;
+}
+
+/* Subtítulos */
+.infoDesarrollo .infoDesarrollo--texto h3 {
+  margin: 2rem 0 1rem;
+  font-size: 18px;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .descripcion {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* Planos de distribución */
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion {
+  width: 100%;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--fondo);
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu button {
+  display: block;
+  width: 5rem;
+  height: 2rem;
+  margin: 0.5rem 0;
+  background-color: var(--fondo2);
+  color: var(--decorado);
+  outline: none;
+  border: 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu button:hover {
+  background-color: var(--decorado);
+  color: var(--fondo2);
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img {
+  width: 100%;
+  height: 14rem;
+  margin-top: 1rem;
+}
+
+.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/* mapa de ubicación */
+.infoDesarrollo .infoDesarrollo--texto iframe {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+/* Texto de formulario */
+.infoDesarrollo .infoDesarrollo--texto .visitanosFormulario {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* Formulario */
+.infoDesarrollo .infoDesarrollo--texto form {
+  width: 300px;
+  height: 18.5rem;
+  border: 1px solid #b3b3b3;
+  margin: 1rem auto;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input {
+  display: block;
+  width: 266px;
+  height: 26px;
+  font-size: 17px;
+  margin: 0.75rem auto;
+  outline: none;
+  border: 1px solid var(--decorado);
+  border-radius: 10px;
+  padding-left: 0.5rem;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  margin: 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input[type=number]::-webkit-inner-spin-button,
+.infoDesarrollo .infoDesarrollo--texto form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input[type=number] { 
+  -moz-appearance:textfield; 
+}
+
+.infoDesarrollo .infoDesarrollo--texto form input::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: #00000055;
+  }
+
+.infoDesarrollo .infoDesarrollo--texto form .politicaTerminos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form .politicaTerminos p {
+  width: 92%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form .politicaTerminos p a {
+  text-decoration: none;
+  color: var(--decorado);
+}
+
+.infoDesarrollo .infoDesarrollo--texto form button {
+  display: block;
+  width: 8rem;
+  margin: 1rem auto 0;
+  padding: 0.25rem 0;
+  background-color: var(--decorado);
+  color: var(--decorado2);
+  border: 0;
+  outline: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  font-family: 'Book Antiqua', arial;
+  font-size: 17px;
+}
+
+.infoDesarrollo .infoDesarrollo--texto form button:hover {
+  background-color: var(--decorado2);
+  color: var(--decorado);
+}
+
+/* Columna de imágenes en celular */
+.infoDesarrollo .infoDesarrollo--imagenesPC {
+  display: none;
+}
+
+footer {
+  position: absolute;
+  top: calc(32.5px + 114rem);
+}
+
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Desktop View
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+@media screen and (min-width: 1000px) {
+  /* Menú por anclaje */
+  .menuAnclaje {
+    justify-content: space-evenly;
+    top: 80px;
+  }
+
+  /* Sección de información */
+  .infoDesarrollo {
+    width: 76%;
+    height: 99rem;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Slider en PC */
+  .infoDesarrollo .container__slider {
+    display: none;
+  }
+
+  /* Información del desarrollo */
+  .infoDesarrollo .infoDesarrollo--texto {
+    width: 32.6112rem;
+    margin: 0;
+  }
+
+  .infoDesarrollo .infoDesarrollo--texto .proyectoNombre {
+    margin: 1.25rem 0;
+  }
+
+  .infoDesarrollo .infoDesarrollo--texto .proyectoNombre .proyectoDesarrollo {
+    font-size: 24px;
+  }
+
+  .infoDesarrollo .infoDesarrollo--texto .proyectoNombre .nombreDesarrollo {
+    font-size: 18px;
+  }
+  
+  .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .direccionEstadoTipoDesarrollo {
+    width: 47.5%;
+  }
+  
+  .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .precioDesarrollo {
+    width: 47.5%;
+    font-size: 25px;
+  }
+  
+  .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .precioDesarrollo span {
+    font-size: 14px;
+  }
+
+  /* Planos de distribución */
+  .infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img {
+    height: 300px;
+  }
+
+  /* Slider de los planos de distribución o información en celular */
+  .planosDistribucion .container__slider1 {
+    width: 500px;
+  }
+
+  .planosDistribucion .container__slider1 .slider1 {
+    height: 300px;
+  }
+
+  /* Texto de formulario */
+  .infoDesarrollo .infoDesarrollo--texto .visitanosFormulario {
+    margin-left: 2rem;
+  }
+
+  /* Columna de imágenes en PC */
+  .infoDesarrollo .infoDesarrollo--imagenesPC {
+    display: block;
+    width: calc(100% - 32.6112rem);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  .infoDesarrollo .infoDesarrollo--imagenesPC img {
+    display: block;
+    width: 70%;
+    height: 12.25rem;
+    object-fit: cover;
+  }
+
+  .infoDesarrollo .infoDesarrollo--imagenesPC .videoYouTube {
+    background-color: #907335;/* Quitar al final */
+    height: 12.25rem;
+    width: 70%;
+  }
+
+  footer {
+    top: calc(32.5px + 99rem);
+  }
+}
