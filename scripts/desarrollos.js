@@ -92,4 +92,4 @@ btnLeft1.addEventListener('click', function(){
 // Esto hace que sea automático y es opcional
 setInterval(function() {
   nextPlano();
-}, 5000);
+}, 8000);

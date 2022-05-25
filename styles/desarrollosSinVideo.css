@@ -18,7 +18,7 @@
   --fondo: #0b0020;
   --fondo1: #e6e6e6;
   --fondo2: #b3b3b3;
-  --fondo3: #0b002077;
+  --fondo3: #0b002055;
 }
 
 * {
@@ -63,7 +63,7 @@ main {
 /* Sección de información */
 .infoDesarrollo {
   width: 100%;
-  height: 114rem;
+  height: 104rem;
   position: absolute;
   top: 32.5px;
 }
@@ -350,10 +350,10 @@ main {
 }
 
 .infoDesarrollo .infoDesarrollo--texto form input::placeholder {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 17px;
-    color: #00000055;
-  }
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  color: #00000055;
+}
 
 .infoDesarrollo .infoDesarrollo--texto form .politicaTerminos {
   display: flex;
@@ -401,7 +401,7 @@ main {
 
 footer {
   position: absolute;
-  top: calc(32.5px + 114rem);
+  top: calc(32.5px + 104rem);
 }
 
 
@@ -417,8 +417,8 @@ footer {
 
   /* Sección de información */
   .infoDesarrollo {
-    width: 76%;
-    height: 99rem;
+    width: 71%;
+    height: 92rem;
     display: flex;
     left: 50%;
     transform: translateX(-50%);
@@ -445,7 +445,7 @@ footer {
 
   .infoDesarrollo .infoDesarrollo--texto .proyectoNombre .nombreDesarrollo {
     font-size: 18px;
-    margin-top: 0.25rem;
+    margin-top: 0.3rem;
   }
   
   .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .direccionEstadoTipoDesarrollo {
@@ -484,6 +484,7 @@ footer {
   .infoDesarrollo .infoDesarrollo--imagenesPC {
     display: block;
     width: calc(100% - 32.6112rem);
+    height: 98.1%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -492,18 +493,12 @@ footer {
 
   .infoDesarrollo .infoDesarrollo--imagenesPC img {
     display: block;
-    width: 70%;
-    height: 12.25rem;
+    width: 26rem;
+    height: 17.25rem;
     object-fit: cover;
   }
 
-  .infoDesarrollo .infoDesarrollo--imagenesPC .videoYouTube {
-    background-color: #907335;/* Quitar al final */
-    height: 12.25rem;
-    width: 70%;
-  }
-
   footer {
-    top: calc(32.5px + 99rem);
+    top: calc(32.5px + 92rem);
   }
 }
