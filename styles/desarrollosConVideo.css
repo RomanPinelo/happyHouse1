@@ -417,8 +417,8 @@ footer {
 
   /* Sección de información */
   .infoDesarrollo {
-    width: 76%;
-    height: 89.5rem;
+    width: 69%;
+    height: 90rem;
     display: flex;
     left: 50%;
     transform: translateX(-50%);
@@ -484,6 +484,7 @@ footer {
   .infoDesarrollo .infoDesarrollo--imagenesPC {
     display: block;
     width: calc(100% - 32.6112rem);
+    height: 98.5%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -492,18 +493,18 @@ footer {
 
   .infoDesarrollo .infoDesarrollo--imagenesPC img {
     display: block;
-    width: 70%;
-    height: 12.25rem;
+    width: 23.9rem;
+    height: 13.7rem;
     object-fit: cover;
   }
 
   .infoDesarrollo .infoDesarrollo--imagenesPC .videoYouTube {
     background-color: #907335;/* Quitar al final */
-    height: 12.25rem;
-    width: 70%;
+    height: 13.7rem;
+    width: 23.9rem;
   }
 
   footer {
-    top: calc(32.5px + 89.5rem);
+    top: calc(32.5px + 90rem);
   }
 }
