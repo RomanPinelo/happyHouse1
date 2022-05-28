@@ -106,22 +106,19 @@
           <p class="descripcion" id="ubicacionMapa">
             Hermoso departamento en venta en el conjunto habitacional Portika Polanco a 5 minutos de Polanco.
             Departamento con luz natural, cuenta con recibidor que puede ser usado como estudio, sala de tv o home office,
-            cuenta con 3 recámaras, la principal con baño y walking closet, 2 baños, sala comedor, cocina abierta con barra,
-            área de lavado y 2 estacionamientos independientes.
+            la recámara principal con baño y walking closet, sala comedor, cocina abierta con barra y área de lavado.
             Cuenta con seguridad privada, gimnasio, pista de jogging, jardines con juegos infantiles,
             cancha de paddle, cancha de basquetball, sala de cine, área de asador, bussines center y programa de clases
             grupales como zumba, yoga, taekwondo.
-
             Como adicionales es que se aceptan mascotas, jardín con juegos infantiles, gimnasio, cuarto de Juegos, salón de
             eventos, cancha de Tenis, cancha de Basquetball, cancha de paddle, sala de cine, área de asador,
             bussines center, cisterna, circuito cerrado, tanque de gas estacionario, dos elevadores y el edificio tiene 10
             años.
-
             Excelente opción de compra para la familia o como inversión. Conócelo!
           </p>
 
           <h3>Ubicación:</h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.1501456775336!2d-99.1846400414926!3d19.44261566380891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8af5868efb7%3A0x4db1d3911295bcd5!2sCalz.%20Gral.%20Mariano%20Escobedo%20193%2C%20An%C3%A1huac%20I%20Secc%2C%20Miguel%20Hidalgo%2C%2011320%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1646716102008!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe id="visitanosForm" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.1501456775336!2d-99.1846400414926!3d19.44261566380891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8af5868efb7%3A0x4db1d3911295bcd5!2sCalz.%20Gral.%20Mariano%20Escobedo%20193%2C%20An%C3%A1huac%20I%20Secc%2C%20Miguel%20Hidalgo%2C%2011320%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1646716102008!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
           <h3>¡Visítanos!</h3>
           <p class="visitanosFormulario">
@@ -190,6 +187,12 @@
 
     <script src="../../scripts/script.js"></script>
     <script src="../../scripts/propiedad.js"></script>
+
+    <script>
+      if (screen.width > 1000) {
+        document.querySelector(".descripcion").innerHTML += `<br><br>`;
+      }
+    </script>
 
   </body>
 
