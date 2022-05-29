@@ -10,7 +10,7 @@
   $politicas = $_POST['politicaPrivacidad'];
 
   // Se establece la dirección de a quien va dirigido el mensaje y asunto del correo.
-  $destinatario = "l.espi1213@gmail.com"; // Al final cambiar a contacto@happyhousemx.com
+  $destinatario = "contacto@happyhousemx.com";
 
   // Header
   $header = 'From: ' . $correoContacto . "\r\n";
@@ -27,7 +27,8 @@
   $mensaje .= "Correo: " .  $correoContacto . "\r\n";
   $mensaje .= "Teléfono: " . $telefonoContacto . "\r\n";
   $mensaje .= "\r\n";
-  $mensaje .= "Quiere agendar una cita para el:" . "\r\n";
+  $mensaje .= "Quiere agendar una cita para visitar la propiedad con ID:" . $idPropiedadDesarrollo . "\r\n";
+  $mensaje .= "el día:" . "\r\n";
   $mensaje .= $fechaCita . "\r\n";
   $mensaje .= "a las" . "\r\n";
   $mensaje .= $horaCita . " hrs." . "\r\n";
