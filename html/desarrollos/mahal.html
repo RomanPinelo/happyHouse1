@@ -8,7 +8,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico">
     <link rel="stylesheet" href="../../styles/normalize.css">
     <link rel="stylesheet" href="../../styles/style.css">
-    <link rel="stylesheet" href="../../styles/desarrollosConVideo.css">
+    <link rel="stylesheet" href="../../styles/desarrollosSinVideo.css">
 
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
@@ -179,7 +179,7 @@
           <img src="../../img/desarrollos/mahal/mahal3.jpg" alt="Imagen" loading="lazy">
           <img src="../../img/desarrollos/mahal/mahal4.jpg" alt="Imagen" loading="lazy">
           <img src="../../img/desarrollos/mahal/mahal5.jpg" alt="Imagen" loading="lazy">
-          <div class="videoYouTube"></div>
+          <!-- <div class="videoYouTube"></div> --> <!-- Agregar al final el link al video -->
         </div> <!-- infoDesarrollo--imagenesPC div -->
 
       </section> <!-- infoDesarrollo Section -->
@@ -218,6 +218,11 @@
 
     <script src="../../scripts/script.js"></script>
     <script src="../../scripts/desarrollos.js"></script>
+    <script>
+      if (screen.width > 1000) {
+        document.querySelector(".descripcion").style.marginBottom = "3.75rem";
+      }
+    </script>
 
   </body>
 
