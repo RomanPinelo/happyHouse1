@@ -27,7 +27,7 @@
   $mensaje .= "Correo: " .  $correoContacto . "\r\n";
   $mensaje .= "Teléfono: " . $telefonoContacto . "\r\n";
   $mensaje .= "\r\n";
-  $mensaje .= "Quiere agendar una cita para visitar la propiedad con ID:" . $idPropiedadDesarrollo . "\r\n";
+  $mensaje .= "Quiere agendar una cita para visitar la propiedad con ID: " . $idPropiedadDesarrollo . "\r\n";
   $mensaje .= "el día:" . "\r\n";
   $mensaje .= $fechaCita . "\r\n";
   $mensaje .= "a las" . "\r\n";
