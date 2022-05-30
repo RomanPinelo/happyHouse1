@@ -402,5 +402,44 @@
     "imagen7": "../img/desarrollos/primeroMayo/primero_7.jpg",
     "imagen8": "../img/desarrollos/primeroMayo/primero_8.jpg",
     "descripcion": "./desarrollos/primeroMayo.html"
+  },
+  {
+    "id": "mahal",
+    "direccion": {
+      "completa": "",
+      "estado": "Yucatán",
+      "delegacionMunicipio": "Mérida",
+      "colonia": "Yucatán",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "N/A",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "456,",
+      "centenas": "000"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "982,",
+      "centenas": "200"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Mahal",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/mahal/Mahal_Yucatan.jpg",
+    "imagen2": "../img/desarrollos/mahal/mahal1.jpg",
+    "imagen3": "../img/desarrollos/mahal/mahal2.jpg",
+    "imagen4": "../img/desarrollos/mahal/mahal3.jpg",
+    "imagen5": "../img/desarrollos/mahal/mahal4.jpg",
+    "descripcion": "./desarrollos/mahal.html"
   }
 ]
