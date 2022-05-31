@@ -153,6 +153,10 @@
             </div> <!-- container__slider div -->
           </div>
 
+          <div class="videoYouTubeCel" id="videoYtCel">
+            
+          </div>
+
           <h3>Ubicación:</h3>
           <iframe id="visitanosForm" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29732.398329695337!2d-89.2415972!3d21.3287987!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f543b37ff8cdfb9%3A0x8dc511786eff40d0!2sPlayales%20Telchac%20Residencial!5e0!3m2!1ses-419!2smx!4v1653971876198!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
@@ -185,7 +189,9 @@
           <img src="../../img/desarrollos/playales/playales_2.jpg" alt="Imagen" loading="lazy">
           <img src="../../img/desarrollos/playales/playales_3.jpg" alt="Imagen" loading="lazy">
           <img src="../../img/desarrollos/playales/playales_4.jpg" alt="Imagen" loading="lazy">
-          <div class="videoYouTube"></div>
+          <div class="videoYouTubePc">
+            <iframe src="https://www.youtube.com/embed/ZsV1rSWBI6g?autoplay=1&controls=0&loop=1&playlist=ZsV1rSWBI6g" title="YouTube video player" frameborder="none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div> <!-- infoDesarrollo--imagenesPC div -->
 
       </section> <!-- infoDesarrollo Section -->
@@ -224,6 +230,17 @@
 
     <script src="../../scripts/script.js"></script>
     <script src="../../scripts/desarrollos.js"></script>
+    <script>
+      var videoCel = document.getElementById("videoYtCel");
+
+      if (screen.width < 1000) {
+        videoCel.innerHTML = '<iframe src="https://www.youtube.com/embed/ZsV1rSWBI6g?autoplay=1&controls=0&loop=1&playlist=ZsV1rSWBI6g" title="YouTube video player" frameborder="none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+        videoCel.style.height = "12rem";
+      } else {
+        videoCel.innerHTML = "";
+        videoCel.style.height = "0";
+      }
+    </script>
 
   </body>
 

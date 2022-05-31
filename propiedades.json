@@ -441,5 +441,44 @@
     "imagen4": "../img/desarrollos/mahal/mahal3.jpg",
     "imagen5": "../img/desarrollos/mahal/mahal4.jpg",
     "descripcion": "./desarrollos/mahal.html"
+  },
+  {
+    "id": "playales",
+    "direccion": {
+      "completa": "",
+      "estado": "Yucatán",
+      "delegacionMunicipio": "Telchac",
+      "colonia": "Yucatán",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "N/A",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "320,",
+      "centenas": "000"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "973,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Playales",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/playales/playales_Yucatan.jpg",
+    "imagen2": "../img/desarrollos/playales/playales_1.jpg",
+    "imagen3": "../img/desarrollos/playales/playales_2.jpg",
+    "imagen4": "../img/desarrollos/playales/playales_3.jpg",
+    "imagen5": "../img/desarrollos/playales/playales_4.jpg",
+    "descripcion": "./desarrollos/playales.html"
   }
 ]

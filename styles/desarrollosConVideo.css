@@ -63,7 +63,7 @@ main {
 /* Sección de información */
 .infoDesarrollo {
   width: 100%;
-  height: 104rem;
+  height: 117rem;
   position: absolute;
   top: 32.5px;
 }
@@ -261,41 +261,15 @@ main {
   width: 100%;
 }
 
-.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--fondo);
+/* Video de YouTube en celular*/
+.infoDesarrollo .infoDesarrollo--texto .videoYouTubeCel {
+  width: 95%;
+  margin: 0 auto;
 }
 
-.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu button {
-  display: block;
-  width: 5rem;
-  height: 2rem;
-  margin: 0.5rem 0;
-  background-color: var(--fondo2);
-  color: var(--decorado);
-  outline: none;
-  border: 0;
-}
-
-.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__menu button:hover {
-  background-color: var(--decorado);
-  color: var(--fondo2);
-}
-
-.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img {
-  width: 100%;
-  height: 14rem;
-  margin-top: 1rem;
-}
-
-.infoDesarrollo .infoDesarrollo--texto .planosDistribucion__img img {
-  display: block;
+.infoDesarrollo .infoDesarrollo--texto .videoYouTubeCel iframe {
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 
 
@@ -401,7 +375,7 @@ main {
 
 footer {
   position: absolute;
-  top: calc(32.5px + 104rem);
+  top: calc(32.5px + 117rem);
 }
 
 
@@ -498,10 +472,18 @@ footer {
     object-fit: cover;
   }
 
-  .infoDesarrollo .infoDesarrollo--imagenesPC .videoYouTube {
-    background-color: #907335;/* Quitar al final */
+  .infoDesarrollo .infoDesarrollo--imagenesPC .videoYouTubePc {
     height: 13.7rem;
     width: 23.9rem;
+    border: 0;
+    outline: none;
+  }
+
+  .infoDesarrollo .infoDesarrollo--imagenesPC .videoYouTubePc iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
   }
 
   footer {
