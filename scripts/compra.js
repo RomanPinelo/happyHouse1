@@ -44,6 +44,9 @@ buttonPageLeft.addEventListener('click', function(){
   pageXOfY.innerHTML = page;
   margin_Left += 100;
   paginasView.style.marginLeft = `${margin_Left}%`;
+  setTimeout(() => {
+    window.scrollTo(0, 450);
+  }, 400);
   if (page < 1) {
     page = 1;
     pageXOfY.innerHTML = page;
@@ -57,6 +60,9 @@ buttonPageRight.addEventListener('click', function(){
   pageXOfY.innerHTML = page;
   margin_Left -= 100;
   paginasView.style.marginLeft = `${margin_Left}%`;
+  setTimeout(() => {
+    window.scrollTo(0, 450);
+  }, 400);
   if (page > 2) {
     page = 2;
     pageXOfY.innerHTML = page;
