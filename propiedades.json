@@ -480,5 +480,44 @@
     "imagen4": "../img/desarrollos/playales/playales_3.jpg",
     "imagen5": "../img/desarrollos/playales/playales_4.jpg",
     "descripcion": "./desarrollos/playales.html"
+  },
+  {
+    "id": "wayuum",
+    "direccion": {
+      "completa": "",
+      "estado": "Yucatán",
+      "delegacionMunicipio": "Progreso",
+      "colonia": "Yucatán",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "N/A",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "241,",
+      "centenas": "600"
+    },
+    "precioMaximo":{
+      "millones": "1,",
+      "miles": "349,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Wayúum",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/wayuum/wayuum_Yucatan.jpeg",
+    "imagen2": "../img/desarrollos/wayuum/wayuum_1.jpg",
+    "imagen3": "../img/desarrollos/wayuum/wayuum_2.jpg",
+    "imagen4": "../img/desarrollos/wayuum/wayuum_3.jpg",
+    "imagen5": "../img/desarrollos/wayuum/wayuum_4.jpg",
+    "descripcion": "./desarrollos/wayuum.html"
   }
 ]
