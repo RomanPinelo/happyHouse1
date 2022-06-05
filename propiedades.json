@@ -558,5 +558,44 @@
     "imagen4": "../img/desarrollos/sorenna/sorenna_1.jpg",
     "imagen5": "../img/desarrollos/sorenna/sorenna_4.jpg",
     "descripcion": "./desarrollos/sorenna.html"
+  },
+  {
+    "id": "haciendaSanEduardo",
+    "direccion": {
+      "completa": "",
+      "estado": "Yucatán",
+      "delegacionMunicipio": "Telchac",
+      "colonia": "Yucatán",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "N/A",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "",
+      "centenas": "0"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Hacienda San Eduardo",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/haciendaSanEduardo/haciSanEdu_1.jpeg",
+    "imagen2": "../img/desarrollos/haciendaSanEduardo/haciSanEdu_2.jpeg",
+    "imagen3": "../img/desarrollos/haciendaSanEduardo/haciSanEdu_3.jpeg",
+    "imagen4": "../img/desarrollos/haciendaSanEduardo/haciSanEdu_4.jpeg",
+    "imagen5": "../img/desarrollos/haciendaSanEduardo/haciSanEdu_5.jpeg",
+    "descripcion": "./desarrollos/haciendaSanEdu.html"
   }
 ]
