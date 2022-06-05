@@ -597,5 +597,44 @@
     "imagen4": "../img/desarrollos/haciendaSanEduardo/haciSanEdu_4.jpeg",
     "imagen5": "../img/desarrollos/haciendaSanEduardo/haciSanEdu_5.jpeg",
     "descripcion": "./desarrollos/haciendaSanEdu.html"
+  },
+  {
+    "id": "sanRoque",
+    "direccion": {
+      "completa": "",
+      "estado": "Yucatán",
+      "delegacionMunicipio": "Telchac",
+      "colonia": "Yucatán",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "N/A",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "",
+      "centenas": "0"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "San Roque",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/sanRoque/sanRoque_1.jpg",
+    "imagen2": "../img/desarrollos/sanRoque/sanRoque_2.jpeg",
+    "imagen3": "../img/desarrollos/sanRoque/sanRoque_3.jpeg",
+    "imagen4": "../img/desarrollos/sanRoque/sanRoque_4.jpeg",
+    "imagen5": "../img/desarrollos/sanRoque/sanRoque_5.jpeg",
+    "descripcion": "./desarrollos/sanRoque.html"
   }
 ]
