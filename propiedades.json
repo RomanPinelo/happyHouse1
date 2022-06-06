@@ -638,7 +638,7 @@
     "descripcion": "./desarrollos/sanRoque.html"
   },
   {
-    "id": "alv72",
+    "id": "avl72",
     "direccion": {
       "completa": "",
       "estado": "CDMX",
@@ -663,11 +663,44 @@
     },
     "tipo": "Casa",
     "estado": "Entrega inmediata",
-    "imagen1": "../img/propiedades/alv72/alv72_1.jpg",
-    "imagen2": "../img/propiedades/alv72/alv72_2.jpg",
-    "imagen3": "../img/propiedades/alv72/alv72_3.jpg",
-    "imagen4": "../img/propiedades/alv72/alv72_4.jpg",
-    "imagen5": "../img/propiedades/alv72/alv72_5.jpg",
-    "descripcion": "./propiedades/alv72.html"
+    "imagen1": "../img/propiedades/avl72/avl72_1.jpg",
+    "imagen2": "../img/propiedades/avl72/avl72_2.jpg",
+    "imagen3": "../img/propiedades/avl72/avl72_3.jpg",
+    "imagen4": "../img/propiedades/avl72/avl72_4.jpg",
+    "imagen5": "../img/propiedades/avl72/avl72_5.jpg",
+    "descripcion": "./propiedades/avl72.html"
+  },
+  {
+    "id": "atl269",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Cuauhtémoc",
+      "colonia": "Sta. María la Ribera",
+      "calle": "Dr. Atl",
+      "numeroInt": "N/A",
+      "numeroExt": "269"
+    },
+    "superficie": 64,
+    "recamaras": 1,
+    "banos": 1,
+    "estacionamiento": "N/A",
+    "precio":{
+      "millones": "2,",
+      "miles": "000,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Vendido",
+    "imagen1": "../img/propiedades/atl269/atl269_1.jpeg",
+    "imagen2": "../img/propiedades/atl269/atl269_2.jpeg",
+    "imagen3": "../img/propiedades/atl269/atl269_3.jpeg",
+    "imagen4": "../img/propiedades/atl269/atl269_4.jpeg",
+    "imagen5": "../img/propiedades/atl269/atl269_5.jpeg",
+    "descripcion": "./propiedades/atl269.html"
   }
 ]
