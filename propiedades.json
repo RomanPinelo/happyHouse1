@@ -702,5 +702,38 @@
     "imagen4": "../img/propiedades/atl269/atl269_4.jpeg",
     "imagen5": "../img/propiedades/atl269/atl269_5.jpeg",
     "descripcion": "#"
+  },
+  {
+    "id": "avm45",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Miguel Hidalgo",
+      "colonia": "Un Hogar",
+      "calle": "Av. de los Maestros",
+      "numeroInt": "N/A",
+      "numeroExt": "45"
+    },
+    "superficie": 74,
+    "recamaras": 2,
+    "banos": 1,
+    "estacionamiento": "N/A",
+    "precio":{
+      "millones": "2,",
+      "miles": "300,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/propiedades/avm45/avm45_1.jpeg",
+    "imagen2": "../img/propiedades/avm45/avm45_2.jpeg",
+    "imagen3": "../img/propiedades/avm45/avm45_3.jpeg",
+    "imagen4": "../img/propiedades/avm45/avm45_4.jpeg",
+    "imagen5": "../img/propiedades/avm45/avm45_5.jpeg",
+    "descripcion": "./propiedades/avm45.html"
   }
 ]
