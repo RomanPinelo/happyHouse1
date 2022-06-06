@@ -735,5 +735,38 @@
     "imagen4": "../img/propiedades/avm45/avm45_4.jpeg",
     "imagen5": "../img/propiedades/avm45/avm45_5.jpeg",
     "descripcion": "./propiedades/avm45.html"
+  },
+  {
+    "id": "jtb203",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Cuauhtémoc",
+      "colonia": "Sta. María La Ribera",
+      "calle": "Jaime Torres Bodet",
+      "numeroInt": "N/A",
+      "numeroExt": "203"
+    },
+    "superficie": 40,
+    "recamaras": 2,
+    "banos": 1,
+    "estacionamiento": "N/A",
+    "precio":{
+      "millones": "1,",
+      "miles": "500,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Departamento",
+    "estado": "Vendido",
+    "imagen1": "../img/propiedades/jtb203/jtb203_1.jpg",
+    "imagen2": "../img/propiedades/jtb203/jtb203_2.jpg",
+    "imagen3": "../img/propiedades/jtb203/jtb203_3.jpg",
+    "imagen4": "../img/propiedades/jtb203/jtb203_4.jpg",
+    "imagen5": "../img/propiedades/jtb203/jtb203_5.jpg",
+    "descripcion": "#"
   }
 ]
