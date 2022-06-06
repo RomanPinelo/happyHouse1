@@ -636,5 +636,38 @@
     "imagen4": "../img/desarrollos/sanRoque/sanRoque_4.jpeg",
     "imagen5": "../img/desarrollos/sanRoque/sanRoque_5.jpeg",
     "descripcion": "./desarrollos/sanRoque.html"
+  },
+  {
+    "id": "alv72",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Nativitas",
+      "calle": "Av. Lago",
+      "numeroInt": "N/A",
+      "numeroExt": "72"
+    },
+    "superficie": 195,
+    "recamaras": 3,
+    "banos": 2,
+    "estacionamiento": 1,
+    "precio":{
+      "millones": "7,",
+      "miles": "500,",
+      "centenas": "000"
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Casa",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/propiedades/alv72/alv72_1.jpg",
+    "imagen2": "../img/propiedades/alv72/alv72_2.jpg",
+    "imagen3": "../img/propiedades/alv72/alv72_3.jpg",
+    "imagen4": "../img/propiedades/alv72/alv72_4.jpg",
+    "imagen5": "../img/propiedades/alv72/alv72_5.jpg",
+    "descripcion": "./propiedades/alv72.html"
   }
 ]

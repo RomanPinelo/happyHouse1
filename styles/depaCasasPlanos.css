@@ -1,0 +1,117 @@
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Mobile View 
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+/* Sección de información */
+.infoDesarrollo {
+  height: 104rem;
+}
+
+footer {
+  top: calc(32.5px + 104rem);
+}
+
+/* Slider de los planos de distribución o información en celular */
+.planosDistribucion .container__slider1 {
+  width: 95%;
+  margin: 0 auto 1.75rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.planosDistribucion .container__slider1 .slider1 {
+  display: flex;
+  /*width: 600%; /* Depende del número de imágenes x * 100% */ /* Se pondra en cada archivo html */
+  height: 12rem;
+  margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
+}
+
+.planosDistribucion .container__slider1 .slider1 .slider__section1 {
+  width: 100%;
+}
+
+.planosDistribucion .container__slider1 .slider1 .slider__section1 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.planosDistribucion .container__slider1 .slider__btn1 {
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planosDistribucion .container__slider1 .slider__btn1 span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: var(--fondo3);
+  color: var(--decorado);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.planosDistribucion .container__slider1 .slider__btn1 span:hover {
+  background-color: #ffffff55;
+}
+
+.planosDistribucion .container__slider1 .slider__btn--left1 {
+  left: 0;
+}
+
+.planosDistribucion .container__slider1 .slider__btn--right1 {
+  right: 0;
+}
+
+/*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+  Desktop View
+*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
+@media screen and (min-width: 1000px) {
+  /* Sección de información */
+  .infoDesarrollo {
+    width: 71%;
+    height: 92rem;
+  }
+
+  footer {
+    top: calc(32.5px + 92rem);
+  }
+
+  /* Columna de imágenes en PC */
+  .infoDesarrollo .infoDesarrollo--imagenesPC {
+    display: block;
+    width: calc(100% - 32.6112rem);
+    height: 98.1%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  .infoDesarrollo .infoDesarrollo--imagenesPC img {
+    display: block;
+    width: 26rem;
+    height: 17.25rem;
+    object-fit: cover;
+  }
+
+  /* Slider de los planos de distribución o información en PC */
+  .planosDistribucion .container__slider1 {
+    width: 500px;
+  }
+
+  .planosDistribucion .container__slider1 .slider1 {
+    height: 300px;
+  }
+}
