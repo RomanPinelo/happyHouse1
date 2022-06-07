@@ -768,5 +768,44 @@
     "imagen4": "../img/propiedades/jtb203/jtb203_4.jpg",
     "imagen5": "../img/propiedades/jtb203/jtb203_5.jpg",
     "descripcion": "#"
+  },
+  {
+    "id": "ciudadDeportiva",
+    "direccion": {
+      "completa": "",
+      "estado": "Yucatán",
+      "delegacionMunicipio": "Telchac",
+      "colonia": "Yucatán",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "N/A",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "",
+      "centenas": "0"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Ciudad Deportiva",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
+    "imagen2": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
+    "imagen3": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
+    "imagen4": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
+    "imagen5": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
+    "descripcion": "./desarrollos/ciudadDepor.html"
   }
 ]
