@@ -252,6 +252,15 @@ function pintarDatos1(datos, estado) {
   }
 }
 
+// Función para ir a la primer página
+function primerPagina() {
+  page = 1;
+  pageXOfY.innerHTML = page;
+  margin_Left = 0;
+  paginasView.style.marginLeft = `${margin_Left}%`;
+  window.scrollTo(0, 450);
+}
+
 
 
 // ------------------------------------------------- Eventos sobre las tarjetas ----------------------------------------------
@@ -271,13 +280,7 @@ todos.addEventListener('click', function(){
 });
 
 cdmx.addEventListener('click', function(){
-  page = 1;
-  pageXOfY.innerHTML = page;
-  margin_Left = 0;
-  paginasView.style.marginLeft = `${margin_Left}%`;
-  setTimeout(() => {
-    window.scrollTo(0, 450);
-  }, 400);
+  primerPagina();
   let estado = "CDMX";
   //Manejo del archivo json
   fetch('../propiedades.json')
@@ -288,13 +291,7 @@ cdmx.addEventListener('click', function(){
 });
 
 edomex.addEventListener('click', function(){
-  page = 1;
-  pageXOfY.innerHTML = page;
-  margin_Left = 0;
-  paginasView.style.marginLeft = `${margin_Left}%`;
-  setTimeout(() => {
-    window.scrollTo(0, 450);
-  }, 400);
+  primerPagina();
   let estado = "Estado de México";
   //Manejo del archivo json
   fetch('../propiedades.json')
@@ -305,13 +302,7 @@ edomex.addEventListener('click', function(){
 });
 
 puebla.addEventListener('click', function(){
-  page = 1;
-  pageXOfY.innerHTML = page;
-  margin_Left = 0;
-  paginasView.style.marginLeft = `${margin_Left}%`;
-  setTimeout(() => {
-    window.scrollTo(0, 450);
-  }, 400);
+  primerPagina();
   let estado = "Puebla";
   //Manejo del archivo json
   fetch('../propiedades.json')
@@ -322,13 +313,7 @@ puebla.addEventListener('click', function(){
 });
 
 queretaro.addEventListener('click', function(){
-  page = 1;
-  pageXOfY.innerHTML = page;
-  margin_Left = 0;
-  paginasView.style.marginLeft = `${margin_Left}%`;
-  setTimeout(() => {
-    window.scrollTo(0, 450);
-  }, 400);
+  primerPagina();
   let estado = "Querétaro";
   //Manejo del archivo json
   fetch('../propiedades.json')
@@ -339,13 +324,7 @@ queretaro.addEventListener('click', function(){
 });
 
 yucatan.addEventListener('click', function(){
-  page = 1;
-  pageXOfY.innerHTML = page;
-  margin_Left = 0;
-  paginasView.style.marginLeft = `${margin_Left}%`;
-  setTimeout(() => {
-    window.scrollTo(0, 450);
-  }, 400);
+  primerPagina();
   let estado = "Yucatán";
   //Manejo del archivo json
   fetch('../propiedades.json')
