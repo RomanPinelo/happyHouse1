@@ -1,9 +1,13 @@
+// -------------------------------------------------- Variables --------------------------------------------------------------
 // Variable del select del estado y número de propiedades
 var selectEstado = document.getElementById("estado");
 var numPropiedadBus = document.getElementById("numeroPropiedades");
 
 // Variable que manejas las páginas que muestran las tarjetas
 var cardsPages = document.querySelectorAll(".paginasCards");
+
+// Variables del cuadro de búsqueda
+var botonBusqueda = document.getElementById("buscarBtn");
 
 // Variables del los botones del menpu de estados
 var todos = document.getElementById("todosEstados");
@@ -23,6 +27,7 @@ var margin_Left = 0;
 
 pageXOfY.innerHTML = page;
 
+// -------------------------------------------------- Funciones --------------------------------------------------------------
 // Función para cambiar el ancho del select, de acuerdo a la opción seleccionada y mostrar
 // número de propiedades
 function pintarNumPropiedades(datos, nombre) {
@@ -64,47 +69,10 @@ setInterval(() => {
   anchoSelect();
 }, 50);
 
-// Funciones del indicador de páginas
-buttonPageLeft.addEventListener('click', function(){
-  page -= 1;
-  pageXOfY.innerHTML = page;
-  margin_Left += 100;
-  paginasView.style.marginLeft = `${margin_Left}%`;
-  setTimeout(() => {
-    window.scrollTo(0, 450);
-  }, 400);
-  if (page < 1) {
-    page = 1;
-    pageXOfY.innerHTML = page;
-    margin_Left -= 100;
-    paginasView.style.marginLeft = `${margin_Left}%`;
-  }
-});
-
-buttonPageRight.addEventListener('click', function(){
-  page += 1;
-  pageXOfY.innerHTML = page;
-  margin_Left -= 100;
-  paginasView.style.marginLeft = `${margin_Left}%`;
-  setTimeout(() => {
-    window.scrollTo(0, 450);
-  }, 400);
-  if (page > 2) {
-    page = 2;
-    pageXOfY.innerHTML = page;
-    margin_Left += 100;
-    paginasView.style.marginLeft = `${margin_Left}%`;
-  }
-});
-
-
-
-// ------------------------------------------------- Funciones para pintar las tarjetas ----------------------------------------------
+// Funciones para pintar las tarjetas
 // Función pintarDatos
 function pintarDatos(datos)  {
   let contadorPropiedades = 0;
-  let numCardsLastPage;
-  console.log(datos.length);
   // Borra todo lo que haya en las propiedades
   for (let i = 0; i < cardsPages.length; i++) {
     cardsPages[i].innerHTML = "";
@@ -279,9 +247,48 @@ function primerPagina() {
   window.scrollTo(0, 450);
 }
 
+// Función para filtrar datos de búsqueda
+function filtrarDatos(datos, opcionSel) {
+  console.log(datos);
+  console.log(opcionSel);
+}
+
 
 
 // ------------------------------------------------- Eventos sobre las tarjetas ----------------------------------------------
+// Funciones del indicador de páginas
+buttonPageLeft.addEventListener('click', function(){
+  page -= 1;
+  pageXOfY.innerHTML = page;
+  margin_Left += 100;
+  paginasView.style.marginLeft = `${margin_Left}%`;
+  setTimeout(() => {
+    window.scrollTo(0, 450);
+  }, 400);
+  if (page < 1) {
+    page = 1;
+    pageXOfY.innerHTML = page;
+    margin_Left -= 100;
+    paginasView.style.marginLeft = `${margin_Left}%`;
+  }
+});
+
+buttonPageRight.addEventListener('click', function(){
+  page += 1;
+  pageXOfY.innerHTML = page;
+  margin_Left -= 100;
+  paginasView.style.marginLeft = `${margin_Left}%`;
+  setTimeout(() => {
+    window.scrollTo(0, 450);
+  }, 400);
+  if (page > 2) {
+    page = 2;
+    pageXOfY.innerHTML = page;
+    margin_Left += 100;
+    paginasView.style.marginLeft = `${margin_Left}%`;
+  }
+});
+
 //Termina de cargar el contenido y pinta todas las propiedades
 document.addEventListener("DOMContentLoaded", () => {
   //Manejo del archivo json
@@ -349,5 +356,17 @@ yucatan.addEventListener('click', function(){
     .then(res => res.json())
       .then(datos => {
         pintarDatos1(datos, estado); //Función para tratar los datos
+      })
+});
+
+// Presionar el botón de búsqueda
+botonBusqueda.addEventListener('click', function(){
+  primerPagina();
+  let opcionSelect = selectEstado.value;
+  //Manejo del archivo json
+  fetch('../propiedades.json')
+    .then(res => res.json())
+      .then(datos => {
+        filtrarDatos(datos, opcionSelect); //Función para tratar los datos
       })
 });
