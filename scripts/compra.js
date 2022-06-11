@@ -4,6 +4,14 @@ var selectEstado = document.getElementById("estado");
 // Variable que manejas las páginas que muestran las tarjetas
 var cardsPages = document.querySelectorAll(".paginasCards");
 
+// Variables del los botones del menpu de estados
+var todos = document.getElementById("todosEstados");
+var cdmx = document.getElementById("cdmxEstado");
+var edomex = document.getElementById("edoMexEstado");
+var puebla = document.getElementById("pueblaEstado");
+var queretaro = document.getElementById("queretaroEstado");
+var yucatan = document.getElementById("yucatanEstado");
+
 // Variables del indicador de páginas
 var paginasView = document.getElementById("paginas");
 var buttonPageLeft = document.getElementById("btnPage_left");
@@ -214,6 +222,36 @@ function pintarDatos(datos)  {
   }
 }
 
+// Función para mostrar el mensaje Sin Resultados
+function sinResultados() {
+  // Borra todo lo que haya en las propiedades
+  for (let i = 0; i < cardsPages.length; i++) {
+    cardsPages[i].innerHTML = "";
+  }
+  setTimeout(() => {
+    cardsPages[0].innerHTML = `
+      <div class="noResultados">
+        <p>No se encontraron resultados</p>
+      </div>
+    `;
+  }, 250);
+}
+
+// Función para filtrar los datos
+function pintarDatos1(datos, estado) {
+  let filtroEstado = [];
+  for (const item of datos) {
+    if (item.direccion.estado == estado) {
+      filtroEstado.push(item);
+    }
+  }
+  if (filtroEstado.length != 0) {
+    pintarDatos(filtroEstado);
+  } else {
+    sinResultados();
+  }
+}
+
 
 
 // ------------------------------------------------- Eventos sobre las tarjetas ----------------------------------------------
@@ -225,4 +263,94 @@ document.addEventListener("DOMContentLoaded", () => {
       .then(datos => {
         pintarDatos(datos); //Función para tratar los datos
     })
+});
+
+// Eventos de los botones del menú de estados
+todos.addEventListener('click', function(){
+  location.reload();
+});
+
+cdmx.addEventListener('click', function(){
+  page = 1;
+  pageXOfY.innerHTML = page;
+  margin_Left = 0;
+  paginasView.style.marginLeft = `${margin_Left}%`;
+  setTimeout(() => {
+    window.scrollTo(0, 450);
+  }, 400);
+  let estado = "CDMX";
+  //Manejo del archivo json
+  fetch('../propiedades.json')
+    .then(res => res.json())
+      .then(datos => {
+        pintarDatos1(datos, estado); //Función para tratar los datos
+      })
+});
+
+edomex.addEventListener('click', function(){
+  page = 1;
+  pageXOfY.innerHTML = page;
+  margin_Left = 0;
+  paginasView.style.marginLeft = `${margin_Left}%`;
+  setTimeout(() => {
+    window.scrollTo(0, 450);
+  }, 400);
+  let estado = "Estado de México";
+  //Manejo del archivo json
+  fetch('../propiedades.json')
+    .then(res => res.json())
+      .then(datos => {
+        pintarDatos1(datos, estado); //Función para tratar los datos
+      })
+});
+
+puebla.addEventListener('click', function(){
+  page = 1;
+  pageXOfY.innerHTML = page;
+  margin_Left = 0;
+  paginasView.style.marginLeft = `${margin_Left}%`;
+  setTimeout(() => {
+    window.scrollTo(0, 450);
+  }, 400);
+  let estado = "Puebla";
+  //Manejo del archivo json
+  fetch('../propiedades.json')
+    .then(res => res.json())
+      .then(datos => {
+        pintarDatos1(datos, estado); //Función para tratar los datos
+      })
+});
+
+queretaro.addEventListener('click', function(){
+  page = 1;
+  pageXOfY.innerHTML = page;
+  margin_Left = 0;
+  paginasView.style.marginLeft = `${margin_Left}%`;
+  setTimeout(() => {
+    window.scrollTo(0, 450);
+  }, 400);
+  let estado = "Querétaro";
+  //Manejo del archivo json
+  fetch('../propiedades.json')
+    .then(res => res.json())
+      .then(datos => {
+        pintarDatos1(datos, estado); //Función para tratar los datos
+      })
+});
+
+yucatan.addEventListener('click', function(){
+  page = 1;
+  pageXOfY.innerHTML = page;
+  margin_Left = 0;
+  paginasView.style.marginLeft = `${margin_Left}%`;
+  setTimeout(() => {
+    window.scrollTo(0, 450);
+  }, 400);
+  let estado = "Yucatán";
+  //Manejo del archivo json
+  fetch('../propiedades.json')
+    .then(res => res.json())
+      .then(datos => {
+        pintarDatos1(datos, estado); //Función para tratar los datos
+      })
 });
