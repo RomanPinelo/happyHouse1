@@ -487,16 +487,11 @@ flex-wrap: wrap;}
     margin: 0 auto;
   }
   
-  .propiedadesCards .propiedadesCards__cards ul .paginasCards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-  
   /*------------------------------------------------------- Tarjetas --------------------------------------*/
   .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo {
+    display: inline-block;
     width: 310px;
+    margin: 1rem 0.75rem;
   }
   
   
