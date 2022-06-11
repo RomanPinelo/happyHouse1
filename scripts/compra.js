@@ -1,5 +1,6 @@
-// Variable del select del estado
+// Variable del select del estado y número de propiedades
 var selectEstado = document.getElementById("estado");
+var numPropiedadBus = document.getElementById("numeroPropiedades");
 
 // Variable que manejas las páginas que muestran las tarjetas
 var cardsPages = document.querySelectorAll(".paginasCards");
@@ -22,7 +23,18 @@ var margin_Left = 0;
 
 pageXOfY.innerHTML = page;
 
-// Función para cambiar el ancho del select, de acuerdo a la opción seleccionada.
+// Función para cambiar el ancho del select, de acuerdo a la opción seleccionada y mostrar
+// número de propiedades
+function pintarNumPropiedades(datos, nombre) {
+  let numeroPropiedad = [];
+  for (const item of datos) {
+    if (item.direccion.estado == nombre) {
+      numeroPropiedad.push(item);
+    }
+  }
+  numPropiedadBus.innerHTML = numeroPropiedad.length;
+}
+
 function anchoSelect() { 
   let opcionSelect = selectEstado.value;
   if (opcionSelect == "CDMX") {
@@ -40,6 +52,12 @@ function anchoSelect() {
   if (opcionSelect == "Yucatán") {
     selectEstado.style.width = "4.5rem";
   }
+  //Manejo del archivo json
+  fetch('../propiedades.json')
+    .then(res => res.json())
+      .then(datos => {
+        pintarNumPropiedades(datos, opcionSelect); //Función para tratar los datos
+    })
 }
 
 setInterval(() => {
