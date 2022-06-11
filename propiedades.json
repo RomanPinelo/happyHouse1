@@ -807,5 +807,44 @@
     "imagen4": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
     "imagen5": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
     "descripcion": "./desarrollos/ciudadDepor.html"
+  },
+  {
+    "id": "cumbres",
+    "direccion": {
+      "completa": "",
+      "estado": "Yucatán",
+      "delegacionMunicipio": "Telchac",
+      "colonia": "Yucatán",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "N/A",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "",
+      "centenas": "0"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "abono":{
+      "miles": "N/A",
+      "centenas": "N/A"
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Cumbres de la Hacienda",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/cumbres/G1.png",
+    "imagen2": "../img/desarrollos/cumbres/G2.png",
+    "imagen3": "../img/desarrollos/cumbres/G3.png",
+    "imagen4": "../img/desarrollos/cumbres/G4.png",
+    "imagen5": "../img/desarrollos/cumbres/G5.png",
+    "descripcion": "./desarrollos/cumbres.html"
   }
 ]
