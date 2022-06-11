@@ -252,6 +252,21 @@ flex-wrap: wrap;}
   left: 0;
 }
 
+/********************* Mensaje de No se encontraron resultados *********************/
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .noResultados {
+  width: 90%;
+  height: 5rem;
+  margin: 2rem auto 1rem;
+  background-color: var(--fondo);
+  border-radius: 10px;
+}
+
+.propiedadesCards .propiedadesCards__cards ul .paginasCards .noResultados p {
+  color: var(--decorado);
+  text-align: center;
+  line-height: 5rem;
+}
+
 /* Provisional en lo que se checa lo del slider */
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel .cardInfo__caruosel-carousel img {
   display: block;
@@ -492,6 +507,15 @@ flex-wrap: wrap;}
     display: inline-block;
     width: 310px;
     margin: 1rem 0.75rem;
+  }
+
+  /********************* Mensaje de No se encontraron resultados *********************/
+  .propiedadesCards .propiedadesCards__cards ul .paginasCards .noResultados {
+    width: 30rem;
+  }
+
+  .propiedadesCards .propiedadesCards__cards ul .paginasCards .noResultados p {
+    font-size: 1.75rem;
   }
   
   
