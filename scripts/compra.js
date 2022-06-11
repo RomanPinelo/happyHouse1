@@ -249,8 +249,18 @@ function primerPagina() {
 
 // Función para filtrar datos de búsqueda
 function filtrarDatos(datos, opcionSel) {
-  console.log(datos);
-  console.log(opcionSel);
+  let filtroEstado = [];
+  for (const item of datos) {
+    if (item.direccion.estado == opcionSel) {
+      filtroEstado.push(item);
+    }
+  }
+
+  if (filtroEstado.length != 0) {
+    pintarDatos(filtroEstado);
+  } else {
+    sinResultados();
+  }
 }
 
 
