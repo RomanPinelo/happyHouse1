@@ -940,8 +940,8 @@
     "estacionamiento": "N/A",
     "precioMinimo":{
       "millones": "",
-      "miles": "",
-      "centenas": "0"
+      "miles": "2,",
+      "centenas": "350"
     },
     "precioMaximo":{
       "millones": "",
