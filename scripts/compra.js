@@ -9,6 +9,10 @@ var cardsPages = document.querySelectorAll(".paginasCards");
 // Variables del cuadro de búsqueda
 var botonBusqueda = document.getElementById("buscarBtn");
 var filtroAlcaldiaMunicipio = document.getElementById("alcaldiaMunicipio");
+var filtroTipo = document.getElementById("tipo_propiedad");
+var filtroHab = document.getElementById("habitaciones_propiedad");
+var filtroBanos = document.getElementById("banos_propiedad");
+var filtroEstacionamiento = document.getElementById("estacionamiento_propiedad");
 
 // Variables del los botones del menpu de estados
 var todos = document.getElementById("todosEstados");
@@ -273,15 +277,62 @@ function filtrarDatos(datos, opcionSel) {
       // AlcaldiaMunicipioObjeto = AlcaldiaMunicipioObjeto.replace(/[,\.]/g, ""); // Quita los puntos y comas
       AlcaldiaMunicipioObjeto = AlcaldiaMunicipioObjeto.toLowerCase(); // Convierte todo a minúsculas
       AlcaldiaMunicipioObjeto = AlcaldiaMunicipioObjeto.replace(/\s+/g, '');  // Quita espacios en blanco
-
       if (AlcaldiaMunicipioInput == AlcaldiaMunicipioObjeto) {
         filtroAlcalMuni.push(item);
       }
     }
 
     if (filtroAlcalMuni.length != 0) {
-      pintarDatos(filtroAlcalMuni);
       filtroAlcaldiaMunicipio.value = "";
+      let filtroTipoPropiedad = [];
+      let tipoPropi = filtroTipo.value;
+      for (let item of filtroAlcalMuni) {
+        if (item.tipo == tipoPropi) {
+          filtroTipoPropiedad.push(item);
+        }
+      }
+
+      if (filtroTipoPropiedad.length != 0) {
+        let filtroHabitaciones = [];
+        let valorFiltroHab = filtroHab.value;
+        for (let item of filtroTipoPropiedad) {
+          if (item.recamaras == valorFiltroHab) {
+            filtroHabitaciones.push(item);
+          }
+        }
+
+        if (filtroHabitaciones.length != 0) {
+          let filtroBanosObjeto = [];
+          let valorFiltroBanos = filtroBanos.value;
+          for (let item of filtroHabitaciones) {
+            if (item.banos == valorFiltroBanos) {
+              filtroBanosObjeto.push(item);
+            }
+          }
+
+          if (filtroBanosObjeto.length != 0) {
+            let filtroEsta = [];
+            let valorFiltroEsta = filtroEstacionamiento.value;
+            for (const item of filtroBanosObjeto) {
+              if (item.estacionamiento == valorFiltroEsta) {
+                filtroEsta.push(item);
+              }
+            }
+
+            if (filtroEsta.length != 0) {
+              pintarDatos(filtroEsta);
+            } else {
+              sinResultados();
+            }
+          } else {
+            sinResultados();
+          }
+        } else {
+          sinResultados();
+        }
+      } else {
+        sinResultados();
+      }
     } else {
       sinResultados();
     }

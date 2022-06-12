@@ -18,9 +18,14 @@
       "miles": "800,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "Balcón",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -51,9 +56,14 @@
       "miles": "200,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -84,9 +94,14 @@
       "miles": "600,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -117,9 +132,14 @@
       "miles": "950,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -150,9 +170,14 @@
       "miles": "200,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -183,9 +208,14 @@
       "miles": "65,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Uso comercial",
     "estado": "Renta mensual",
@@ -216,9 +246,14 @@
       "miles": "390,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -249,9 +284,14 @@
       "miles": "190,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -282,9 +322,14 @@
       "miles": "600,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -315,9 +360,14 @@
       "miles": "700,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -348,9 +398,14 @@
       "miles": "600,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Penthouse",
     "estado": "Entrega inmediata",
@@ -386,9 +441,14 @@
       "miles": "869,",
       "centenas": "540"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Desarrollo",
     "nombre": "Primero de Mayo",
@@ -428,9 +488,14 @@
       "miles": "982,",
       "centenas": "200"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Desarrollo",
     "nombre": "Mahal",
@@ -467,9 +532,14 @@
       "miles": "973,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Desarrollo",
     "nombre": "Playales",
@@ -506,9 +576,14 @@
       "miles": "349,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Desarrollo",
     "nombre": "Wayúum",
@@ -545,9 +620,14 @@
       "miles": "574,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Desarrollo",
     "nombre": "Sorenna",
@@ -584,9 +664,14 @@
       "miles": "",
       "centenas": ""
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Desarrollo",
     "nombre": "Hacienda San Eduardo",
@@ -623,9 +708,14 @@
       "miles": "",
       "centenas": ""
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Desarrollo",
     "nombre": "San Roque",
@@ -657,9 +747,14 @@
       "miles": "500,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Casa",
     "estado": "Entrega inmediata",
@@ -690,9 +785,14 @@
       "miles": "000,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Vendido",
@@ -723,9 +823,14 @@
       "miles": "300,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Entrega inmediata",
@@ -756,9 +861,14 @@
       "miles": "500,",
       "centenas": "000"
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Departamento",
     "estado": "Vendido",
@@ -794,9 +904,14 @@
       "miles": "",
       "centenas": ""
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Desarrollo",
     "nombre": "Ciudad Deportiva",
@@ -833,9 +948,14 @@
       "miles": "",
       "centenas": ""
     },
-    "abono":{
-      "miles": "N/A",
-      "centenas": "N/A"
+    "amenidades":{
+      "amenidad_1": "",
+      "amenidad_2": "",
+      "amenidad_3": "",
+      "amenidad_4": "",
+      "amenidad_5": "",
+      "amenidad_6": "",
+      "amenidad_7": ""
     },
     "tipo": "Desarrollo",
     "nombre": "Cumbres de la Hacienda",
