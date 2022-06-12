@@ -13,6 +13,7 @@ var filtroTipo = document.getElementById("tipo_propiedad");
 var filtroHab = document.getElementById("habitaciones_propiedad");
 var filtroBanos = document.getElementById("banos_propiedad");
 var filtroEstacionamiento = document.getElementById("estacionamiento_propiedad");
+var filtroAdicionales = document.getElementById("adicionales_propiedad");
 
 // Variables del los botones del menpu de estados
 var todos = document.getElementById("todosEstados");
@@ -313,14 +314,67 @@ function filtrarDatos(datos, opcionSel) {
           if (filtroBanosObjeto.length != 0) {
             let filtroEsta = [];
             let valorFiltroEsta = filtroEstacionamiento.value;
-            for (const item of filtroBanosObjeto) {
+            for (let item of filtroBanosObjeto) {
               if (item.estacionamiento == valorFiltroEsta) {
                 filtroEsta.push(item);
               }
             }
 
             if (filtroEsta.length != 0) {
-              pintarDatos(filtroEsta);
+              let filtroAdicionalesObjeto = [];
+              let valorFiltroAdicionales = filtroAdicionales.value;
+              for (let item of filtroEsta) {
+                if (item.adicionales.adicional_1 == valorFiltroAdicionales) {
+                  filtroAdicionalesObjeto.push(item);
+                }
+              }
+              if (filtroAdicionalesObjeto.length == 0) {
+                for (let item of filtroEsta) {
+                  if (item.adicionales.adicional_2 == valorFiltroAdicionales) {
+                    filtroAdicionalesObjeto.push(item);
+                  }
+                }
+              }
+              if (filtroAdicionalesObjeto.length == 0) {
+                for (let item of filtroEsta) {
+                  if (item.adicionales.adicional_3 == valorFiltroAdicionales) {
+                    filtroAdicionalesObjeto.push(item);
+                  }
+                }
+              }
+              if (filtroAdicionalesObjeto.length == 0) {
+                for (let item of filtroEsta) {
+                  if (item.adicionales.adicional_4 == valorFiltroAdicionales) {
+                    filtroAdicionalesObjeto.push(item);
+                  }
+                }
+              }
+              if (filtroAdicionalesObjeto.length == 0) {
+                for (let item of filtroEsta) {
+                  if (item.adicionales.adicional_5 == valorFiltroAdicionales) {
+                    filtroAdicionalesObjeto.push(item);
+                  }
+                }
+              }
+              if (filtroAdicionalesObjeto.length == 0) {
+                for (let item of filtroEsta) {
+                  if (item.adicionales.adicional_6 == valorFiltroAdicionales) {
+                    filtroAdicionalesObjeto.push(item);
+                  }
+                }
+              }
+              if (filtroAdicionalesObjeto.length == 0) {
+                for (let item of filtroEsta) {
+                  if (item.adicionales.adicional_7 == valorFiltroAdicionales) {
+                    filtroAdicionalesObjeto.push(item);
+                  }
+                }
+              }
+              if (filtroAdicionalesObjeto.length != 0) {
+                pintarDatos(filtroAdicionalesObjeto);
+              } else {
+                sinResultados();
+              }
             } else {
               sinResultados();
             }
