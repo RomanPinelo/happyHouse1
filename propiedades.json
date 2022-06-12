@@ -656,8 +656,8 @@
     "estacionamiento": "N/A",
     "precioMinimo":{
       "millones": "",
-      "miles": "",
-      "centenas": "0"
+      "miles": "1,",
+      "centenas": "999"
     },
     "precioMaximo":{
       "millones": "",

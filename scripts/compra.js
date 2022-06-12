@@ -116,35 +116,67 @@ function pintarDatos(datos)  {
           </a> <!-- cardInfo a -->
         `
       } else {
-        cardsPages[0].innerHTML += `
-          <a href="${item.descripcion}" class="cardInfo">
-            <div class="cardInfo__carousel">
-              <div class="cardInfo__caruosel-carousel">
-                <img src="${item.imagen1}" alt="Imagen">
+        if (item.nombre == "Hacienda San Eduardo") {
+          cardsPages[0].innerHTML += `
+            <a href="${item.descripcion}" class="cardInfo">
+              <div class="cardInfo__carousel">
+                <div class="cardInfo__caruosel-carousel">
+                  <img src="${item.imagen1}" alt="Imagen">
+                </div>
+                <div class="cardInfo__caruosel-text">
+                  <span>${item.nombre}</span>
+                  <span>${item.estado}</span>
+                </div>
               </div>
-              <div class="cardInfo__caruosel-text">
-                <span>${item.nombre}</span>
-                <span>${item.estado}</span>
+              <div class="cardInfo__info">
+                <div class="precioLogos">
+                  <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
+                  <p class="precioLogos___logos">
+                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+                  </p>
+                </div>
+                <div class="direccionLogos">
+                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+                  <p class="direccionLogos__logos">
+                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="cardInfo__info">
-              <div class="precioLogos">
-                <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
-                <p class="precioLogos___logos">
-                  <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                  <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                </p>
+            </a> <!-- cardInfo a -->
+          `
+        } else {
+          cardsPages[0].innerHTML += `
+            <a href="${item.descripcion}" class="cardInfo">
+              <div class="cardInfo__carousel">
+                <div class="cardInfo__caruosel-carousel">
+                  <img src="${item.imagen1}" alt="Imagen">
+                </div>
+                <div class="cardInfo__caruosel-text">
+                  <span>${item.nombre}</span>
+                  <span>${item.estado}</span>
+                </div>
               </div>
-              <div class="direccionLogos">
-                <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                <p class="direccionLogos__logos">
-                  <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                  <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                </p>
+              <div class="cardInfo__info">
+                <div class="precioLogos">
+                  <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
+                  <p class="precioLogos___logos">
+                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+                  </p>
+                </div>
+                <div class="direccionLogos">
+                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+                  <p class="direccionLogos__logos">
+                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+                  </p>
+                </div>
               </div>
-            </div>
-          </a> <!-- cardInfo a -->
-        `
+            </a> <!-- cardInfo a -->
+          `
+        }
       }
     }
     if (contadorPropiedades >= 12 && contadorPropiedades < 24) {
@@ -179,35 +211,67 @@ function pintarDatos(datos)  {
           </a> <!-- cardInfo a -->
         `
       } else {
-        cardsPages[1].innerHTML += `
-          <a href="${item.descripcion}" class="cardInfo">
-            <div class="cardInfo__carousel">
-              <div class="cardInfo__caruosel-carousel">
-                <img src="${item.imagen1}" alt="Imagen">
+        if (item.nombre == "Hacienda San Eduardo") {
+          cardsPages[1].innerHTML += `
+            <a href="${item.descripcion}" class="cardInfo">
+              <div class="cardInfo__carousel">
+                <div class="cardInfo__caruosel-carousel">
+                  <img src="${item.imagen1}" alt="Imagen">
+                </div>
+                <div class="cardInfo__caruosel-text">
+                  <span>${item.nombre}</span>
+                  <span>${item.estado}</span>
+                </div>
               </div>
-              <div class="cardInfo__caruosel-text">
-                <span>${item.nombre}</span>
-                <span>${item.estado}</span>
+              <div class="cardInfo__info">
+                <div class="precioLogos">
+                  <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
+                  <p class="precioLogos___logos">
+                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+                  </p>
+                </div>
+                <div class="direccionLogos">
+                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+                  <p class="direccionLogos__logos">
+                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="cardInfo__info">
-              <div class="precioLogos">
-                <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
-                <p class="precioLogos___logos">
-                  <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                  <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                </p>
+            </a> <!-- cardInfo a -->
+          `
+        } else {
+          cardsPages[1].innerHTML += `
+            <a href="${item.descripcion}" class="cardInfo">
+              <div class="cardInfo__carousel">
+                <div class="cardInfo__caruosel-carousel">
+                  <img src="${item.imagen1}" alt="Imagen">
+                </div>
+                <div class="cardInfo__caruosel-text">
+                  <span>${item.nombre}</span>
+                  <span>${item.estado}</span>
+                </div>
               </div>
-              <div class="direccionLogos">
-                <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                <p class="direccionLogos__logos">
-                  <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                  <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                </p>
+              <div class="cardInfo__info">
+                <div class="precioLogos">
+                  <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
+                  <p class="precioLogos___logos">
+                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+                  </p>
+                </div>
+                <div class="direccionLogos">
+                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+                  <p class="direccionLogos__logos">
+                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+                  </p>
+                </div>
               </div>
-            </div>
-          </a> <!-- cardInfo a -->
-        `
+            </a> <!-- cardInfo a -->
+          `
+        }
       }
     }
     contadorPropiedades++;
