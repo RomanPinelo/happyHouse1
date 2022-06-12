@@ -8,6 +8,7 @@ var cardsPages = document.querySelectorAll(".paginasCards");
 
 // Variables del cuadro de búsqueda
 var botonBusqueda = document.getElementById("buscarBtn");
+var filtroAlcaldiaMunicipio = document.getElementById("alcaldiaMunicipio");
 
 // Variables del los botones del menpu de estados
 var todos = document.getElementById("todosEstados");
@@ -250,19 +251,45 @@ function primerPagina() {
 // Función para filtrar datos de búsqueda
 function filtrarDatos(datos, opcionSel) {
   let filtroEstado = [];
-  for (const item of datos) {
+  for (let item of datos) {
     if (item.direccion.estado == opcionSel) {
       filtroEstado.push(item);
     }
   }
 
   if (filtroEstado.length != 0) {
-    pintarDatos(filtroEstado);
+    let filtroAlcalMuni = [];
+    let AlcaldiaMunicipioInput = filtroAlcaldiaMunicipio.value;
+    AlcaldiaMunicipioInput = AlcaldiaMunicipioInput.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Quita los acentos
+    AlcaldiaMunicipioInput = AlcaldiaMunicipioInput.replace(/[@.,\/#!$%\^&\*;:{}[\]=\-_`~()]/g,""); // Quita los signos de puntuación
+    //AlcaldiaMunicipioInput = AlcaldiaMunicipioInput.replace(/[,\.]/g, ""); // Quita los puntos y comas
+    AlcaldiaMunicipioInput = AlcaldiaMunicipioInput.toLowerCase(); // Convierte todo a minúscula
+    AlcaldiaMunicipioInput = AlcaldiaMunicipioInput.replace(/\s+/g, '');  // Quita espacios en blanco
+
+    for (let item of filtroEstado) {
+      let AlcaldiaMunicipioObjeto = item.direccion.delegacionMunicipio;
+      AlcaldiaMunicipioObjeto = AlcaldiaMunicipioObjeto.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Quita los acentos
+      AlcaldiaMunicipioObjeto = AlcaldiaMunicipioObjeto.replace(/[@.,\/#!$%\^&\*;:{}[\]=\-_`~()]/g,""); // Quita los signos de puntuación
+      // AlcaldiaMunicipioObjeto = AlcaldiaMunicipioObjeto.replace(/[,\.]/g, ""); // Quita los puntos y comas
+      AlcaldiaMunicipioObjeto = AlcaldiaMunicipioObjeto.toLowerCase(); // Convierte todo a minúsculas
+      AlcaldiaMunicipioObjeto = AlcaldiaMunicipioObjeto.replace(/\s+/g, '');  // Quita espacios en blanco
+
+      if (AlcaldiaMunicipioInput == AlcaldiaMunicipioObjeto) {
+        filtroAlcalMuni.push(item);
+      }
+    }
+
+    if (filtroAlcalMuni.length != 0) {
+      pintarDatos(filtroAlcalMuni);
+      filtroAlcaldiaMunicipio.value = "";
+    } else {
+      sinResultados();
+    }
+
   } else {
     sinResultados();
   }
 }
-
 
 
 // ------------------------------------------------- Eventos sobre las tarjetas ----------------------------------------------
