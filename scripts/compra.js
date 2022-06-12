@@ -116,7 +116,7 @@ function pintarDatos(datos)  {
           </a> <!-- cardInfo a -->
         `
       } else {
-        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque")) {
+        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")) {
           cardsPages[0].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
@@ -211,7 +211,7 @@ function pintarDatos(datos)  {
           </a> <!-- cardInfo a -->
         `
       } else {
-        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque")) {
+        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")) {
           cardsPages[1].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
