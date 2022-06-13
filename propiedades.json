@@ -966,5 +966,49 @@
     "imagen4": "../img/desarrollos/cumbres/G4.png",
     "imagen5": "../img/desarrollos/cumbres/G5.png",
     "descripcion": "./desarrollos/cumbres.html"
+  },
+  {
+    "id": "staClara",
+    "direccion": {
+      "completa": "",
+      "estado": "Yucatán",
+      "delegacionMunicipio": "Santa Clara",
+      "colonia": "Yucatán",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "N/A",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "1,",
+      "centenas": "999"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Santa Clara",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/staClara/staClara_Yucatan.jpg",
+    "imagen2": "../img/desarrollos/staClara/staClara_1.jpg",
+    "imagen3": "../img/desarrollos/staClara/staClara_2.jpg",
+    "imagen4": "../img/desarrollos/staClara/staClara_3.jpg",
+    "imagen5": "../img/desarrollos/staClara/staClara_4.jpg",
+    "descripcion": "./desarrollos/staClara.html"
   }
 ]

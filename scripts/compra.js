@@ -116,7 +116,7 @@ function pintarDatos(datos)  {
           </a> <!-- cardInfo a -->
         `
       } else {
-        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva") || (item.nombre == "Cumbres de la Hacienda")) {
+        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva") || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara")) {
           cardsPages[0].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
@@ -211,7 +211,7 @@ function pintarDatos(datos)  {
           </a> <!-- cardInfo a -->
         `
       } else {
-        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva") || (item.nombre == "Cumbres de la Hacienda")) {
+        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva") || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara")) {
           cardsPages[1].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
@@ -243,6 +243,101 @@ function pintarDatos(datos)  {
           `
         } else {
           cardsPages[1].innerHTML += `
+            <a href="${item.descripcion}" class="cardInfo">
+              <div class="cardInfo__carousel">
+                <div class="cardInfo__caruosel-carousel">
+                  <img src="${item.imagen1}" alt="Imagen">
+                </div>
+                <div class="cardInfo__caruosel-text">
+                  <span>${item.nombre}</span>
+                  <span>${item.estado}</span>
+                </div>
+              </div>
+              <div class="cardInfo__info">
+                <div class="precioLogos">
+                  <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
+                  <p class="precioLogos___logos">
+                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+                  </p>
+                </div>
+                <div class="direccionLogos">
+                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+                  <p class="direccionLogos__logos">
+                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+                  </p>
+                </div>
+              </div>
+            </a> <!-- cardInfo a -->
+          `
+        }
+      }
+    }
+    if (contadorPropiedades >= 24 && contadorPropiedades < 36) {
+      if (item.tipo != "Desarrollo") {
+        cardsPages[2].innerHTML += `
+          <a href="${item.descripcion}" class="cardInfo">
+            <div class="cardInfo__carousel">
+              <div class="cardInfo__caruosel-carousel">
+                <img src="${item.imagen1}" alt="Imagen">
+              </div>
+              <div class="cardInfo__caruosel-text">
+                <span>${item.tipo}</span>
+                <span>${item.estado}</span>
+              </div>
+            </div>
+            <div class="cardInfo__info">
+              <div class="precioLogos">
+                <p class="precioLogos__precio">$${item.precio.millones}${item.precio.miles}${item.precio.centenas}.00 <span>MXN</span></p>
+                <p class="precioLogos___logos">
+                  <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+                  <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+                </p>
+              </div>
+              <div class="direccionLogos">
+                <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+                <p class="direccionLogos__logos">
+                  <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+                  <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+                </p>
+              </div>
+            </div>
+          </a> <!-- cardInfo a -->
+        `
+      } else {
+        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva") || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara")) {
+          cardsPages[2].innerHTML += `
+            <a href="${item.descripcion}" class="cardInfo">
+              <div class="cardInfo__carousel">
+                <div class="cardInfo__caruosel-carousel">
+                  <img src="${item.imagen1}" alt="Imagen">
+                </div>
+                <div class="cardInfo__caruosel-text">
+                  <span>${item.nombre}</span>
+                  <span>${item.estado}</span>
+                </div>
+              </div>
+              <div class="cardInfo__info">
+                <div class="precioLogos">
+                  <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
+                  <p class="precioLogos___logos">
+                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+                  </p>
+                </div>
+                <div class="direccionLogos">
+                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+                  <p class="direccionLogos__logos">
+                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+                  </p>
+                </div>
+              </div>
+            </a> <!-- cardInfo a -->
+          `
+        } else {
+          cardsPages[2].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
                 <div class="cardInfo__caruosel-carousel">
