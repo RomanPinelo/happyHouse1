@@ -293,7 +293,7 @@ function sinResultados() {
   }, 250);
 }
 
-// Función para filtrar los datos
+// Función para filtrar los datos desde el menú de estados
 function pintarDatos1(datos, estado) {
   let filtroEstado = [];
   for (const item of datos) {
@@ -487,8 +487,8 @@ buttonPageRight.addEventListener('click', function(){
   setTimeout(() => {
     window.scrollTo(0, 450);
   }, 400);
-  if (page > 2) {
-    page = 2;
+  if (page > 3) {
+    page = 3;
     pageXOfY.innerHTML = page;
     margin_Left += 100;
     paginasView.style.marginLeft = `${margin_Left}%`;
