@@ -116,7 +116,8 @@ function pintarDatos(datos)  {
           </a> <!-- cardInfo a -->
         `
       } else {
-        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva") || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara")) {
+        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
+        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")) {
           cardsPages[0].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
@@ -211,7 +212,8 @@ function pintarDatos(datos)  {
           </a> <!-- cardInfo a -->
         `
       } else {
-        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva") || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara")) {
+        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
+        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")) {
           cardsPages[1].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
@@ -306,7 +308,8 @@ function pintarDatos(datos)  {
           </a> <!-- cardInfo a -->
         `
       } else {
-        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva") || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara")) {
+        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
+        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")) {
           cardsPages[2].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
