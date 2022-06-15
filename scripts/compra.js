@@ -117,7 +117,8 @@ function pintarDatos(datos)  {
         `
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
-        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")) {
+        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
+        || (item.nombre == "Distrito de Arte Mérida")) {
           cardsPages[0].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
@@ -213,7 +214,8 @@ function pintarDatos(datos)  {
         `
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
-        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")) {
+        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
+        || (item.nombre == "Distrito de Arte Mérida")) {
           cardsPages[1].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">
@@ -309,7 +311,8 @@ function pintarDatos(datos)  {
         `
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
-        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")) {
+        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
+        || (item.nombre == "Distrito de Arte Mérida")) {
           cardsPages[2].innerHTML += `
             <a href="${item.descripcion}" class="cardInfo">
               <div class="cardInfo__carousel">

@@ -1054,5 +1054,49 @@
     "imagen4": "../img/desarrollos/haciendaTerraviva/haciTerraviva_4.jpg",
     "imagen5": "../img/desarrollos/haciendaTerraviva/haciTerraviva_5.jpg",
     "descripcion": "./desarrollos/haciendaTerraviva.html"
+  },
+  {
+    "id": "dam",
+    "direccion": {
+      "completa": "",
+      "estado": "Yucatán",
+      "delegacionMunicipio": "Mérida",
+      "colonia": "Yucatán",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "N/A",
+    "recamaras": " ",
+    "banos": " ",
+    "estacionamiento": "N/A",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "34,",
+      "centenas": "000"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Distrito de Arte Mérida",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/dam/dam_Yucatan.jpeg",
+    "imagen2": "../img/desarrollos/dam/dam_1.jpg",
+    "imagen3": "../img/desarrollos/dam/dam_2.jpg",
+    "imagen4": "../img/desarrollos/dam/dam_3.jpg",
+    "imagen5": "../img/desarrollos/dam/dam_4.jpg",
+    "descripcion": "./desarrollos/dam.html"
   }
 ]
