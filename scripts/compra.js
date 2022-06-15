@@ -76,6 +76,135 @@ setInterval(() => {
 }, 50);
 
 // Funciones para pintar las tarjetas
+function tarjetaPropiedad(page,item) {
+  cardsPages[page].innerHTML += `
+    <a href="${item.descripcion}" class="cardInfo">
+      <div class="cardInfo__carousel">
+        <div class="cardInfo__caruosel-carousel">
+          <img src="${item.imagen1}" alt="Imagen">
+        </div>
+        <div class="cardInfo__caruosel-text">
+          <span>${item.tipo}</span>
+          <span>${item.estado}</span>
+        </div>
+      </div>
+      <div class="cardInfo__info">
+        <div class="precioLogos">
+          <p class="precioLogos__precio">$${item.precio.millones}${item.precio.miles}${item.precio.centenas}.00 <span>MXN</span></p>
+          <p class="precioLogos___logos">
+            <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+            <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+          </p>
+        </div>
+        <div class="direccionLogos">
+          <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+          <p class="direccionLogos__logos">
+            <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+            <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+          </p>
+        </div>
+      </div>
+    </a> <!-- cardInfo a -->
+  `
+}
+
+function tarjetaDesarrolloxM2(page, item) {
+  cardsPages[page].innerHTML += `
+    <a href="${item.descripcion}" class="cardInfo">
+      <div class="cardInfo__carousel">
+        <div class="cardInfo__caruosel-carousel">
+          <img src="${item.imagen1}" alt="Imagen">
+        </div>
+        <div class="cardInfo__caruosel-text">
+          <span>${item.nombre}</span>
+          <span>${item.estado}</span>
+        </div>
+      </div>
+      <div class="cardInfo__info">
+        <div class="precioLogos">
+          <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
+          <p class="precioLogos___logos">
+            <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+            <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+          </p>
+        </div>
+        <div class="direccionLogos">
+          <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+          <p class="direccionLogos__logos">
+            <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+            <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+          </p>
+        </div>
+      </div>
+    </a> <!-- cardInfo a -->
+  `
+}
+
+function tarjetaDesarrollo(page,item) {
+  cardsPages[page].innerHTML += `
+    <a href="${item.descripcion}" class="cardInfo">
+      <div class="cardInfo__carousel">
+        <div class="cardInfo__caruosel-carousel">
+          <img src="${item.imagen1}" alt="Imagen">
+        </div>
+        <div class="cardInfo__caruosel-text">
+          <span>${item.nombre}</span>
+          <span>${item.estado}</span>
+        </div>
+      </div>
+      <div class="cardInfo__info">
+        <div class="precioLogos">
+          <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
+          <p class="precioLogos___logos">
+            <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+            <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+          </p>
+        </div>
+        <div class="direccionLogos">
+          <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+          <p class="direccionLogos__logos">
+            <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+            <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+          </p>
+        </div>
+      </div>
+    </a> <!-- cardInfo a -->
+  `
+}
+
+function tarjetaDesarrolloxAccion(page,item) {
+  cardsPages[page].innerHTML += `
+    <a href="${item.descripcion}" class="cardInfo">
+      <div class="cardInfo__carousel">
+        <div class="cardInfo__caruosel-carousel">
+          <img src="${item.imagen1}" alt="Imagen">
+        </div>
+        <div class="cardInfo__caruosel-text">
+          <span>${item.nombre}</span>
+          <span>${item.estado}</span>
+        </div>
+      </div>
+      <div class="cardInfo__info">
+        <div class="precioLogos">
+          <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por acción</span></p>
+          <p class="precioLogos___logos">
+            <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+            <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+          </p>
+        </div>
+        <div class="direccionLogos">
+          <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+          <p class="direccionLogos__logos">
+            <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+            <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+          </p>
+        </div>
+      </div>
+    </a> <!-- cardInfo a -->
+  `
+}
+
+
 // Función pintarDatos
 function pintarDatos(datos)  {
   let contadorPropiedades = 0;
@@ -86,292 +215,52 @@ function pintarDatos(datos)  {
   for (const item of datos) {
     if (contadorPropiedades < 12) {
       if (item.tipo != "Desarrollo") {
-        cardsPages[0].innerHTML += `
-          <a href="${item.descripcion}" class="cardInfo">
-            <div class="cardInfo__carousel">
-              <div class="cardInfo__caruosel-carousel">
-                <img src="${item.imagen1}" alt="Imagen">
-              </div>
-              <div class="cardInfo__caruosel-text">
-                <span>${item.tipo}</span>
-                <span>${item.estado}</span>
-              </div>
-            </div>
-            <div class="cardInfo__info">
-              <div class="precioLogos">
-                <p class="precioLogos__precio">$${item.precio.millones}${item.precio.miles}${item.precio.centenas}.00 <span>MXN</span></p>
-                <p class="precioLogos___logos">
-                  <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                  <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                </p>
-              </div>
-              <div class="direccionLogos">
-                <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                <p class="direccionLogos__logos">
-                  <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                  <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                </p>
-              </div>
-            </div>
-          </a> <!-- cardInfo a -->
-        `
+        tarjetaPropiedad(0,item);
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
         || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
         || (item.nombre == "Distrito de Arte Mérida")) {
-          cardsPages[0].innerHTML += `
-            <a href="${item.descripcion}" class="cardInfo">
-              <div class="cardInfo__carousel">
-                <div class="cardInfo__caruosel-carousel">
-                  <img src="${item.imagen1}" alt="Imagen">
-                </div>
-                <div class="cardInfo__caruosel-text">
-                  <span>${item.nombre}</span>
-                  <span>${item.estado}</span>
-                </div>
-              </div>
-              <div class="cardInfo__info">
-                <div class="precioLogos">
-                  <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
-                  <p class="precioLogos___logos">
-                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                  </p>
-                </div>
-                <div class="direccionLogos">
-                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                  <p class="direccionLogos__logos">
-                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                  </p>
-                </div>
-              </div>
-            </a> <!-- cardInfo a -->
-          `
+          tarjetaDesarrolloxM2(0,item);
         } else {
-          cardsPages[0].innerHTML += `
-            <a href="${item.descripcion}" class="cardInfo">
-              <div class="cardInfo__carousel">
-                <div class="cardInfo__caruosel-carousel">
-                  <img src="${item.imagen1}" alt="Imagen">
-                </div>
-                <div class="cardInfo__caruosel-text">
-                  <span>${item.nombre}</span>
-                  <span>${item.estado}</span>
-                </div>
-              </div>
-              <div class="cardInfo__info">
-                <div class="precioLogos">
-                  <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
-                  <p class="precioLogos___logos">
-                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                  </p>
-                </div>
-                <div class="direccionLogos">
-                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                  <p class="direccionLogos__logos">
-                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                  </p>
-                </div>
-              </div>
-            </a> <!-- cardInfo a -->
-          `
+          if ((item.nombre == "CO-IN")) {
+            tarjetaDesarrolloxAccion(0,item);
+          } else {
+            tarjetaDesarrollo(0,item);
+          }
         }
       }
     }
     if (contadorPropiedades >= 12 && contadorPropiedades < 24) {
       if (item.tipo != "Desarrollo") {
-        cardsPages[1].innerHTML += `
-          <a href="${item.descripcion}" class="cardInfo">
-            <div class="cardInfo__carousel">
-              <div class="cardInfo__caruosel-carousel">
-                <img src="${item.imagen1}" alt="Imagen">
-              </div>
-              <div class="cardInfo__caruosel-text">
-                <span>${item.tipo}</span>
-                <span>${item.estado}</span>
-              </div>
-            </div>
-            <div class="cardInfo__info">
-              <div class="precioLogos">
-                <p class="precioLogos__precio">$${item.precio.millones}${item.precio.miles}${item.precio.centenas}.00 <span>MXN</span></p>
-                <p class="precioLogos___logos">
-                  <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                  <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                </p>
-              </div>
-              <div class="direccionLogos">
-                <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                <p class="direccionLogos__logos">
-                  <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                  <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                </p>
-              </div>
-            </div>
-          </a> <!-- cardInfo a -->
-        `
+        tarjetaPropiedad(1,item);
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
         || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
         || (item.nombre == "Distrito de Arte Mérida")) {
-          cardsPages[1].innerHTML += `
-            <a href="${item.descripcion}" class="cardInfo">
-              <div class="cardInfo__carousel">
-                <div class="cardInfo__caruosel-carousel">
-                  <img src="${item.imagen1}" alt="Imagen">
-                </div>
-                <div class="cardInfo__caruosel-text">
-                  <span>${item.nombre}</span>
-                  <span>${item.estado}</span>
-                </div>
-              </div>
-              <div class="cardInfo__info">
-                <div class="precioLogos">
-                  <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
-                  <p class="precioLogos___logos">
-                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                  </p>
-                </div>
-                <div class="direccionLogos">
-                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                  <p class="direccionLogos__logos">
-                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                  </p>
-                </div>
-              </div>
-            </a> <!-- cardInfo a -->
-          `
+          tarjetaDesarrolloxM2(1,item);
         } else {
-          cardsPages[1].innerHTML += `
-            <a href="${item.descripcion}" class="cardInfo">
-              <div class="cardInfo__carousel">
-                <div class="cardInfo__caruosel-carousel">
-                  <img src="${item.imagen1}" alt="Imagen">
-                </div>
-                <div class="cardInfo__caruosel-text">
-                  <span>${item.nombre}</span>
-                  <span>${item.estado}</span>
-                </div>
-              </div>
-              <div class="cardInfo__info">
-                <div class="precioLogos">
-                  <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
-                  <p class="precioLogos___logos">
-                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                  </p>
-                </div>
-                <div class="direccionLogos">
-                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                  <p class="direccionLogos__logos">
-                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                  </p>
-                </div>
-              </div>
-            </a> <!-- cardInfo a -->
-          `
+          if ((item.nombre == "CO-IN")) {
+            tarjetaDesarrolloxAccion(1,item);
+          } else {
+            tarjetaDesarrollo(1,item);
+          }
         }
       }
     }
     if (contadorPropiedades >= 24 && contadorPropiedades < 36) {
       if (item.tipo != "Desarrollo") {
-        cardsPages[2].innerHTML += `
-          <a href="${item.descripcion}" class="cardInfo">
-            <div class="cardInfo__carousel">
-              <div class="cardInfo__caruosel-carousel">
-                <img src="${item.imagen1}" alt="Imagen">
-              </div>
-              <div class="cardInfo__caruosel-text">
-                <span>${item.tipo}</span>
-                <span>${item.estado}</span>
-              </div>
-            </div>
-            <div class="cardInfo__info">
-              <div class="precioLogos">
-                <p class="precioLogos__precio">$${item.precio.millones}${item.precio.miles}${item.precio.centenas}.00 <span>MXN</span></p>
-                <p class="precioLogos___logos">
-                  <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                  <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                </p>
-              </div>
-              <div class="direccionLogos">
-                <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                <p class="direccionLogos__logos">
-                  <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                  <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                </p>
-              </div>
-            </div>
-          </a> <!-- cardInfo a -->
-        `
+        tarjetaPropiedad(2,item);
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
         || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
         || (item.nombre == "Distrito de Arte Mérida")) {
-          cardsPages[2].innerHTML += `
-            <a href="${item.descripcion}" class="cardInfo">
-              <div class="cardInfo__carousel">
-                <div class="cardInfo__caruosel-carousel">
-                  <img src="${item.imagen1}" alt="Imagen">
-                </div>
-                <div class="cardInfo__caruosel-text">
-                  <span>${item.nombre}</span>
-                  <span>${item.estado}</span>
-                </div>
-              </div>
-              <div class="cardInfo__info">
-                <div class="precioLogos">
-                  <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
-                  <p class="precioLogos___logos">
-                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                  </p>
-                </div>
-                <div class="direccionLogos">
-                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                  <p class="direccionLogos__logos">
-                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                  </p>
-                </div>
-              </div>
-            </a> <!-- cardInfo a -->
-          `
+          tarjetaDesarrolloxM2(2,item);
         } else {
-          cardsPages[2].innerHTML += `
-            <a href="${item.descripcion}" class="cardInfo">
-              <div class="cardInfo__carousel">
-                <div class="cardInfo__caruosel-carousel">
-                  <img src="${item.imagen1}" alt="Imagen">
-                </div>
-                <div class="cardInfo__caruosel-text">
-                  <span>${item.nombre}</span>
-                  <span>${item.estado}</span>
-                </div>
-              </div>
-              <div class="cardInfo__info">
-                <div class="precioLogos">
-                  <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
-                  <p class="precioLogos___logos">
-                    <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
-                    <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
-                  </p>
-                </div>
-                <div class="direccionLogos">
-                  <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
-                  <p class="direccionLogos__logos">
-                    <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
-                    <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
-                  </p>
-                </div>
-              </div>
-            </a> <!-- cardInfo a -->
-          `
+          if ((item.nombre == "CO-IN")) {
+            tarjetaDesarrolloxAccion(2,item);
+          } else {
+            tarjetaDesarrollo(2,item);
+          }
         }
       }
     }
