@@ -1142,5 +1142,43 @@
     "imagen4": "../img/desarrollos/coin/coin_4.jpg",
     "imagen5": "../img/desarrollos/coin/coin_5.jpg",
     "descripcion": "./desarrollos/coin.html"
+  },
+  {
+    "id": "jtb268",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Cuauhtémoc",
+      "colonia": "Sta. María La Ribera",
+      "calle": "Jaime Torres Bodet",
+      "numeroInt": "N/A",
+      "numeroExt": "268"
+    },
+    "superficie": 67,
+    "recamaras": 2,
+    "banos": 2,
+    "estacionamiento": "1",
+    "precio":{
+      "millones": "3,",
+      "miles": "200,",
+      "centenas": "000"
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/propiedades/jtb268/jtb268_1.jpeg",
+    "imagen2": "../img/propiedades/jtb268/jtb268_2.jpeg",
+    "imagen3": "../img/propiedades/jtb268/jtb268_3.jpeg",
+    "imagen4": "../img/propiedades/jtb268/jtb268_4.jpeg",
+    "imagen5": "../img/propiedades/jtb268/jtb268_5.jpeg",
+    "descripcion": "./propiedades/jtb268.html"
   }
 ]
