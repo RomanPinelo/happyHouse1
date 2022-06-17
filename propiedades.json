@@ -1218,5 +1218,43 @@
     "imagen4": "../img/propiedades/terrenoAcam/terreAcam_4.jpeg",
     "imagen5": "../img/propiedades/terrenoAcam/terreAcam_5.jpeg",
     "descripcion": "./propiedades/terreAcam.html"
+  },
+  {
+    "id": "amores1551",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Del Valle",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": 248,
+    "recamaras": 3,
+    "banos": "1",
+    "estacionamiento": 3,
+    "precio":{
+      "millones": "16,",
+      "miles": "660,",
+      "centenas": "668"
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "Terraza",
+      "adicional_3": "Patio",
+      "adicional_4": "",
+      "adicional_5": "Bodega",
+      "adicional_6": "Cuarto de servicio",
+      "adicional_7": ""
+    },
+    "tipo": "Casa",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/propiedades/amores1551/amores1551_1.png",
+    "imagen2": "../img/propiedades/amores1551/amores1551_2.png",
+    "imagen3": "../img/propiedades/amores1551/amores1551_3.png",
+    "imagen4": "../img/propiedades/amores1551/amores1551_4.png",
+    "imagen5": "../img/propiedades/amores1551/amores1551_5.png",
+    "descripcion": "./propiedades/amores1551.html"
   }
 ]
