@@ -1180,5 +1180,43 @@
     "imagen4": "../img/propiedades/jtb268/jtb268_4.jpeg",
     "imagen5": "../img/propiedades/jtb268/jtb268_5.jpeg",
     "descripcion": "./propiedades/jtb268.html"
+  },
+  {
+    "id": "terrenoAcambay",
+    "direccion": {
+      "completa": "",
+      "estado": "Estado de México",
+      "delegacionMunicipio": "Acambay",
+      "colonia": "Estado de México",
+      "calle": "",
+      "numeroInt": "N/A",
+      "numeroExt": "N/A"
+    },
+    "superficie": "3,725",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precio":{
+      "millones": "2,",
+      "miles": "400,",
+      "centenas": "000"
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Terreno",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/propiedades/terrenoAcam/terreAcam_1.jpeg",
+    "imagen2": "../img/propiedades/terrenoAcam/terreAcam_2.jpeg",
+    "imagen3": "../img/propiedades/terrenoAcam/terreAcam_3.jpeg",
+    "imagen4": "../img/propiedades/terrenoAcam/terreAcam_4.jpeg",
+    "imagen5": "../img/propiedades/terrenoAcam/terreAcam_5.jpeg",
+    "descripcion": "./propiedades/terreAcam.html"
   }
 ]
