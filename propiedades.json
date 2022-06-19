@@ -1300,5 +1300,49 @@
     "imagen4": "../img/desarrollos/avc1129/avc1129_3.jpg",
     "imagen5": "../img/desarrollos/avc1129/avc1129_4.jpg",
     "descripcion": "./desarrollos/avc1129.html"
+  },
+  {
+    "id": "avc1525",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Del Valle",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;64",
+    "recamaras": "2",
+    "banos": "2",
+    "estacionamiento": "1",
+    "precioMinimo":{
+      "millones": "4,",
+      "miles": "050,",
+      "centenas": "000"
+    },
+    "precioMaximo":{
+      "millones": "6,",
+      "miles": "200,",
+      "centenas": "000"
+    },
+    "adicionales":{
+      "adicional_1": "Balcón",
+      "adicional_2": "Terraza",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "Bodega",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Avenida Coyoacán 1525",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/desarrollos/avc1525/avc1525_1.jpeg",
+    "imagen2": "../img/desarrollos/avc1525/avc1525_2.jpeg",
+    "imagen3": "../img/desarrollos/avc1525/avc1525_3.jpeg",
+    "imagen4": "../img/desarrollos/avc1525/avc1525_4.jpeg",
+    "imagen5": "../img/desarrollos/avc1525/avc1525_5.jpeg",
+    "descripcion": "./desarrollos/avc1525.html"
   }
 ]
