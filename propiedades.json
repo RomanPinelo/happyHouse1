@@ -1382,5 +1382,49 @@
     "imagen4": "../img/propiedades/cb835/CB835_4.png",
     "imagen5": "../img/propiedades/cb835/CB835_5.png",
     "descripcion": "./propiedades/cb835.html"
+  },
+  {
+    "id": "linares37",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Cuauhtémoc",
+      "colonia": "Roma Sur",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;93",
+    "recamaras": "2-3",
+    "banos": "2-3",
+    "estacionamiento": "2",
+    "precioMinimo":{
+      "millones": "5,",
+      "miles": "753,",
+      "centenas": "287"
+    },
+    "precioMaximo":{
+      "millones": "8,",
+      "miles": "906,",
+      "centenas": "563"
+    },
+    "adicionales":{
+      "adicional_1": "Balcón",
+      "adicional_2": "Terraza",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Linares 37",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/desarrollos/linares37/linares37_1.png",
+    "imagen2": "../img/desarrollos/linares37/linares37_2.png",
+    "imagen3": "../img/desarrollos/linares37/linares37_3.png",
+    "imagen4": "../img/desarrollos/linares37/linares37_4.png",
+    "imagen5": "../img/desarrollos/linares37/linares37_5.png",
+    "descripcion": "./desarrollos/linares37.html"
   }
 ]
