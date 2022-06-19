@@ -1256,5 +1256,49 @@
     "imagen4": "../img/propiedades/amores1551/amores1551_4.png",
     "imagen5": "../img/propiedades/amores1551/amores1551_5.png",
     "descripcion": "./propiedades/amores1551.html"
+  },
+  {
+    "id": "avc1129",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Del Valle",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;64",
+    "recamaras": "2-3",
+    "banos": "2",
+    "estacionamiento": "1-2",
+    "precioMinimo":{
+      "millones": "4,",
+      "miles": "203,",
+      "centenas": "173"
+    },
+    "precioMaximo":{
+      "millones": "5,",
+      "miles": "235,",
+      "centenas": "431"
+    },
+    "adicionales":{
+      "adicional_1": "Balcón",
+      "adicional_2": "Terraza",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Avenida Coyoacán 1129",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/desarrollos/avc1129/avc1129_Principal.png",
+    "imagen2": "../img/desarrollos/avc1129/avc1129_1.jpg",
+    "imagen3": "../img/desarrollos/avc1129/avc1129_2.jpg",
+    "imagen4": "../img/desarrollos/avc1129/avc1129_3.jpg",
+    "imagen5": "../img/desarrollos/avc1129/avc1129_4.jpg",
+    "descripcion": "./desarrollos/avc1129.html"
   }
 ]
