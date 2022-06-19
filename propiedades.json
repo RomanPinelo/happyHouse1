@@ -1344,5 +1344,43 @@
     "imagen4": "../img/desarrollos/avc1525/avc1525_4.jpeg",
     "imagen5": "../img/desarrollos/avc1525/avc1525_5.jpeg",
     "descripcion": "./desarrollos/avc1525.html"
+  },
+  {
+    "id": "cb835",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Del Valle",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": 170,
+    "recamaras": 3,
+    "banos": 3.5,
+    "estacionamiento": 2,
+    "precio":{
+      "millones": "10,",
+      "miles": "246,",
+      "centenas": "666"
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "Terraza",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/propiedades/cb835/CB835_1.png",
+    "imagen2": "../img/propiedades/cb835/CB835_2.png",
+    "imagen3": "../img/propiedades/cb835/CB835_3.png",
+    "imagen4": "../img/propiedades/cb835/CB835_4.png",
+    "imagen5": "../img/propiedades/cb835/CB835_5.png",
+    "descripcion": "./propiedades/cb835.html"
   }
 ]
