@@ -37,6 +37,7 @@ enviarButton.style.display = "none";
 // Funciones de los botones
 continuarButton.addEventListener('click', () => {
   margin_Left -= 100;
+  window.scrollTo(0, 0);
   formulario.style.marginLeft = `${margin_Left}%`;
   if (margin_Left < 0) {
     atrasButton.style.display = "block";
@@ -79,6 +80,7 @@ continuarButton.addEventListener('click', () => {
 
 atrasButton.addEventListener('click', () => {
   margin_Left += 100;
+  window.scrollTo(0, 0);
   formulario.style.marginLeft = `${margin_Left}%`;
   if (margin_Left == 0) {
     atrasButton.style.display = "none";
