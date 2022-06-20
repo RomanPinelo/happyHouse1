@@ -329,6 +329,7 @@ html {
   .formulario form ul li h2 {
     margin: 1rem 14rem;
     font-family: 'Open Sans', sans-serif;
+    text-align: left;
   }
 
   .formulario form ul li div {
