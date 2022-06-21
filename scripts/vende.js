@@ -35,87 +35,104 @@ atrasButton.style.display = "none";
 enviarButton.style.display = "none";
 
 // Funciones de los botones
+// Si esta enfocado en algun input, al dar continuar o atrás, no hace el cambio de página.
+// Si no está enfocado en nada, lo hace sin problemas.
+// Por eso del blur(), desenfoca en cualquier input que este 
 continuarButton.addEventListener('click', () => {
-  margin_Left -= 100;
-  window.scrollTo(0, 0);
-  formulario.style.marginLeft = `${margin_Left}%`;
-  if (margin_Left < 0) {
-    atrasButton.style.display = "block";
-    seccionPasos.style.display = "none";
-    if (screen.width > 1000) {
-      formularioAltura.style.height = "490px";
-      atrasButton.style.marginLeft = "18.5rem";
-      continuarButton.style.marginRight = "18.5rem";
-      enviarButton.style.marginRight = "18.5rem";
-    }
+  let inputs = document.getElementsByTagName("input");
+  for (let i = 0; i < inputs.length; i++) {
+    const element = inputs[i];
+    element.blur();
   }
-  if (margin_Left == -100) {
-    indicador2.style.width = "25%";
-    if (screen.width > 1000) {
-      formularioAltura.style.height = "auto";
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+    margin_Left -= 100;
+    formulario.style.marginLeft = `${margin_Left}%`;
+    if (margin_Left < 0) {
+      atrasButton.style.display = "block";
+      seccionPasos.style.display = "none";
+      if (screen.width > 1000) {
+        formularioAltura.style.height = "490px";
+        atrasButton.style.marginLeft = "18.5rem";
+        continuarButton.style.marginRight = "18.5rem";
+        enviarButton.style.marginRight = "18.5rem";
+      }
     }
-  }
-  if (margin_Left == -200) {
-    indicador3.style.width = "25%";
-    adicionales_details.removeAttribute("open"); // Cierra el elemento details
-    if (screen.width > 1000) {
-      formularioAltura.style.height = "auto";
+    if (margin_Left == -100) {
+      indicador2.style.width = "25%";
+      if (screen.width > 1000) {
+        formularioAltura.style.height = "auto";
+      }
     }
-  }
-  if (margin_Left == -300) {
-    amenidades_details.removeAttribute("open"); // Cierra el elemento details
-    continuarButton.style.display = "none";
-    enviarButton.style.display = "block";
-    indicador4.style.width = "25%";
-    if (screen.width > 1000) {
-      formularioAltura.style.height = "490px";
+    if (margin_Left == -200) {
+      indicador3.style.width = "25%";
+      adicionales_details.removeAttribute("open"); // Cierra el elemento details
+      if (screen.width > 1000) {
+        formularioAltura.style.height = "auto";
+      }
     }
-  }
-  if (margin_Left == 0) {
-    if (screen.width > 1000) {
-      continuarButton.style.margin = "0";
+    if (margin_Left == -300) {
+      amenidades_details.removeAttribute("open"); // Cierra el elemento details
+      continuarButton.style.display = "none";
+      enviarButton.style.display = "block";
+      indicador4.style.width = "25%";
+      if (screen.width > 1000) {
+        formularioAltura.style.height = "490px";
+      }
     }
-  }
+    if (margin_Left == 0) {
+      if (screen.width > 1000) {
+        continuarButton.style.margin = "0";
+      }
+    }
+  }, 100);
 });
 
 atrasButton.addEventListener('click', () => {
-  margin_Left += 100;
-  window.scrollTo(0, 0);
-  formulario.style.marginLeft = `${margin_Left}%`;
-  if (margin_Left == 0) {
-    atrasButton.style.display = "none";
-    indicador2.style.width = "0";
-    seccionPasos.style.display = "block";
-    if (screen.width > 1000) {
-      formularioAltura.style.height = "490px";
-      continuarButton.style.margin = "0";
-    }
-    adicionales_details.removeAttribute("open"); // Cierra el elemento details
+  let inputs = document.getElementsByTagName("input");
+  for (let i = 0; i < inputs.length; i++) {
+    const element = inputs[i];
+    element.blur();
   }
-  if (margin_Left < 0) {
-    atrasButton.style.display = "block"
-    if (screen.width > 1000) {
-      formularioAltura.style.height = "490px";
-      atrasButton.style.marginLeft = "18.5rem";
-      continuarButton.style.marginRight = "18.5rem";
-      enviarButton.style.marginRight = "18.5rem";
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+    margin_Left += 100;
+    formulario.style.marginLeft = `${margin_Left}%`;
+    if (margin_Left == 0) {
+      atrasButton.style.display = "none";
+      indicador2.style.width = "0";
+      seccionPasos.style.display = "block";
+      if (screen.width > 1000) {
+        formularioAltura.style.height = "490px";
+        continuarButton.style.margin = "0";
+      }
+      adicionales_details.removeAttribute("open"); // Cierra el elemento details
     }
-  }
-  if (margin_Left == -100) {
-    indicador3.style.width = "0";
-    if (screen.width > 1000) {
-      formularioAltura.style.height = "auto";
+    if (margin_Left < 0) {
+      atrasButton.style.display = "block"
+      if (screen.width > 1000) {
+        formularioAltura.style.height = "490px";
+        atrasButton.style.marginLeft = "18.5rem";
+        continuarButton.style.marginRight = "18.5rem";
+        enviarButton.style.marginRight = "18.5rem";
+      }
     }
-    amenidades_details.removeAttribute("open"); // Cierra el elemento details
-  }
-  if (margin_Left == -200) {
-    indicador4.style.width = "0";
-    continuarButton.style.display = "block";
-    enviarButton.style.display = "none";
-    if (screen.width > 1000) {
-      formularioAltura.style.height = "auto";
+    if (margin_Left == -100) {
+      indicador3.style.width = "0";
+      if (screen.width > 1000) {
+        formularioAltura.style.height = "auto";
+      }
+      amenidades_details.removeAttribute("open"); // Cierra el elemento details
     }
-  }
+    if (margin_Left == -200) {
+      indicador4.style.width = "0";
+      continuarButton.style.display = "block";
+      enviarButton.style.display = "none";
+      if (screen.width > 1000) {
+        formularioAltura.style.height = "auto";
+      }
+    }
+  }, 100);
 });
 
 // Botón contacto que oculta el menú en vista celular

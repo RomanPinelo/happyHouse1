@@ -73,12 +73,12 @@
                 <img class="imagenMapa" src="../img/mapDark.svg" alt="Imagen">
                 <div class="inputs">
                   <p id="pregunta">¿Dónde se <span>ubica</span>?</p>
-                  <input type="text" name="estado" placeholder="Estado:">
-                  <input type="text" name="muniAlcal" placeholder="Municipio / Alcaldía:">
-                  <input type="text" name="colonia" placeholder="Colonia:">
-                  <input type="text" name="calle" placeholder="Calle:">
-                  <input type="text" name="numExt" placeholder="No. exterior:">
-                  <input type="text" name="numInt" placeholder="No. interior:">
+                  <input type="text" name="estado" placeholder="Estado:" tabindex="-1">
+                  <input type="text" name="muniAlcal" placeholder="Municipio / Alcaldía:" tabindex="-1">
+                  <input type="text" name="colonia" placeholder="Colonia:" tabindex="-1">
+                  <input type="text" name="calle" placeholder="Calle:" tabindex="-1">
+                  <input type="text" name="numExt" placeholder="No. exterior:" tabindex="-1">
+                  <input type="text" name="numInt" placeholder="No. interior:" tabindex="-1">
                 </div>
               </div>
             </li>
@@ -89,7 +89,7 @@
               <div>
                 <img class="quality" src="../img/qualityTime.svg" alt="Imagen">
                 <div class="inputs">
-                  <select name="tipoPropiedad">
+                  <select name="tipoPropiedad" tabindex="-1">
                     <option class="placeholderText" hidden selected>Tipo de propiedad:</option>
                     <!-- <option value="">Selecciona una opción</option> -->
                     <!-- <option disabled selected>Selecciona una opción</option> -->
@@ -97,24 +97,24 @@
                     <option value="Casa">Casa</option>
                     <option value="Terreno">Terreno</option>
                   </select>
-                  <p><input type="number" name="supHabitable" step="0.01" placeholder="Superficie habitable:"> m<sup>2</sup></p>
-                  <input type="number" name="habitaciones" placeholder="Habitaciones:">
-                  <input type="number" name="banos" placeholder="Baños:">
-                  <input type="number" name="estacionamiento" placeholder="Estacionamientos:">
-                  <select class="placeholderText" name="tipoEstacionamiento">
+                  <p><input type="number" name="supHabitable" step="0.01" placeholder="Superficie habitable:" tabindex="-1"> m<sup>2</sup></p>
+                  <input type="number" name="habitaciones" placeholder="Habitaciones:" tabindex="-1">
+                  <input type="number" name="banos" placeholder="Baños:" tabindex="-1">
+                  <input type="number" name="estacionamiento" placeholder="Estacionamientos:" tabindex="-1">
+                  <select class="placeholderText" name="tipoEstacionamiento" tabindex="-1">
                     <option hidden selected>Tipo de estacionamiento:</option>
                     <option value="Independiente">Independiente</option>
                     <option value="Eleva autos">Eleva autos</option>
                     <option value="Tandem">Tandem</option>
                   </select>
-                  <details id="adicionalesDetails">
+                  <details id="adicionalesDetails" tabindex="-1">
                     <summary class="placeholderText">Adicionales:</summary>
                       <ul>
-                        <li><input type="checkbox" name="balcon"> Balcón / Terraza</li>
-                        <li><input type="checkbox" name="patio"> Patio / Jardín</li>
-                        <li><input type="checkbox" name="bodega"> Bodega</li>
-                        <li><input type="checkbox" name="cuartoServicio"> Cuarto de servicio</li>
-                        <li><input type="checkbox" name="jaulaTendido"> Jaula de tendido</li>
+                        <li><input type="checkbox" name="balcon" tabindex="-1"> Balcón / Terraza</li>
+                        <li><input type="checkbox" name="patio" tabindex="-1"> Patio / Jardín</li>
+                        <li><input type="checkbox" name="bodega" tabindex="-1"> Bodega</li>
+                        <li><input type="checkbox" name="cuartoServicio" tabindex="-1"> Cuarto de servicio</li>
+                        <li><input type="checkbox" name="jaulaTendido" tabindex="-1"> Jaula de tendido</li>
                       </ul>
                   </details>
                 </div>
@@ -129,31 +129,31 @@
               <div>
                 <img class="city" src="../img/cityGirl.svg" alt="Imagen">
                 <div class="inputs">
-                  <input type="number" name="edadEdif" placeholder="Edad del edificio:">
-                  <input type="number" name="pisosEdif" placeholder="Total de pisos del edificio:">
-                  <input class="pisoPropiedad" type="number" name="pisoPropi" placeholder="Piso en que se encuentra tu propiedad:">
-                  <select class="placeholderText" name="orientacion">
+                  <input type="number" name="edadEdif" placeholder="Edad del edificio:" tabindex="-1">
+                  <input type="number" name="pisosEdif" placeholder="Total de pisos del edificio:" tabindex="-1">
+                  <input class="pisoPropiedad" type="number" name="pisoPropi" placeholder="Piso en que se encuentra tu propiedad:" tabindex="-1">
+                  <select class="placeholderText" name="orientacion" tabindex="-1">
                     <option hidden selected>Orientación:</option>
                     <option value="Exterior">Exterior</option>
                     <option value="Interior">Interior</option>
                   </select>
-                  <select class="placeholderText" name="elevador">
+                  <select class="placeholderText" name="elevador" tabindex="-1">
                     <option hidden selected>Elevador:</option>
                     <option value="Si">Si</option>
                     <option value="No">No</option>
                   </select>
-                  <details id="amenidadesDetails">
+                  <details id="amenidadesDetails" tabindex="-1">
                     <summary class="placeholderText">Amenidades:</summary>
                       <ul>
-                        <li><input type="checkbox" name="seguridad"> Seguridad</li>
-                        <li><input type="checkbox" name="gimnasio"> Gimnasio</li>
-                        <li><input type="checkbox" name="alberca"> Alberca</li>
-                        <li><input type="checkbox" name="roofGarden"> Roof Garden</li>
-                        <li><input type="checkbox" name="otros" id="otros"> Otros</li>
-                        <li><input type="text" name="otrosEspecifica" id="otrosEspecifica" placeholder="Especifique:"></li>
+                        <li><input type="checkbox" name="seguridad" tabindex="-1"> Seguridad</li>
+                        <li><input type="checkbox" name="gimnasio" tabindex="-1"> Gimnasio</li>
+                        <li><input type="checkbox" name="alberca" tabindex="-1"> Alberca</li>
+                        <li><input type="checkbox" name="roofGarden" tabindex="-1"> Roof Garden</li>
+                        <li><input type="checkbox" name="otros" id="otros" tabindex="-1"> Otros</li>
+                        <li><input type="text" name="otrosEspecifica" id="otrosEspecifica" placeholder="Especifique:" tabindex="-1"></li>
                       </ul>
                   </details>
-                  <p>$<input class="numberIndistinto" type="text" name="cuotaMantenimiento" id="cuotaMantenimiento" placeholder="Cuota de mantenimiento:"> MXN</p>
+                  <p>$<input class="numberIndistinto" type="text" name="cuotaMantenimiento" id="cuotaMantenimiento" placeholder="Cuota de mantenimiento:" tabindex="-1"> MXN</p>
                 </div>
               </div>
             </li>
@@ -162,16 +162,16 @@
               <div>
                 <img class="chat" src="../img/realTimeCollaboration.svg" alt="Imagen">
                 <div class="inputs">
-                  <p id="pRecibirDinero">$<input class="dineroDeseado numberIndistinto" type="text" name="recibirDinero" id="recibirDinero" placeholder="¿Cuánto esperas recibir?"> MXN</p>
-                  <select name="relacion">
+                  <p id="pRecibirDinero">$<input class="dineroDeseado numberIndistinto" type="text" name="recibirDinero" id="recibirDinero" placeholder="¿Cuánto esperas recibir?" tabindex="-1"> MXN</p>
+                  <select name="relacion" tabindex="-1">
                     <option class="placeholderText" hidden selected>Relación con la propiedad:</option>
                     <option value="Propietario">Propietario</option>
                     <option value="Asesor">Asesor</option>
                   </select>
-                  <input type="text" name="nombreCompleto" placeholder="Nombre Completo:" required>
-                  <input type="number" name="telefono" placeholder="Teléfono:" required>
-                  <input type="email" name="correo" placeholder="Correo:" required>
-                  <select name="conocer">
+                  <input type="text" name="nombreCompleto" placeholder="Nombre Completo:" required tabindex="-1">
+                  <input type="number" name="telefono" placeholder="Teléfono:" required tabindex="-1">
+                  <input type="email" name="correo" placeholder="Correo:" required tabindex="-1">
+                  <select name="conocer" tabindex="-1">
                     <option class="placeholderText" hidden selected>¿Cómo nos conociste?</option>
                     <option value="Facebook">Facebook</option>
                     <option value="Twitter">Twitter</option>
@@ -182,11 +182,11 @@
                     <option value="Otro">Otro</option>
                   </select>
                   <div class="politicaTerminos">
-                    <input type="checkbox" name="politicaPrivacidad" id="politicaPrivacidad" required>
+                    <input type="checkbox" name="politicaPrivacidad" id="politicaPrivacidad" required tabindex="-1">
                     <p>
-                      Acepto <a href="./avisoPrivacidad.html" target="_blank">Políticas de Privacidad</a>
+                      Acepto <a href="./avisoPrivacidad.html" target="_blank" tabindex="-1">Políticas de Privacidad</a>
                       y
-                      <a href="#" target="_blank">Términos y Condiciones</a>
+                      <a href="#" target="_blank" tabindex="-1">Términos y Condiciones</a>
                     </p>
                   </div>
                 </div>
@@ -195,9 +195,9 @@
           </ul>
           <div class="buttonsForm">
             <!-- Si no pongo el type="button", se envia el formulario y ya no lleno el resto de los datos -->
-            <button type="button" id="atras">Atrás</button>
-            <button type="button" id="continuar">Continuar</button>
-            <button type="submit" id="enviar">Enviar</button>
+            <button type="button" id="atras" tabindex="-1">Atrás</button>
+            <button type="button" id="continuar" tabindex="-1">Continuar</button>
+            <button type="submit" id="enviar" tabindex="-1">Enviar</button>
           </div>
         </form>
       </section> <!-- Sección formulario -->
