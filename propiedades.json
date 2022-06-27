@@ -458,9 +458,6 @@
     "imagen3": "../img/desarrollos/primeroMayo/primero_3.jpg",
     "imagen4": "../img/desarrollos/primeroMayo/primero_4.jpg",
     "imagen5": "../img/desarrollos/primeroMayo/primero_5.jpg",
-    "imagen6": "../img/desarrollos/primeroMayo/primero_6.jpg",
-    "imagen7": "../img/desarrollos/primeroMayo/primero_7.jpg",
-    "imagen8": "../img/desarrollos/primeroMayo/primero_8.jpg",
     "descripcion": "./desarrollos/primeroMayo.html"
   },
   {
@@ -917,10 +914,10 @@
     "nombre": "Ciudad Deportiva",
     "estado": "Pre-venta",
     "imagen1": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
-    "imagen2": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
-    "imagen3": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
-    "imagen4": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
-    "imagen5": "../img/desarrollos/ciudadDeportiva/CiuDepor_1.jpg",
+    "imagen2": "../img/desarrollos/ciudadDeportiva/CiuDepor_2.jpg",
+    "imagen3": "../img/desarrollos/ciudadDeportiva/CiuDepor_3.jpg",
+    "imagen4": "../img/desarrollos/ciudadDeportiva/CiuDepor_4.jpg",
+    "imagen5": "../img/desarrollos/ciudadDeportiva/CiuDepor_5.jpg",
     "descripcion": "./desarrollos/ciudadDepor.html"
   },
   {
