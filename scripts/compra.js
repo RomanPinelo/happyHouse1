@@ -78,17 +78,35 @@ setInterval(() => {
 // Funciones para pintar las tarjetas
 function tarjetaPropiedad(page,item) {
   cardsPages[page].innerHTML += `
-    <a href="${item.descripcion}" class="cardInfo">
+    <div class="cardInfo">
       <div class="cardInfo__carousel">
         <div class="cardInfo__caruosel-carousel">
-          <img src="${item.imagen1}" alt="Imagen">
+          <div class="slider">
+            <div class="slide">
+              <img src="${item.imagen1}" alt="Imagen Propiedad">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen2}" alt="Imagen Propiedad">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen3}" alt="Imagen Propiedad">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen4}" alt="Imagen Propiedad">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen5}" alt="Imagen Propiedad">
+            </div>
+            <button class="slider__btn slider__btn--left">&#10094;</button>
+            <button class="slider__btn slider__btn--right">&#10095;</button>
+          </div>
         </div>
         <div class="cardInfo__caruosel-text">
           <span>${item.tipo}</span>
           <span>${item.estado}</span>
         </div>
       </div>
-      <div class="cardInfo__info">
+      <a href="${item.descripcion}" class="cardInfo__info">
         <div class="precioLogos">
           <p class="precioLogos__precio">$${item.precio.millones}${item.precio.miles}${item.precio.centenas}.00 <span>MXN</span></p>
           <p class="precioLogos___logos">
@@ -103,24 +121,42 @@ function tarjetaPropiedad(page,item) {
             <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
           </p>
         </div>
-      </div>
-    </a> <!-- cardInfo a -->
+      </a>
+    </div> <!-- cardInfo div -->
   `
 }
 
 function tarjetaDesarrolloxM2(page, item) {
   cardsPages[page].innerHTML += `
-    <a href="${item.descripcion}" class="cardInfo">
+    <div class="cardInfo">
       <div class="cardInfo__carousel">
         <div class="cardInfo__caruosel-carousel">
-          <img src="${item.imagen1}" alt="Imagen">
+          <div class="slider">
+            <div class="slide">
+              <img src="${item.imagen1}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen2}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen3}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen4}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen5}" alt="Imagen Desarrollo">
+            </div>
+            <button class="slider__btn slider__btn--left">&#10094;</button>
+            <button class="slider__btn slider__btn--right">&#10095;</button>
+          </div>
         </div>
         <div class="cardInfo__caruosel-text">
           <span>${item.nombre}</span>
           <span>${item.estado}</span>
         </div>
       </div>
-      <div class="cardInfo__info">
+      <a href="${item.descripcion}" class="cardInfo__info">
         <div class="precioLogos">
           <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
           <p class="precioLogos___logos">
@@ -135,24 +171,42 @@ function tarjetaDesarrolloxM2(page, item) {
             <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
           </p>
         </div>
-      </div>
-    </a> <!-- cardInfo a -->
+      </a>
+    </div> <!-- cardInfo div -->
   `
 }
 
 function tarjetaDesarrollo(page,item) {
   cardsPages[page].innerHTML += `
-    <a href="${item.descripcion}" class="cardInfo">
+    <div class="cardInfo">
       <div class="cardInfo__carousel">
         <div class="cardInfo__caruosel-carousel">
-          <img src="${item.imagen1}" alt="Imagen">
+          <div class="slider">
+            <div class="slide">
+              <img src="${item.imagen1}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen2}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen3}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen4}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen5}" alt="Imagen Desarrollo">
+            </div>
+            <button class="slider__btn slider__btn--left">&#10094;</button>
+            <button class="slider__btn slider__btn--right">&#10095;</button>
+          </div>
         </div>
         <div class="cardInfo__caruosel-text">
           <span>${item.nombre}</span>
           <span>${item.estado}</span>
         </div>
       </div>
-      <div class="cardInfo__info">
+      <a href="${item.descripcion}" class="cardInfo__info">
         <div class="precioLogos">
           <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
           <p class="precioLogos___logos">
@@ -167,24 +221,42 @@ function tarjetaDesarrollo(page,item) {
             <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
           </p>
         </div>
-      </div>
-    </a> <!-- cardInfo a -->
+      </a>
+    </div> <!-- cardInfo div -->
   `
 }
 
 function tarjetaDesarrolloxAccion(page,item) {
   cardsPages[page].innerHTML += `
-    <a href="${item.descripcion}" class="cardInfo">
+    <div class="cardInfo">
       <div class="cardInfo__carousel">
         <div class="cardInfo__caruosel-carousel">
-          <img src="${item.imagen1}" alt="Imagen">
+          <div class="slider">
+            <div class="slide">
+              <img src="${item.imagen1}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen2}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen3}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen4}" alt="Imagen Desarrollo">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen5}" alt="Imagen Desarrollo">
+            </div>
+            <button class="slider__btn slider__btn--left">&#10094;</button>
+            <button class="slider__btn slider__btn--right">&#10095;</button>
+          </div>
         </div>
         <div class="cardInfo__caruosel-text">
           <span>${item.nombre}</span>
           <span>${item.estado}</span>
         </div>
       </div>
-      <div class="cardInfo__info">
+      <a href="${item.descripcion}" class="cardInfo__info">
         <div class="precioLogos">
           <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por acción</span></p>
           <p class="precioLogos___logos">
@@ -199,8 +271,8 @@ function tarjetaDesarrolloxAccion(page,item) {
             <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
           </p>
         </div>
-      </div>
-    </a> <!-- cardInfo a -->
+      </a>
+    </div> <!-- cardInfo a -->
   `
 }
 
@@ -566,3 +638,66 @@ botonBusqueda.addEventListener('click', function(){
         filtrarDatos(datos, opcionSelect); //Función para tratar los datos
       })
 });
+
+// Manejador de multiples slider
+setTimeout(() => {
+  const slideContainer = document.querySelectorAll('.slider');
+
+  for(let i = 0; i < slideContainer.length; i++){
+
+    const slider = function () {
+      // const this_slider = this;
+      const slides = slideContainer[i].querySelectorAll('.slide');
+      const btnLeft = slideContainer[i].querySelector('.slider__btn--left');
+      const btnRight = slideContainer[i].querySelector('.slider__btn--right');
+
+      let curSlide = 0;
+      const maxSlide = slides.length;
+
+      const goToSlide = function (slide) {
+        slides.forEach(
+          (s, i) => (s.style.transform = `translateX(${100 * (i - slide)}%)`)
+        );
+      };
+
+      // Next slide
+      const nextSlide = function () {
+        if (curSlide === maxSlide - 1) {
+          curSlide = 0;
+        } else {
+          curSlide++;
+        }
+
+        goToSlide(curSlide);
+      };
+
+      const prevSlide = function () {
+        if (curSlide === 0) {
+          curSlide = maxSlide - 1;
+        } else {
+          curSlide--;
+        }
+        goToSlide(curSlide);
+      };
+
+      const init = function () {
+        goToSlide(0);
+      };
+      init();
+
+      // Event handlers
+      btnRight.addEventListener('click', nextSlide);
+      btnLeft.addEventListener('click', prevSlide);
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowLeft') prevSlide();
+        e.key === 'ArrowRight' && nextSlide();
+      });
+
+      setInterval(() => {
+        nextSlide();
+      }, 5000);
+    };
+    slider();
+  }
+}, 3000);
