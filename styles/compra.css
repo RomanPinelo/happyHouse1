@@ -273,7 +273,7 @@ flex-wrap: wrap;}
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel .cardInfo__caruosel-carousel .slider .slide img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__carousel .cardInfo__caruosel-carousel .slider .slider__btn {
