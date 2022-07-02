@@ -38,9 +38,15 @@ pageXOfY.innerHTML = page;
 // número de propiedades
 function pintarNumPropiedades(datos, nombre) {
   let numeroPropiedad = [];
-  for (const item of datos) {
-    if (item.direccion.estado == nombre) {
+  if (nombre == "Todos") {
+    for (const item of datos) {
       numeroPropiedad.push(item);
+    }
+  } else {
+    for (const item of datos) {
+      if (item.direccion.estado == nombre) {
+        numeroPropiedad.push(item);
+      }
     }
   }
   numPropiedadBus.innerHTML = numeroPropiedad.length;
@@ -48,6 +54,9 @@ function pintarNumPropiedades(datos, nombre) {
 
 function anchoSelect() { 
   let opcionSelect = selectEstado.value;
+  if (opcionSelect == "Todos") {
+    selectEstado.style.width = "3.75rem";
+  }
   if (opcionSelect == "CDMX") {
     selectEstado.style.width = "4.1rem";
   }
@@ -461,9 +470,16 @@ function primerPagina() {
 // Función para filtrar datos de búsqueda
 function filtrarDatos(datos, opcionSel) {
   let filtroEstado = [];
-  for (let item of datos) {
-    if (item.direccion.estado == opcionSel) {
+
+  if (opcionSel == "Todos") {
+    for (let item of datos) {
       filtroEstado.push(item);
+    }
+  } else {
+    for (let item of datos) {
+      if (item.direccion.estado == opcionSel) {
+        filtroEstado.push(item);
+      }
     }
   }
 
