@@ -336,6 +336,23 @@ function pintarDatos(datos)  {
         }
       }
     }
+    if (contadorPropiedades >= 36 && contadorPropiedades < 48) {
+      if (item.tipo != "Desarrollo") {
+        tarjetaPropiedad(3,item);
+      } else {
+        if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
+        || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
+        || (item.nombre == "Distrito de Arte Mérida")) {
+          tarjetaDesarrolloxM2(3,item);
+        } else {
+          if ((item.nombre == "CO-IN")) {
+            tarjetaDesarrolloxAccion(3,item);
+          } else {
+            tarjetaDesarrollo(3,item);
+          }
+        }
+      }
+    }
     contadorPropiedades++;
   }
   // Manejador de multiples slider
@@ -589,33 +606,31 @@ function filtrarDatos(datos, opcionSel) {
 // Funciones del indicador de páginas
 buttonPageLeft.addEventListener('click', function(){
   page -= 1;
-  pageXOfY.innerHTML = page;
-  margin_Left += 100;
-  paginasView.style.marginLeft = `${margin_Left}%`;
-  setTimeout(() => {
-    window.scrollTo(0, 450);
-  }, 400);
-  if (page < 1) {
+  if (page > 0) {
+    pageXOfY.innerHTML = page;
+    margin_Left += 100;
+    paginasView.style.marginLeft = `${margin_Left}%`;
+    setTimeout(() => {
+      window.scrollTo(0, 450);
+    }, 400);
+  } else {
     page = 1;
     pageXOfY.innerHTML = page;
-    margin_Left -= 100;
-    paginasView.style.marginLeft = `${margin_Left}%`;
   }
 });
 
 buttonPageRight.addEventListener('click', function(){
   page += 1;
-  pageXOfY.innerHTML = page;
-  margin_Left -= 100;
-  paginasView.style.marginLeft = `${margin_Left}%`;
-  setTimeout(() => {
-    window.scrollTo(0, 450);
-  }, 400);
-  if (page > 3) {
-    page = 3;
+  if (page < 5) {
     pageXOfY.innerHTML = page;
-    margin_Left += 100;
+    margin_Left -= 100;
     paginasView.style.marginLeft = `${margin_Left}%`;
+    setTimeout(() => {
+      window.scrollTo(0, 450);
+    }, 400);
+  } else {
+    page = 4;
+    pageXOfY.innerHTML = page;
   }
 });
 

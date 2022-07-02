@@ -219,7 +219,7 @@ flex-wrap: wrap;}
 }
 
 .propiedadesCards .propiedadesCards__cards ul {
-  width: 300%; /* Depende del numero de páginas * 100% */
+  width: 400%; /* Depende del numero de páginas * 100% */
   display: flex;
   transition: 1s;
 }
