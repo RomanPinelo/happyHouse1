@@ -19,6 +19,7 @@ var filtroAdicionales = document.getElementById("adicionales_propiedad");
 var todos = document.getElementById("todosEstados");
 var cdmx = document.getElementById("cdmxEstado");
 var edomex = document.getElementById("edoMexEstado");
+var morelos = document.getElementById("morelosEstado");
 var puebla = document.getElementById("pueblaEstado");
 var queretaro = document.getElementById("queretaroEstado");
 var yucatan = document.getElementById("yucatanEstado");
@@ -69,7 +70,7 @@ function anchoSelect() {
   if (opcionSelect == "Querétaro") {
     selectEstado.style.width = "5.4rem";
   }
-  if (opcionSelect == "Yucatán") {
+  if ((opcionSelect == "Yucatán") || (opcionSelect == "Morelos")) {
     selectEstado.style.width = "4.5rem";
   }
   //Manejo del archivo json
@@ -679,6 +680,17 @@ cdmx.addEventListener('click', function(){
 edomex.addEventListener('click', function(){
   primerPagina();
   let estado = "Estado de México";
+  //Manejo del archivo json
+  fetch('../propiedades.json')
+    .then(res => res.json())
+      .then(datos => {
+        pintarDatos1(datos, estado); //Función para tratar los datos
+      })
+});
+
+morelos.addEventListener('click', function(){
+  primerPagina();
+  let estado = "Morelos";
   //Manejo del archivo json
   fetch('../propiedades.json')
     .then(res => res.json())
