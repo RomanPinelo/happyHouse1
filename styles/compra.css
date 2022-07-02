@@ -532,7 +532,7 @@ flex-wrap: wrap;}
   }
   
   .menuEstados .botonesEstados button {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     font-size: 17px;
     font-weight: 400;
     margin: 0.75rem 0;
