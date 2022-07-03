@@ -1423,5 +1423,49 @@
     "imagen4": "../img/desarrollos/linares37/linares37_4.png",
     "imagen5": "../img/desarrollos/linares37/linares37_5.png",
     "descripcion": "./desarrollos/linares37.html"
+  },
+  {
+    "id": "aquasol",
+    "direccion": {
+      "completa": "",
+      "estado": "Morelos",
+      "delegacionMunicipio": "Tlayecac",
+      "colonia": "Morelos",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;69",
+    "recamaras": "2-3",
+    "banos": "1.5-2.5",
+    "estacionamiento": "1",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "984,",
+      "centenas": "000"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "AQUASOL Residencial",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/desarrollos/aquasol/aqua_1.png",
+    "imagen2": "../img/desarrollos/aquasol/aqua_2.png",
+    "imagen3": "../img/desarrollos/aquasol/aqua_3.png",
+    "imagen4": "../img/desarrollos/aquasol/aqua_4.png",
+    "imagen5": "../img/desarrollos/aquasol/aqua_5.jpg",
+    "descripcion": "./desarrollos/aquasol.html"
   }
 ]
