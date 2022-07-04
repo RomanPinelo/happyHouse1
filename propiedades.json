@@ -1547,7 +1547,7 @@
       "adicional_7": ""
     },
     "tipo": "Desarrollo",
-    "nombre": "SANTA FE LIFESTYLE ",
+    "nombre": "SANTA FE LIFESTYLE",
     "estado": "Entrega inmediata",
     "imagen1": "../img/desarrollos/santaFe/santaFe_Morelos.jpg",
     "imagen2": "../img/desarrollos/santaFe/santaFe_1.jpg",
@@ -1555,5 +1555,49 @@
     "imagen4": "../img/desarrollos/santaFe/santaFe_3.jpg",
     "imagen5": "../img/desarrollos/santaFe/santaFe_4.jpg",
     "descripcion": "./desarrollos/santaFe.html"
+  },
+  {
+    "id": "espacioii",
+    "direccion": {
+      "completa": "",
+      "estado": "Estado de México",
+      "delegacionMunicipio": "San Mateo",
+      "colonia": "Estado de México",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;104",
+    "recamaras": "3",
+    "banos": "2.5",
+    "estacionamiento": "2",
+    "precioMinimo":{
+      "millones": "2,",
+      "miles": "300,",
+      "centenas": "000"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "Balcón",
+      "adicional_2": "",
+      "adicional_3": "",
+      "adicional_4": "Jardín",
+      "adicional_5": "Bodega",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "ESPACIO II",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/desarrollos/espacioii/espacio_edoMex.jpg",
+    "imagen2": "../img/desarrollos/espacioii/espacio_1.jpg",
+    "imagen3": "../img/desarrollos/espacioii/espacio_2.jpg",
+    "imagen4": "../img/desarrollos/espacioii/espacio_3.jpg",
+    "imagen5": "../img/desarrollos/espacioii/espacio_4.jpg",
+    "descripcion": "./desarrollos/espacio.html"
   }
 ]
