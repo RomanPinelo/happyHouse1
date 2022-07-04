@@ -1467,5 +1467,49 @@
     "imagen4": "../img/desarrollos/aquasol/aqua_4.png",
     "imagen5": "../img/desarrollos/aquasol/aqua_5.jpg",
     "descripcion": "./desarrollos/aquasol.html"
+  },
+  {
+    "id": "trojes",
+    "direccion": {
+      "completa": "",
+      "estado": "Puebla",
+      "delegacionMunicipio": "San Lorenzo Almecatla",
+      "colonia": "Puebla",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;61",
+    "recamaras": "1-3",
+    "banos": "1.5-2",
+    "estacionamiento": "1",
+    "precioMinimo":{
+      "millones": "",
+      "miles": "934,",
+      "centenas": "900"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "Balcón",
+      "adicional_2": "",
+      "adicional_3": "Patio",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "TROJES",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/desarrollos/trojes/trojes_Puebla.jpg",
+    "imagen2": "../img/desarrollos/trojes/trojes_1.jpg",
+    "imagen3": "../img/desarrollos/trojes/trojes_2.jpg",
+    "imagen4": "../img/desarrollos/trojes/trojes_3.jpg",
+    "imagen5": "../img/desarrollos/trojes/trojes_4.jpg",
+    "descripcion": "./desarrollos/trojes.html"
   }
 ]
