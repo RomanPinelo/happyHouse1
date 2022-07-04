@@ -1511,5 +1511,49 @@
     "imagen4": "../img/desarrollos/trojes/trojes_3.jpg",
     "imagen5": "../img/desarrollos/trojes/trojes_4.jpg",
     "descripcion": "./desarrollos/trojes.html"
+  },
+  {
+    "id": "santaFe",
+    "direccion": {
+      "completa": "",
+      "estado": "Morelos",
+      "delegacionMunicipio": "Santa Fe",
+      "colonia": "Morelos",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;95",
+    "recamaras": "1-3",
+    "banos": "0.5-2",
+    "estacionamiento": "1-2",
+    "precioMinimo":{
+      "millones": "1,",
+      "miles": "620,",
+      "centenas": "000"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "Terraza",
+      "adicional_3": "Patio",
+      "adicional_4": "Jardín",
+      "adicional_5": "Bodega",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "SANTA FE LIFESTYLE ",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/desarrollos/santaFe/santaFe_Morelos.jpg",
+    "imagen2": "../img/desarrollos/santaFe/santaFe_1.jpg",
+    "imagen3": "../img/desarrollos/santaFe/santaFe_2.jpg",
+    "imagen4": "../img/desarrollos/santaFe/santaFe_3.jpg",
+    "imagen5": "../img/desarrollos/santaFe/santaFe_4.jpg",
+    "descripcion": "./desarrollos/santaFe.html"
   }
 ]
