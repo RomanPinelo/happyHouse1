@@ -579,7 +579,7 @@ footer .footer__redes a:hover i {
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/
 @media screen and (min-width: 768px) {
   /*********************************** Sección de Proyectos y desarrollos ***********************************/
-  /* Slider en iPad y PC */
+  /* Slider en iPad */
   .proyeDesa .container__slider {
     width: 100%;
     margin: auto;
@@ -736,6 +736,11 @@ footer .footer__redes a:hover i {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  /* Slider en PC */
+  .proyeDesa .container__slider .slider {
+    height: 17.25rem;
   }
 
   /*********************************** Sección de Socios estratégicos ***********************************/

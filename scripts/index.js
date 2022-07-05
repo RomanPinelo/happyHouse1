@@ -150,11 +150,11 @@ btnLeft.addEventListener('click', function(){
 // Esto hace que sea automático y es opcional
 setInterval(function() {
   proyectosNextCel();
-}, 5000);
+}, 7000);
 
 
 // Slider de proyectos y desarrollos en iPad y PC
-if (screen.width > 768) {
+if (screen.width > 767) {
   btnRight.addEventListener('click', function(){
     proyectosNextPc();
   });
@@ -166,7 +166,7 @@ if (screen.width > 768) {
   // Esto hace que sea automático y es opcional
   setInterval(function() {
     proyectosNextPc();
-  }, 5000);
+  }, 7000);
 }
 
 // Slider de socios en celular
@@ -181,10 +181,10 @@ btnLeft1.addEventListener('click', function(){
 // Esto hace que sea automático y es opcional
 setInterval(function() {
   sociosNextCel();
-}, 5000);
+}, 7000);
 
 // Slider de socios en iPad y PC
-if (screen.width > 768) {
+if (screen.width > 767) {
   btnRight1.addEventListener('click', function(){
     sociosNextPc();
   });
@@ -196,5 +196,5 @@ if (screen.width > 768) {
   // Esto hace que sea automático y es opcional
   setInterval(function() {
     sociosNextPc();
-  }, 5000);
+  }, 7000);
 }
