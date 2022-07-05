@@ -588,7 +588,7 @@ footer .footer__redes a:hover i {
 
   .proyeDesa .container__slider .slider {
     width: 666.6%; /* Depende del número de imágenes x * 33.33% */
-    height: auto;
+    height: 11rem;
     margin-left: -33.33%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
   }
 
