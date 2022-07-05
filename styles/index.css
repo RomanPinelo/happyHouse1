@@ -17,6 +17,7 @@
   --decorado4: #907335;
   --fondo: #0b0020;
   --fondo1: #e6e6e6;
+  --fondo2: #0b002099;
 }
 
 html {
@@ -148,7 +149,7 @@ html {
 
 .proyeDesa .container__slider .slider {
   display: flex;
-  width: 800%; /* Depende del número de imágenes x * 100% */
+  width: 2000%; /* Depende del número de imágenes x * 100% */
   height: 15rem;
   margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
 }
@@ -209,7 +210,7 @@ html {
   display: block;
   width: 40px;
   height: 40px;
-  background-color: var(--fondo);
+  background-color: var(--fondo2);
   color: var(--decorado);
   font-size: 30px;
   font-weight: bold;
@@ -586,7 +587,7 @@ footer .footer__redes a:hover i {
   }
 
   .proyeDesa .container__slider .slider {
-    width: 266.64%; /* Depende del número de imágenes x * 33.33% */
+    width: 666.6%; /* Depende del número de imágenes x * 33.33% */
     height: auto;
     margin-left: -33.33%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
   }
@@ -740,7 +741,7 @@ footer .footer__redes a:hover i {
 
   /* Slider en PC */
   .proyeDesa .container__slider .slider {
-    height: 17.25rem;
+    height: 17rem;
   }
 
   /*********************************** Sección de Socios estratégicos ***********************************/
