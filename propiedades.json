@@ -1613,7 +1613,7 @@
     },
     "superficie": "&ge;67",
     "recamaras": "2",
-    "banos": "3",
+    "banos": "2",
     "estacionamiento": "1",
     "precioMinimo":{
       "millones": "3,",
@@ -1637,11 +1637,11 @@
     "tipo": "Desarrollo",
     "nombre": "Bolívar 577",
     "estado": "Pre-venta",
-    "imagen1": "../img/desarrollos/espacioii/espacio_x.jpg",
-    "imagen2": "../img/desarrollos/espacioii/espacio_1.jpg",
-    "imagen3": "../img/desarrollos/espacioii/espacio_2.jpg",
-    "imagen4": "../img/desarrollos/espacioii/espacio_3.jpg",
-    "imagen5": "../img/desarrollos/espacioii/espacio_4.jpg",
-    "descripcion": "./desarrollos/espacio.html"
+    "imagen1": "../img/desarrollos/bolivar577/bolivar577_1.jpg",
+    "imagen2": "../img/desarrollos/bolivar577/bolivar577_2.jpg",
+    "imagen3": "../img/desarrollos/bolivar577/bolivar577_3.jpg",
+    "imagen4": "../img/desarrollos/bolivar577/bolivar577_4.jpg",
+    "imagen5": "../img/desarrollos/bolivar577/bolivar577_5.jpg",
+    "descripcion": "./desarrollos/bolivar577.html"
   }
 ]

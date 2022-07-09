@@ -149,7 +149,7 @@ html {
 
 .proyeDesa .container__slider .slider {
   display: flex;
-  width: 2000%; /* Depende del número de imágenes x * 100% */
+  width: 2100%; /* Depende del número de imágenes x * 100% */
   height: 15rem;
   margin-left: -100%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
 }
@@ -587,7 +587,7 @@ footer .footer__redes a:hover i {
   }
 
   .proyeDesa .container__slider .slider {
-    width: 666.6%; /* Depende del número de imágenes x * 33.33% */
+    width: 699.93%; /* Depende del número de imágenes x * 33.33% */
     height: 11rem;
     margin-left: -33.33%;  /* Ayuda a enfocar la segunda imagen que en realidad es la primera */
   }
