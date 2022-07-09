@@ -1606,7 +1606,7 @@
       "completa": "",
       "estado": "CDMX",
       "delegacionMunicipio": "Benito Juárez",
-      "colonia": "CDMX",
+      "colonia": "Álamos",
       "calle": "",
       "numeroInt": "",
       "numeroExt": ""
@@ -1650,7 +1650,7 @@
       "completa": "",
       "estado": "CDMX",
       "delegacionMunicipio": "Benito Juárez",
-      "colonia": "CDMX",
+      "colonia": "Álamos",
       "calle": "",
       "numeroInt": "",
       "numeroExt": ""
@@ -1687,5 +1687,49 @@
     "imagen4": "../img/desarrollos/cadiz53/cadiz53_4.jpg",
     "imagen5": "../img/desarrollos/cadiz53/cadiz53_5.jpg",
     "descripcion": "./desarrollos/cadiz53.html"
+  },
+  {
+    "id": "mitla378",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Narvarte",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;70",
+    "recamaras": "2-3",
+    "banos": "2",
+    "estacionamiento": "1-2",
+    "precioMinimo":{
+      "millones": "4,",
+      "miles": "235,",
+      "centenas": "490"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "Balcón",
+      "adicional_2": "Terraza",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "Bodega",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Mitla 378",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/mitla378/mitla_1.jpg",
+    "imagen2": "../img/desarrollos/mitla378/mitla_2.jpg",
+    "imagen3": "../img/desarrollos/mitla378/mitla_3.jpg",
+    "imagen4": "../img/desarrollos/mitla378/mitla_4.jpg",
+    "imagen5": "../img/desarrollos/mitla378/mitla_5.jpg",
+    "descripcion": "./desarrollos/mitla378.html"
   }
 ]
