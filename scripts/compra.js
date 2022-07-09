@@ -365,6 +365,7 @@ function pintarDatos(datos)  {
     }
     contadorPropiedades++;
   }
+
   // Manejador de multiples slider
   setTimeout(() => {
     const slideContainer = document.querySelectorAll('.slider');
@@ -419,10 +420,6 @@ function pintarDatos(datos)  {
           if (e.key === 'ArrowLeft') prevSlide();
           e.key === 'ArrowRight' && nextSlide();
         });
-
-        setInterval(() => {
-          nextSlide();
-        }, 5000);
       };
       slider();
     }
