@@ -1599,5 +1599,49 @@
     "imagen4": "../img/desarrollos/espacioii/espacio_3.jpg",
     "imagen5": "../img/desarrollos/espacioii/espacio_4.jpg",
     "descripcion": "./desarrollos/espacio.html"
+  },
+  {
+    "id": "bolivar577",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "CDMX",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;67",
+    "recamaras": "2",
+    "banos": "3",
+    "estacionamiento": "1",
+    "precioMinimo":{
+      "millones": "3,",
+      "miles": "398,",
+      "centenas": "000"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "Balcón",
+      "adicional_2": "Terraza",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "Bodega",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Bolívar 577",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/espacioii/espacio_x.jpg",
+    "imagen2": "../img/desarrollos/espacioii/espacio_1.jpg",
+    "imagen3": "../img/desarrollos/espacioii/espacio_2.jpg",
+    "imagen4": "../img/desarrollos/espacioii/espacio_3.jpg",
+    "imagen5": "../img/desarrollos/espacioii/espacio_4.jpg",
+    "descripcion": "./desarrollos/espacio.html"
   }
 ]
