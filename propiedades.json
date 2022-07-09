@@ -1643,5 +1643,49 @@
     "imagen4": "../img/desarrollos/bolivar577/bolivar577_4.jpg",
     "imagen5": "../img/desarrollos/bolivar577/bolivar577_5.jpg",
     "descripcion": "./desarrollos/bolivar577.html"
+  },
+  {
+    "id": "cadiz53",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "CDMX",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;67",
+    "recamaras": "2",
+    "banos": "2",
+    "estacionamiento": "1-2",
+    "precioMinimo":{
+      "millones": "3,",
+      "miles": "996,",
+      "centenas": "000"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "Balcón",
+      "adicional_2": "Terraza",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Cádiz 53",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/cadiz53/cadiz53_1.jpg",
+    "imagen2": "../img/desarrollos/cadiz53/cadiz53_2.jpg",
+    "imagen3": "../img/desarrollos/cadiz53/cadiz53_3.jpg",
+    "imagen4": "../img/desarrollos/cadiz53/cadiz53_4.jpg",
+    "imagen5": "../img/desarrollos/cadiz53/cadiz53_5.jpg",
+    "descripcion": "./desarrollos/cadiz53.html"
   }
 ]
