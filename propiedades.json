@@ -1775,5 +1775,49 @@
     "imagen4": "../img/desarrollos/palenque287/palenque_4.jpg",
     "imagen5": "../img/desarrollos/palenque287/palenque_5.jpg",
     "descripcion": "./desarrollos/palenque287.html"
+  },
+  {
+    "id": "rumania606",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Benito Juárez",
+      "colonia": "Portales",
+      "calle": "",
+      "numeroInt": "",
+      "numeroExt": ""
+    },
+    "superficie": "&ge;63",
+    "recamaras": "2",
+    "banos": "2",
+    "estacionamiento": "1-2",
+    "precioMinimo":{
+      "millones": "3,",
+      "miles": "521,",
+      "centenas": "545"
+    },
+    "precioMaximo":{
+      "millones": "",
+      "miles": "",
+      "centenas": ""
+    },
+    "adicionales":{
+      "adicional_1": "Balcón",
+      "adicional_2": "Terraza",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Desarrollo",
+    "nombre": "Rumania 606",
+    "estado": "Pre-venta",
+    "imagen1": "../img/desarrollos/rumania606/rumania_1.jpg",
+    "imagen2": "../img/desarrollos/rumania606/rumania_2.jpg",
+    "imagen3": "../img/desarrollos/rumania606/rumania_3.jpg",
+    "imagen4": "../img/desarrollos/rumania606/rumania_4.jpg",
+    "imagen5": "../img/desarrollos/rumania606/rumania_5.jpg",
+    "descripcion": "./desarrollos/rumania606.html"
   }
 ]
