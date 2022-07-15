@@ -1,6 +1,10 @@
 /* Fuente */
 @import url('https://allfont.es/allfont.css?fonts=book-antiqua');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Bell MT';
+  src: url('../fuentes/bell-mt.ttf') format('truetype');
+}
 
 /* Variables de color */
 :root {
@@ -357,7 +361,7 @@ flex-wrap: wrap;}
 
 .propiedadesCards .propiedadesCards__cards ul .paginasCards .cardInfo .cardInfo__info .precioLogos .precioLogos__precio {
   color: var(--decorado);
-  /* font-family: ; */
+  font-family: 'Bell MT';
   font-size: 21px;
 }
 

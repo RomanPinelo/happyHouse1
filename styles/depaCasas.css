@@ -7,6 +7,10 @@
   url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("opentype"),
   url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("truetype");
 }
+@font-face {
+  font-family: 'Bell MT';
+  src: url('../fuentes/bell-mt.ttf') format('truetype');
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 /* Variables de color */
@@ -168,10 +172,12 @@ main {
   width: 54%;
   color: var(--decorado);
   font-size: 22px;
+  font-family: 'Bell MT';
 }
 
 .infoDesarrollo .infoDesarrollo--texto .direccionEstadoTipoPrecio .precioDesarrollo span {
   font-size: 11px;
+  font-family: Calibri, sans-serif;
 }
 
 /* Subtítulos */

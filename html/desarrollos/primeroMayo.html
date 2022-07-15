@@ -99,7 +99,7 @@
               </p>
             </div>
             <p class="precioDesarrollo">
-              $3,869,540.00 <span>MXN</span> - <br> $3,869,540.00 <span>MXN</span>
+              <span id="desde">Desde</span> $3,869,540.00 <span id="mxn">MXN</span>
             </p>
           </div>
 
@@ -226,6 +226,13 @@
 
     <script src="../../scripts/script.js"></script>
     <script src="../../scripts/desarrollos.js"></script>
+    <script>
+      if (screen.width < 1000) {
+        document.getElementById("desde").style.fontSize = "10px";
+        document.getElementById("mxn").style.fontSize = "10px";
+        document.querySelector(".precioDesarrollo").style.fontSize = "19px";
+      }
+    </script>
 
   </body>
 
