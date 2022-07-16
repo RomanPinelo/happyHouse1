@@ -3,6 +3,11 @@
   src: url('../fuentes/bell-mt.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Nirmala UI';
+  src: url('../fuentes/nirmala-ui-2.ttf') format('truetype');
+}
+
 /*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
   Mobile View 
 *_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*/

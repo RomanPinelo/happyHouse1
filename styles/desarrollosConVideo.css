@@ -11,6 +11,10 @@
   font-family: 'Bell MT';
   src: url('../fuentes/bell-mt.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Nirmala UI';
+  src: url('../fuentes/nirmala-ui-2.ttf') format('truetype');
+}
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 /* Variables de color */
@@ -255,6 +259,7 @@ main {
 .infoDesarrollo .infoDesarrollo--texto h3 {
   margin: 2rem 0 1rem;
   font-size: 18px;
+  font-family: 'Nirmala UI';
 }
 
 .infoDesarrollo .infoDesarrollo--texto .descripcion {
