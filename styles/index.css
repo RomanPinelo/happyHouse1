@@ -1,11 +1,18 @@
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://allfont.es/allfont.css?fonts=book-antiqua');
 @font-face{
   font-family: "bodoni-mt";
   src:url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("woff"),
-  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("opentype"),
-  url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("truetype");
+      url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("opentype"),
+      url("https://candyfonts.com/wp-data/2019/04/29/52473/BOD_R.TTF") format("truetype"),
+      url('../fuentes/BodoniMT.ttf') format("truetype");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face{
+  font-family: 'Book Antiqua';
+  src:url("../fuentes/02252_ANTQUA.otf") format("opentype"),
+      url("../fuentes/02252_ANTQUA.ttf") format("truetype");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
@@ -63,9 +70,9 @@ html {
 .presentacion .presentacion__texto h1 {
   font-family: 'Book Antiqua', arial;
   width: 95%;
-  margin: 0 auto;
+  margin: 0.5rem auto 0;
   text-align: center;
-  font-size: 28px;
+  font-size: 27px;
 }
 
 .presentacion .presentacion__texto h1 span {
