@@ -26,11 +26,11 @@ En la sección principal se pone la información general, algunos desarrollos qu
 
 ![1_1](https://user-images.githubusercontent.com/71656431/182003079-3f784171-5914-4133-adb3-db05f1f7b1e4.jpg)
 
-Tiene una sección que se llama ‘Vender’. Aquí se trata de un formulario donde se introducen todos los datos de alguna propiedad que el usuario quiera vender. Y al final se manda al correo de la empresa Happy House.
+Tiene una sección que se llama ‘Vende’. Aquí se trata de un formulario donde se introducen todos los datos de alguna propiedad que el usuario quiera vender. Y al final se manda al correo de la empresa Happy House.
 
 ![2](https://user-images.githubusercontent.com/71656431/182003080-8d38d77a-29bf-4b67-8ee0-7b09971d2274.jpg)
 
-Tiene otra sección que se llama ‘Comprar’. Aquí se muestran todas las propiedades que están en venta en forma de tarjetas y dichas tarjetas tienen un slider de imágenes, si damos click nos lleva a otra página con la información completa de la propiedad. Tiene un filtro por estado y características y otro solo por estado.
+Tiene otra sección que se llama ‘Compra’. Aquí se muestran todas las propiedades que están en venta en forma de tarjetas y dichas tarjetas tienen un slider de imágenes, si damos click nos lleva a otra página con la información completa de la propiedad. Tiene un filtro por estado y características y otro solo por estado.
 
 ![3](https://user-images.githubusercontent.com/71656431/182003082-b7364b10-e575-4be0-b2b3-16d9a16ef04c.jpg)
 
@@ -51,6 +51,8 @@ Si no encuentras algo a tu gusto, hay otra sección que consiste en un formulari
 Sin importar en que sección te encuentres, al presionar en ‘Contacto’, nos lleva a la página principal en el formulario de contacto. Se usa navegación por anclaje.
 
 El logo en la barra de menú es un enlace a la página principal.
+
+También hay un blog, pero aún no se habilita porque todavía no se prepara la información que se quiere mostrar.
 
 
 
