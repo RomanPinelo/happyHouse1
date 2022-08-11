@@ -116,7 +116,7 @@ function tarjetaPropiedad(page,item) {
           <span>${item.estado}</span>
         </div>
       </div>
-      <a href="${item.descripcion}" class="cardInfo__info">
+      <a href="${item.descripcion}" class="cardInfo__info" target="_blank">
         <div class="precioLogos">
           <p class="precioLogos__precio">$${item.precio.millones}${item.precio.miles}${item.precio.centenas}.00 <span>MXN</span></p>
           <p class="precioLogos___logos">
@@ -166,7 +166,7 @@ function tarjetaDesarrolloxM2(page, item) {
           <span>${item.estado}</span>
         </div>
       </div>
-      <a href="${item.descripcion}" class="cardInfo__info">
+      <a href="${item.descripcion}" class="cardInfo__info" target="_blank">
         <div class="precioLogos">
           <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
           <p class="precioLogos___logos">
@@ -216,7 +216,7 @@ function tarjetaDesarrollo(page,item) {
           <span>${item.estado}</span>
         </div>
       </div>
-      <a href="${item.descripcion}" class="cardInfo__info">
+      <a href="${item.descripcion}" class="cardInfo__info" target="_blank">
         <div class="precioLogos">
           <p class="precioLogos__precio">$${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN</span></p>
           <p class="precioLogos___logos">
@@ -266,7 +266,7 @@ function tarjetaDesarrolloxAccion(page,item) {
           <span>${item.estado}</span>
         </div>
       </div>
-      <a href="${item.descripcion}" class="cardInfo__info">
+      <a href="${item.descripcion}" class="cardInfo__info" target="_blank">
         <div class="precioLogos">
           <p class="precioLogos__precio"><span>Desde</span> $${item.precioMinimo.millones}${item.precioMinimo.miles}${item.precioMinimo.centenas}.00 <span>MXN por acción</span></p>
           <p class="precioLogos___logos">
