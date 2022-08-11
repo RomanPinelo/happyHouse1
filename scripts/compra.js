@@ -15,7 +15,7 @@ var filtroBanos = document.getElementById("banos_propiedad");
 var filtroEstacionamiento = document.getElementById("estacionamiento_propiedad");
 var filtroAdicionales = document.getElementById("adicionales_propiedad");
 
-// Variables del los botones del menpu de estados
+// Variables del los botones del menú de estados
 var todos = document.getElementById("todosEstados");
 var cdmx = document.getElementById("cdmxEstado");
 var edomex = document.getElementById("edoMexEstado");
