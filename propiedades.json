@@ -1858,5 +1858,43 @@
     "imagen4": "../img/propiedades/terrenoOtumba/terreOtumba_4.jpeg",
     "imagen5": "../img/propiedades/terrenoOtumba/terreOtumba_5.jpeg",
     "descripcion": "./propiedades/terreOtumba.html"
+  },
+  {
+    "id": "atl269-1",
+    "direccion": {
+      "completa": "",
+      "estado": "CDMX",
+      "delegacionMunicipio": "Cuauhtémoc",
+      "colonia": "Sta. María la Ribera",
+      "calle": "Dr. Atl",
+      "numeroInt": "N/A",
+      "numeroExt": "269"
+    },
+    "superficie": 64,
+    "recamaras": 1,
+    "banos": 1,
+    "estacionamiento": "N/A",
+    "precio":{
+      "millones": "2,",
+      "miles": "000,",
+      "centenas": "000"
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Departamento",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/propiedades/atl269_1/drAlt269_1_1.jpeg",
+    "imagen2": "../img/propiedades/atl269_1/drAlt269_1_2.jpeg",
+    "imagen3": "../img/propiedades/atl269_1/drAlt269_1_3.jpeg",
+    "imagen4": "../img/propiedades/atl269_1/drAlt269_1_4.jpeg",
+    "imagen5": "../img/propiedades/atl269_1/drAlt269_1_5.jpeg",
+    "descripcion": "./propiedades/atl269_1.html"
   }
 ]
