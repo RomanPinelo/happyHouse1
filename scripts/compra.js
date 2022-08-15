@@ -136,6 +136,56 @@ function tarjetaPropiedad(page,item) {
   `
 }
 
+function tarjetaPropiedadxm2(page,item) {
+  cardsPages[page].innerHTML += `
+    <div class="cardInfo">
+      <div class="cardInfo__carousel">
+        <div class="cardInfo__caruosel-carousel">
+          <div class="slider">
+            <div class="slide">
+              <img src="${item.imagen1}" alt="Imagen Propiedad">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen2}" alt="Imagen Propiedad">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen3}" alt="Imagen Propiedad">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen4}" alt="Imagen Propiedad">
+            </div>
+            <div class="slide">
+              <img src="${item.imagen5}" alt="Imagen Propiedad">
+            </div>
+            <button class="slider__btn slider__btn--left">&#10094;</button>
+            <button class="slider__btn slider__btn--right">&#10095;</button>
+          </div>
+        </div>
+        <div class="cardInfo__caruosel-text">
+          <span>${item.tipo}</span>
+          <span>${item.estado}</span>
+        </div>
+      </div>
+      <a href="${item.descripcion}" class="cardInfo__info" target="_blank">
+        <div class="precioLogos">
+          <p class="precioLogos__precio">$${item.precio.millones}${item.precio.miles}${item.precio.centenas}.00 <span>MXN por m<sup>2</sup></span></p>
+          <p class="precioLogos___logos">
+            <i class="fa fa-bed" aria-hidden="true"></i> <span id="habitaciones">${item.recamaras}</span>
+            <i class="fa fa-bath" aria-hidden="true"></i> <span id="banos">${item.banos}</span>
+          </p>
+        </div>
+        <div class="direccionLogos">
+          <p class="direccionLogos__direccion">${item.direccion.delegacionMunicipio}, ${item.direccion.colonia}</p>
+          <p class="direccionLogos__logos">
+            <i class="fa fa-car" aria-hidden="true"></i> <span id="estacionamiento">${item.estacionamiento}</span>
+            <i class="fa fa-arrows-alt" aria-hidden="true"></i> <span id="superficie">${item.superficie}</span> m<sup>2</sup>
+          </p>
+        </div>
+      </a>
+    </div> <!-- cardInfo div -->
+  `
+}
+
 function tarjetaDesarrolloxM2(page, item) {
   cardsPages[page].innerHTML += `
     <div class="cardInfo">
@@ -297,7 +347,11 @@ function pintarDatos(datos)  {
   for (const item of datos) {
     if (contadorPropiedades < 12) {
       if (item.tipo != "Desarrollo") {
-        tarjetaPropiedad(0,item);
+        if (item.nombre == "Terreno Otumba") {
+          tarjetaPropiedadxm2(0,item);
+        } else {
+          tarjetaPropiedad(0,item);
+        }
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
         || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
@@ -314,7 +368,11 @@ function pintarDatos(datos)  {
     }
     if (contadorPropiedades >= 12 && contadorPropiedades < 24) {
       if (item.tipo != "Desarrollo") {
-        tarjetaPropiedad(1,item);
+        if (item.nombre == "Terreno Otumba") {
+          tarjetaPropiedadxm2(1,item);
+        } else {
+          tarjetaPropiedad(1,item);
+        }
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
         || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
@@ -331,7 +389,11 @@ function pintarDatos(datos)  {
     }
     if (contadorPropiedades >= 24 && contadorPropiedades < 36) {
       if (item.tipo != "Desarrollo") {
-        tarjetaPropiedad(2,item);
+        if (item.nombre == "Terreno Otumba") {
+          tarjetaPropiedadxm2(2,item);
+        } else {
+          tarjetaPropiedad(2,item);
+        }
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
         || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")
@@ -348,7 +410,11 @@ function pintarDatos(datos)  {
     }
     if (contadorPropiedades >= 36 && contadorPropiedades < 48) {
       if (item.tipo != "Desarrollo") {
-        tarjetaPropiedad(3,item);
+        if (item.nombre == "Terreno Otumba") {
+          tarjetaPropiedadxm2(3,item);
+        } else {
+          tarjetaPropiedad(3,item);
+        }
       } else {
         if ((item.nombre == "Hacienda San Eduardo") || (item.nombre == "San Roque") || (item.nombre == "Ciudad Deportiva")
         || (item.nombre == "Cumbres de la Hacienda") || (item.nombre == "Santa Clara") || (item.nombre == "Hacienda Terraviva")

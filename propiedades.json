@@ -1819,5 +1819,44 @@
     "imagen4": "../img/desarrollos/rumania606/rumania_4.jpg",
     "imagen5": "../img/desarrollos/rumania606/rumania_5.jpg",
     "descripcion": "./desarrollos/rumania606.html"
+  },
+  {
+    "id": "terrenoOtumba",
+    "direccion": {
+      "completa": "",
+      "estado": "Estado de México",
+      "delegacionMunicipio": "Otumba",
+      "colonia": "Estado de México",
+      "calle": "",
+      "numeroInt": "N/A",
+      "numeroExt": "N/A"
+    },
+    "superficie": "160000",
+    "recamaras": "N/A",
+    "banos": "N/A",
+    "estacionamiento": "N/A",
+    "precio":{
+      "millones": "",
+      "miles": "",
+      "centenas": "600"
+    },
+    "adicionales":{
+      "adicional_1": "",
+      "adicional_2": "",
+      "adicional_3": "",
+      "adicional_4": "",
+      "adicional_5": "",
+      "adicional_6": "",
+      "adicional_7": ""
+    },
+    "tipo": "Terreno",
+    "nombre": "Terreno Otumba",
+    "estado": "Entrega inmediata",
+    "imagen1": "../img/propiedades/terrenoOtumba/terreOtumba_1.jpeg",
+    "imagen2": "../img/propiedades/terrenoOtumba/terreOtumba_2.jpeg",
+    "imagen3": "../img/propiedades/terrenoOtumba/terreOtumba_3.jpeg",
+    "imagen4": "../img/propiedades/terrenoOtumba/terreOtumba_4.jpeg",
+    "imagen5": "../img/propiedades/terrenoOtumba/terreOtumba_5.jpeg",
+    "descripcion": "./propiedades/terreOtumba.html"
   }
 ]
